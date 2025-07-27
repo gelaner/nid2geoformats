@@ -1,0 +1,3222 @@
+id	JPT_KOD_JE	JPT_NAZWA	XCoord	YCoord
+1	020101_1	Bolesławiec - gmina miejska	260710	385032
+2	020102_2	Bolesławiec - gmina wiejska	259484	380540
+3	020103_2	Gromadka - gmina wiejska	272791	388811
+4	020104_4	Nowogrodziec - miasto	248884	377476
+5	020104_5	Nowogrodziec - obszar wiejski	248047	381372
+6	020105_2	Osiecznica - gmina wiejska	258541	409768
+7	020106_2	Warta Bolesławiecka - gmina wiejska	272597	383011
+8	020201_1	Bielawa - gmina miejska	329146	313183
+9	020202_1	Dzierżoniów - gmina miejska	331504	322208
+10	020203_4	Pieszyce - miasto	328031	316560
+11	020203_5	Pieszyce - obszar wiejski	327773	318940
+12	020204_1	Piława Górna - gmina miejska	341063	313462
+13	020205_2	Dzierżoniów - gmina wiejska	331650	327839
+14	020206_2	Łagiewniki - gmina wiejska	338782	328870
+15	020207_4	Niemcza - miasto	349487	318948
+16	020207_5	Niemcza - obszar wiejski	348422	315436
+17	020301_1	Głogów - gmina miejska	296180	425755
+18	020302_2	Głogów - gmina wiejska	306461	428171
+19	020303_2	Jerzmanowa - gmina wiejska	291729	415041
+20	020304_2	Kotla - gmina wiejska	293151	430774
+21	020305_2	Pęcław - gmina wiejska	311531	421542
+22	020306_2	Żukowice - gmina wiejska	286423	431864
+23	020401_4	Góra - miasto	332254	425613
+24	020401_5	Góra - obszar wiejski	327866	427867
+25	020402_2	Jemielno - gmina wiejska	332852	408392
+26	020403_2	Niechlów - gmina wiejska	324905	434346
+27	020404_4	Wąsosz - miasto	340218	412942
+28	020404_5	Wąsosz - obszar wiejski	344701	416643
+29	020501_1	Jawor - gmina miejska	301977	358839
+30	020502_4	Bolków - miasto	295660	343144
+31	020502_5	Bolków - obszar wiejski	291898	349464
+32	020503_2	Męcinka - gmina wiejska	292543	355870
+33	020504_2	Mściwojów - gmina wiejska	311429	355686
+34	020505_2	Paszowice - gmina wiejska	293320	354599
+35	020506_2	Wądroże Wielkie - gmina wiejska	316557	361565
+36	020601_1	Karpacz - gmina miejska	272915	327331
+37	020602_1	Kowary - gmina miejska	275753	327246
+38	020603_1	Piechowice - gmina miejska	260047	339925
+39	020604_1	Szklarska Poręba - gmina miejska	245805	333284
+40	020605_2	Janowice Wielkie - gmina wiejska	279121	345559
+41	020606_2	Jeżów Sudecki - gmina wiejska	275034	346197
+42	020607_2	Mysłakowice - gmina wiejska	280986	334811
+43	020608_2	Podgórzyn - gmina wiejska	270378	335548
+44	020609_2	Stara Kamienica - gmina wiejska	261963	346535
+45	020701_1	Kamienna Góra - gmina miejska	292439	328360
+46	020702_2	Kamienna Góra - gmina wiejska	287383	332943
+47	020703_4	Lubawka - miasto	289659	318876
+48	020703_5	Lubawka - obszar wiejski	288854	310623
+49	020704_2	Marciszów - gmina wiejska	294257	335897
+50	020801_1	Duszniki-Zdrój - gmina miejska	313439	283419
+51	020802_1	Kłodzko - gmina miejska	332922	286343
+52	020803_1	Kudowa-Zdrój - gmina miejska	305845	292898
+53	020804_1	Nowa Ruda - gmina miejska	323248	307759
+54	020805_1	Polanica-Zdrój - gmina miejska	323403	282818
+55	020806_4	Bystrzyca Kłodzka - miasto	332796	274029
+56	020806_5	Bystrzyca Kłodzka - obszar wiejski	326852	267910
+57	020807_2	Kłodzko - gmina wiejska	335332	281149
+58	020808_4	Lądek-Zdrój - miasto	347260	276100
+59	020808_5	Lądek-Zdrój - obszar wiejski	347386	283630
+60	020809_2	Lewin Kłodzki - gmina wiejska	306733	288109
+61	020810_4	Międzylesie - miasto	334973	256022
+62	020810_5	Międzylesie - obszar wiejski	328311	258785
+63	020811_2	Nowa Ruda - gmina wiejska	320653	312508
+64	020812_4	Radków - miasto	316148	294440
+65	020812_5	Radków - obszar wiejski	319790	298582
+66	020813_4	Stronie Śląskie - miasto	348984	272467
+67	020813_5	Stronie Śląskie - obszar wiejski	352796	267517
+68	020814_4	Szczytna - miasto	318246	285959
+69	020814_5	Szczytna - obszar wiejski	313258	286921
+70	020901_1	Chojnów - gmina miejska	285518	382070
+71	020902_2	Chojnów - gmina wiejska	285476	386174
+72	020903_2	Krotoszyce - gmina wiejska	296820	370048
+73	020904_2	Kunice - gmina wiejska	305782	383855
+74	020905_2	Legnickie Pole - gmina wiejska	307949	366132
+75	020906_2	Miłkowice - gmina wiejska	299552	377507
+76	020907_4	Prochowice - miasto	318045	380855
+77	020907_5	Prochowice - obszar wiejski	313935	378535
+78	020908_2	Ruja - gmina wiejska	320935	372153
+79	021001_1	Lubań - gmina miejska	242228	368189
+80	021002_1	Świeradów-Zdrój - gmina miejska	244870	343040
+81	021003_4	Leśna - miasto	240118	359809
+82	021003_5	Leśna - obszar wiejski	239044	352518
+83	021004_2	Lubań - gmina wiejska	238996	364390
+84	021005_4	Olszyna - miasto	246773	363078
+85	021005_5	Olszyna - obszar wiejski	242905	360714
+86	021006_2	Platerówka - gmina wiejska	229762	362785
+87	021007_2	Siekierczyn - gmina wiejska	236486	366242
+88	021101_1	Lubin - gmina miejska	305000	392130
+89	021102_2	Lubin - gmina wiejska	298212	403339
+90	021103_2	Rudna - gmina wiejska	314148	410340
+91	021104_4	Ścinawa - miasto	321024	396338
+92	021104_5	Ścinawa - obszar wiejski	317251	399576
+93	021201_4	Gryfów Śląski - miasto	249851	357999
+94	021201_5	Gryfów Śląski - obszar wiejski	249348	355225
+95	021202_4	Lubomierz - miasto	255176	355550
+96	021202_5	Lubomierz - obszar wiejski	259460	359012
+97	021203_4	Lwówek Śląski - miasto	265720	367174
+98	021203_5	Lwówek Śląski - obszar wiejski	262652	372619
+99	021204_4	Mirsk - miasto	246623	350753
+100	021204_5	Mirsk - obszar wiejski	250785	347624
+101	021205_4	Wleń - miasto	265659	353836
+102	021205_5	Wleń - obszar wiejski	262154	352841
+103	021301_2	Cieszków - gmina wiejska	390107	419194
+104	021302_2	Krośnice - gmina wiejska	393213	404696
+105	021303_4	Milicz - miasto	380514	408560
+106	021303_5	Milicz - obszar wiejski	383779	414563
+107	021401_1	Oleśnica - gmina miejska	386709	374158
+108	021402_4	Bierutów - miasto	399093	363626
+109	021402_5	Bierutów - obszar wiejski	392030	356224
+110	021403_2	Dobroszyce - gmina wiejska	379259	376556
+111	021404_2	Dziadowa Kłoda - gmina wiejska	405847	370363
+112	021405_4	Międzybórz - miasto	408656	394063
+113	021405_5	Międzybórz - obszar wiejski	399788	388566
+114	021406_2	Oleśnica - gmina wiejska	385012	363583
+115	021407_4	Syców - miasto	409408	381667
+116	021407_5	Syców - obszar wiejski	399364	381397
+117	021408_4	Twardogóra - miasto	391668	390830
+118	021408_5	Twardogóra - obszar wiejski	398820	388546
+119	021501_1	Oława - gmina miejska	380020	345938
+120	021502_2	DOMANIÓW	371341	337439
+121	021503_4	Jelcz-Laskowice - miasto	383912	351417
+122	021503_5	Jelcz-Laskowice - obszar wiejski	386358	355790
+123	021504_2	OŁAWA	384072	341028
+124	021601_4	Chocianów - miasto	286019	399464
+125	021601_5	Chocianów - obszar wiejski	283343	401591
+126	021602_2	Gaworzyce - gmina wiejska	285127	427284
+127	021603_2	Grębocice - gmina wiejska	311905	418353
+128	021604_4	Polkowice - miasto	293142	409316
+129	021604_5	Polkowice - obszar wiejski	297356	410792
+130	021605_4	Przemków - miasto	277550	410672
+131	021605_5	Przemków - obszar wiejski	275594	410546
+132	021606_2	Radwanice - gmina wiejska	288096	416220
+133	021701_2	Borów - gmina wiejska	361609	338161
+134	021702_2	Kondratowice - gmina wiejska	353480	321620
+135	021703_2	Przeworno - gmina wiejska	372625	313495
+136	021704_4	Strzelin - miasto	365459	327225
+137	021704_5	Strzelin - obszar wiejski	357526	317318
+138	021705_4	Wiązów - miasto	374168	329786
+139	021705_5	WIĄZÓW - OBSZAR WIEJSKI	370162	330536
+140	021801_2	Kostomłoty - gmina wiejska	330082	355380
+141	021802_2	Malczyce - gmina wiejska	322635	372474
+142	021803_4	Miękinia - miasto	342080	373807
+143	021803_5	Miękinia - obszar wiejski	348583	371478
+144	021804_4	Środa Śląska - miasto	331327	371289
+145	021804_5	Środa Śląska - obszar wiejski	332336	362478
+146	021805_2	Udanin - gmina wiejska	325153	362712
+147	021901_1	Świdnica - gmina miejska	322332	333873
+148	021902_1	Świebodzice - gmina miejska	308652	337209
+149	021903_2	Dobromierz - gmina wiejska	306405	349851
+150	021904_4	Jaworzyna Śląska - miasto	319416	340566
+151	021904_5	Jaworzyna Śląska - obszar wiejski	323118	342581
+152	021905_2	Marcinowice - gmina wiejska	335131	339023
+153	021906_4	Strzegom - miasto	312599	347019
+154	021906_5	Strzegom - obszar wiejski	320745	349709
+155	021907_2	Świdnica - gmina wiejska	316130	333465
+156	021908_4	Żarów - miasto	323495	344443
+157	021908_5	Żarów - obszar wiejski	326041	348200
+158	022001_4	Oborniki Śląskie - miasto	353376	383776
+159	022001_5	Oborniki Śląskie - obszar wiejski	356107	377289
+160	022002_4	Prusice - miasto	358451	391292
+161	022002_5	Prusice - obszar wiejski	360604	392729
+162	022003_4	Trzebnica - miasto	365479	382925
+163	022003_5	Trzebnica - obszar wiejski	372242	380485
+164	022004_2	Wisznia Mała - gmina wiejska	362000	372614
+165	022005_2	Zawonia - gmina wiejska	382555	390305
+166	022006_4	Żmigród - miasto	354225	401299
+167	022006_5	Żmigród - obszar wiejski	352164	400301
+168	022101_1	Boguszów-Gorce - gmina miejska	300522	326651
+169	022102_1	Jedlina-Zdrój - gmina miejska	313659	319189
+170	022103_1	Szczawno-Zdrój - gmina miejska	302657	326809
+171	022104_2	Czarny Bór - gmina wiejska	294468	331489
+172	022105_4	Głuszyca - miasto	313526	318177
+173	022105_5	Głuszyca - obszar wiejski	311346	314823
+174	022106_4	Mieroszów - miasto	302443	314723
+175	022106_5	Mieroszów - obszar wiejski	306287	317365
+176	022107_2	Stare Bogaczowice - gmina wiejska	299758	327549
+177	022108_2	Walim - gmina wiejska	320598	319504
+178	022201_4	Brzeg Dolny - miasto	338183	382197
+179	022201_5	Brzeg Dolny - obszar wiejski	342615	388224
+180	022202_2	Wińsko - gmina wiejska	343507	399458
+181	022203_4	Wołów - miasto	335657	389427
+182	022203_5	Wołów - obszar wiejski	340833	385862
+183	022301_2	Czernica - gmina wiejska	378019	354655
+184	022302_2	Długołęka - gmina wiejska	374923	364811
+185	022303_2	Jordanów Śląski - gmina wiejska	347272	332469
+186	022304_4	Kąty Wrocławskie - miasto	344112	353772
+187	022304_5	Kąty Wrocławskie - obszar wiejski	354400	355887
+188	022305_2	Kobierzyce - gmina wiejska	353168	341411
+189	022306_2	Mietków - gmina wiejska	334863	345266
+190	022307_4	Sobótka - miasto	340681	339792
+191	022307_5	Sobótka - obszar wiejski	340249	343754
+192	022308_4	Siechnice - miasto	370935	351814
+193	022308_5	Siechnice - obszar wiejski	376584	352125
+194	022309_2	Żórawina - gmina wiejska	356953	340187
+195	022401_4	Bardo - miasto	339435	294212
+196	022401_5	Bardo - obszar wiejski	343087	292033
+197	022402_2	Ciepłowody - gmina wiejska	352650	315988
+198	022403_4	Kamieniec Ząbkowicki - miasto	352062	298981
+199	022403_5	Kamieniec Ząbkowicki - obszar wiejski	357677	293333
+200	022404_2	Stoszowice - gmina wiejska	338152	308939
+201	022405_4	Ząbkowice Śląskie - miasto	346224	304556
+202	022405_5	Ząbkowice Śląskie - obszar wiejski	343044	310930
+203	022406_4	Ziębice - miasto	358705	303489
+204	022406_5	Ziębice - obszar wiejski	360528	307697
+205	022407_4	Złoty Stok - miasto	348880	287419
+206	022407_5	Złoty Stok - obszar wiejski	344612	287387
+207	022501_1	Zawidów - gmina miejska	223382	357527
+208	022502_1	Zgorzelec - gmina miejska	221559	375847
+209	022503_4	Bogatynia - miasto	213683	347850
+210	022503_5	Bogatynia - obszar wiejski	219327	351310
+211	022504_4	Pieńsk - miasto	223505	383358
+212	022504_5	Pieńsk - obszar wiejski	224486	391226
+213	022505_2	Sulików - gmina wiejska	227086	356705
+214	022506_4	Węgliniec - miasto	237969	386179
+215	022506_5	Węgliniec - obszar wiejski	237714	396906
+216	022507_2	Zgorzelec - gmina wiejska	219705	368487
+217	022601_1	Wojcieszów - gmina miejska	286317	346552
+218	022602_1	Złotoryja - gmina miejska	284140	365340
+219	022603_2	Pielgrzymka - gmina wiejska	274020	370359
+220	022604_4	Świerzawa - miasto	281695	354957
+221	022604_5	Świerzawa - obszar wiejski	275602	354856
+222	022605_2	Zagrodno - gmina wiejska	273534	377080
+223	022606_2	Złotoryja - gmina wiejska	286905	364432
+224	026101_1	Jelenia Góra - gmina miejska	267534	336683
+225	026201_1	Legnica - gmina miejska	304916	376349
+226	026401_1	Wrocław - gmina miejska	351499	361726
+227	026501_1	Wałbrzych - gmina miejska	312712	332352
+228	040101_1	Aleksandrów Kujawski - gmina miejska	479798	556498
+229	040102_1	Ciechocinek - gmina miejska	484905	558390
+230	040103_1	Nieszawa - gmina miejska	491425	550632
+231	040104_2	Aleksandrów Kujawski - gmina wiejska	478286	553973
+232	040105_2	Bądkowo - gmina wiejska	485615	538670
+233	040106_2	Koneck - gmina wiejska	475286	548155
+234	040107_2	Raciążek - gmina wiejska	490650	555087
+235	040108_2	Waganiec - gmina wiejska	492034	547080
+236	040109_2	Zakrzewo - gmina wiejska	466894	540128
+237	040201_1	Brodnica - gmina miejska	524958	596757
+238	040202_2	Bobrowo - gmina wiejska	508564	599475
+239	040203_2	Brodnica - gmina wiejska	527155	592891
+240	040204_2	Brzozie - gmina wiejska	544610	607326
+241	040205_4	Górzno - miasto	542533	591462
+242	040205_5	Górzno - obszar wiejski	540447	595246
+243	040206_2	Bartniczka - gmina wiejska	541620	598723
+244	040207_4	Jabłonowo Pomorskie - miasto	510992	614879
+245	040207_5	Jabłonowo Pomorskie - obszar wiejski	512777	608512
+246	040208_2	Osiek - gmina wiejska	525387	584733
+247	040209_2	Świedziebnia - gmina wiejska	536632	582007
+248	040210_2	Zbiczno - gmina wiejska	528793	608461
+249	040301_2	Białe Błota - gmina wiejska	425586	577455
+250	040302_2	Dąbrowa Chełmińska - gmina wiejska	446870	586471
+251	040303_2	Dobrcz - gmina wiejska	440847	596152
+252	040304_4	Koronowo - miasto	429565	606678
+253	040304_5	Koronowo - obszar wiejski	432899	606580
+254	040305_2	Nowa Wieś Wielka - gmina wiejska	431850	573292
+255	040306_2	Osielsko - gmina wiejska	436005	600280
+256	040307_2	Sicienko - gmina wiejska	414628	597200
+257	040308_4	Solec Kujawski - miasto	447099	580470
+258	040308_5	Solec Kujawski - obszar wiejski	449323	577350
+259	040401_1	Chełmno - gmina miejska	461108	609137
+260	040402_2	Chełmno - gmina wiejska	472140	615903
+261	040403_2	Kijewo Królewskie - gmina wiejska	458653	602368
+262	040404_2	Lisewo - gmina wiejska	474343	603019
+263	040405_2	Papowo Biskupie - gmina wiejska	467395	598900
+264	040406_2	Stolno - gmina wiejska	479510	613693
+265	040407_2	Unisław - gmina wiejska	461061	591987
+266	040501_1	Golub-Dobrzyń - gmina miejska	504938	583304
+267	040502_2	Ciechocin - gmina wiejska	498823	574561
+268	040503_2	Golub-Dobrzyń - gmina wiejska	505686	586938
+269	040504_4	Kowalewo Pomorskie - miasto	494130	588242
+270	040504_5	Kowalewo Pomorskie - obszar wiejski	487633	584966
+271	040505_2	Radomin - gmina wiejska	511654	578884
+272	040506_2	Zbójno - gmina wiejska	507462	568881
+273	040601_2	Grudziądz - gmina wiejska	486598	635986
+274	040602_2	Gruta - gmina wiejska	498704	618752
+275	040603_4	Łasin - miasto	506261	627894
+276	040603_5	Łasin - obszar wiejski	500946	626976
+277	040604_4	Radzyń Chełmiński - miasto	495322	612837
+278	040604_5	Radzyń Chełmiński - obszar wiejski	495470	611339
+279	040605_2	Rogóźno - gmina wiejska	495985	630988
+280	040606_2	Świecie nad Osą - gmina wiejska	506725	619120
+281	040701_1	Inowrocław - gmina miejska	449970	547039
+282	040702_2	Dąbrowa Biskupia - gmina wiejska	460000	545582
+283	040703_4	Gniewkowo - miasto	461669	559065
+284	040703_5	Gniewkowo - obszar wiejski	457336	553952
+285	040704_2	Inowrocław - gmina wiejska	459830	541771
+286	040705_4	Janikowo - miasto	439550	542222
+287	040705_5	Janikowo - obszar wiejski	435106	544145
+288	040706_4	Kruszwica - miasto	455586	534481
+289	040706_5	Kruszwica - obszar wiejski	458574	524709
+290	040707_4	Pakość - miasto	438524	548616
+291	040707_5	Pakość - obszar wiejski	444357	548314
+292	040708_2	Rojewo - gmina wiejska	452991	559613
+293	040709_2	Złotniki Kujawskie - gmina wiejska	446554	563145
+294	040801_1	Lipno - gmina miejska	510344	553792
+295	040802_4	Bobrowniki - miasto	496866	546985
+296	040802_5	Bobrowniki - obszar wiejski	504610	549622
+297	040803_2	Chrostkowo - gmina wiejska	515844	558906
+298	040804_4	Dobrzyń nad Wisłą - miasto	521325	531521
+299	040804_5	Dobrzyń nad Wisłą - obszar wiejski	515378	536200
+300	040805_4	Kikół - miasto	507802	560890
+301	040805_5	Kikół - obszar wiejski	512882	559790
+302	040806_2	Lipno - gmina wiejska	508945	556327
+303	040807_4	Skępe - miasto	523622	554971
+304	040807_5	Skępe - obszar wiejski	524842	559502
+305	040808_2	Tłuchowo - gmina wiejska	524428	541319
+306	040809_2	Wielgie - gmina wiejska	521802	546673
+307	040901_2	Dąbrowa - gmina wiejska	430659	548923
+308	040902_2	Jeziora Wielkie - gmina wiejska	449691	522461
+309	040903_4	Mogilno - miasto	430037	533369
+310	040903_5	Mogilno - obszar wiejski	432820	534298
+311	040904_4	Strzelno - miasto	444042	530579
+312	040904_5	Strzelno - obszar wiejski	439901	534172
+313	041001_4	Kcynia - miasto	398378	570425
+314	041001_5	Kcynia - obszar wiejski	403844	568023
+315	041002_4	Mrocza - miasto	405972	598293
+316	041002_5	Mrocza - obszar wiejski	410732	599592
+317	041003_4	Nakło nad Notecią - miasto	407436	588532
+318	041003_5	Nakło nad Notecią - obszar wiejski	412310	593713
+319	041004_2	Sadki - gmina wiejska	393345	584810
+320	041005_4	Szubin - miasto	413568	572080
+321	041005_5	Szubin - obszar wiejski	422469	572052
+322	041101_1	Radziejów - gmina miejska	467771	527736
+323	041102_2	Bytoń - gmina wiejska	477490	525678
+324	041103_2	Dobre - gmina wiejska	473791	539326
+325	041104_2	Osięciny - gmina wiejska	480850	528584
+326	041105_4	Piotrków Kujawski - miasto	466308	520753
+327	041105_5	Piotrków Kujawski - obszar wiejski	464722	518808
+328	041106_2	Radziejów - gmina wiejska	474636	530490
+329	041107_2	Topólka - gmina wiejska	473737	511195
+330	041201_1	Rypin - gmina miejska	528074	577860
+331	041202_2	Brzuze - gmina wiejska	517149	577265
+332	041203_2	Rogowo - gmina wiejska	533721	564434
+333	041204_2	Rypin - gmina wiejska	533161	577254
+334	041205_2	Skrwilno - gmina wiejska	543049	573227
+335	041206_2	Wąpielsk - gmina wiejska	523014	581994
+336	041301_4	Kamień Krajeński - miasto	402269	630384
+337	041301_5	Kamień Krajeński - obszar wiejski	396580	631369
+338	041302_4	Sępólno Krajeńskie - miasto	402704	622880
+339	041302_5	Sępólno Krajeńskie - obszar wiejski	403930	618666
+340	041303_2	Sośno - gmina wiejska	407460	603173
+341	041304_4	Więcbork - miasto	399726	611072
+342	041304_5	Więcbork - obszar wiejski	402289	604671
+343	041401_2	Bukowiec - gmina wiejska	448225	620518
+344	041402_2	Dragacz - gmina wiejska	483711	629489
+345	041403_2	Drzycim - gmina wiejska	455083	635415
+346	041404_2	Jeżewo - gmina wiejska	464411	633221
+347	041405_2	Lniano - gmina wiejska	451363	635340
+348	041406_4	Nowe - miasto	482054	642532
+349	041406_5	Nowe - obszar wiejski	482181	639669
+350	041407_2	Osie - gmina wiejska	445514	635986
+351	041408_4	Pruszcz - miasto	446496	608245
+352	041408_5	Pruszcz - obszar wiejski	451889	599627
+353	041409_4	Świecie - miasto	463851	616148
+354	041409_5	Świecie - obszar wiejski	472573	623392
+355	041410_2	Świekatowo - gmina wiejska	443665	613699
+356	041411_2	Warlubie - gmina wiejska	469640	636879
+357	041501_1	Chełmża - gmina miejska	473907	590395
+358	041502_2	Chełmża - gmina wiejska	473170	587809
+359	041503_2	Czernikowo - gmina wiejska	494558	559292
+360	041504_2	Lubicz - gmina wiejska	485106	583959
+361	041505_2	Łubianka - gmina wiejska	467716	584827
+362	041506_2	Łysomice - gmina wiejska	467395	576951
+363	041507_2	Obrowo - gmina wiejska	485688	565553
+364	041508_2	Wielka Nieszawka - gmina wiejska	479525	565097
+365	041509_2	Zławieś Wielka - gmina wiejska	450780	582187
+366	041601_2	Cekcyn - gmina wiejska	437969	630753
+367	041602_2	Gostycyn - gmina wiejska	424083	632277
+368	041603_2	Kęsowo - gmina wiejska	412570	629575
+369	041604_2	Lubiewo - gmina wiejska	433159	630001
+370	041605_2	Śliwice - gmina wiejska	437199	650102
+371	041606_4	Tuchola - miasto	423690	635950
+372	041606_5	Tuchola - obszar wiejski	432047	646613
+373	041701_1	Wąbrzeźno - gmina miejska	498907	600698
+374	041702_2	Dębowa Łąka - gmina wiejska	501162	596233
+375	041703_2	Książki - gmina wiejska	505832	604708
+376	041704_2	Płużnica - gmina wiejska	482047	600320
+377	041705_2	Ryńsk - gmina wiejska	497803	607782
+378	041801_1	Kowal - gmina miejska	510412	517517
+379	041802_2	Baruchowo - gmina wiejska	518896	519929
+380	041803_2	Boniewo - gmina wiejska	496005	509396
+381	041804_4	Brześć Kujawski - miasto	493573	525126
+382	041804_5	Brześć Kujawski - obszar wiejski	494067	524518
+383	041805_2	Choceń - gmina wiejska	503983	517856
+384	041806_4	Chodecz - miasto	501447	504724
+385	041806_5	Chodecz - obszar wiejski	502031	506523
+386	041807_2	Fabianki - gmina wiejska	505609	538541
+387	041808_4	Izbica Kujawska - miasto	483436	505513
+388	041808_5	Izbica Kujawska - obszar wiejski	488495	503057
+389	041809_2	Kowal - gmina wiejska	511786	516194
+390	041810_2	Lubanie - gmina wiejska	496880	543920
+391	041811_4	Lubień Kujawski - miasto	511883	503472
+392	041811_5	Lubień Kujawski - obszar wiejski	517943	502566
+393	041812_4	Lubraniec - miasto	487766	518597
+394	041812_5	Lubraniec - obszar wiejski	489719	516431
+395	041813_2	Włocławek - gmina wiejska	512039	531686
+396	041901_4	Barcin - miasto	429134	555564
+397	041901_5	Barcin - obszar wiejski	430756	560758
+398	041902_4	Gąsawa - miasto	416596	544945
+399	041902_5	Gąsawa - obszar wiejski	422517	542919
+400	041903_4	Janowiec Wielkopolski - miasto	398086	544088
+401	041903_5	Janowiec Wielkopolski - obszar wiejski	399098	547621
+402	041904_4	Łabiszyn - miasto	426288	565102
+403	041904_5	Łabiszyn - obszar wiejski	423678	562907
+404	041905_2	Rogowo - gmina wiejska	413886	530556
+405	041906_4	Żnin - miasto	413884	552838
+406	041906_5	Żnin - obszar wiejski	410262	557576
+407	046101_1	Bydgoszcz - gmina miejska	434172	587226
+408	046201_1	Grudziądz - gmina miejska	487081	626513
+409	046301_1	Toruń - gmina miejska	476774	571064
+410	046401_1	Włocławek - gmina miejska	507738	529366
+411	060101_1	Międzyrzec Podlaski - gmina miejska	757929	463121
+412	060102_1	Terespol - gmina miejska	816889	478762
+413	060103_2	Biała Podlaska - gmina wiejska	785142	477125
+414	060104_2	Drelów - gmina wiejska	759484	450260
+415	060105_2	Janów Podlaski - gmina wiejska	789085	488910
+416	060106_2	Kodeń - gmina wiejska	813535	463263
+417	060107_2	Konstantynów - gmina wiejska	781030	497268
+418	060108_2	Leśna Podlaska - gmina wiejska	775676	485645
+419	060109_2	Łomazy - gmina wiejska	794405	457283
+420	060110_2	Międzyrzec Podlaski - gmina wiejska	767770	467787
+421	060111_4	Piszczac - miasto	800777	465771
+422	060111_5	Piszczac - obszar wiejski	807951	460639
+423	060112_2	Rokitno - gmina wiejska	794382	484514
+424	060113_2	Rossosz - gmina wiejska	787562	451645
+425	060114_2	Sławatycze - gmina wiejska	814671	443698
+426	060115_2	Sosnówka - gmina wiejska	794452	440665
+427	060116_2	Terespol - gmina wiejska	817571	476675
+428	060117_2	Tuczna - gmina wiejska	805663	457776
+429	060118_2	Wisznice - gmina wiejska	784352	441580
+430	060119_2	Zalesie - gmina wiejska	804859	474087
+431	060201_1	Biłgoraj - gmina miejska	764834	304741
+432	060202_2	Aleksandrów - gmina wiejska	771448	299239
+433	060203_2	Biłgoraj - gmina wiejska	764930	307674
+434	060204_2	Biszcza - gmina wiejska	759163	284470
+435	060205_4	Frampol - miasto	758690	317446
+436	060205_5	Frampol - obszar wiejski	769350	323717
+437	060206_4	Goraj - miasto	757801	322745
+438	060206_5	Goraj - obszar wiejski	759087	325223
+439	060207_4	Józefów - miasto	787929	297977
+440	060207_5	Józefów - obszar wiejski	781030	304388
+441	060208_2	Księżpol - gmina wiejska	769580	293111
+442	060209_2	Łukowa - gmina wiejska	778493	290274
+443	060210_2	Obsza - gmina wiejska	785838	279791
+444	060211_2	Potok Górny - gmina wiejska	747850	284547
+445	060212_4	Tarnogród - miasto	766674	285133
+446	060212_5	Tarnogród - obszar wiejski	767083	280852
+447	060213_2	Tereszpol - gmina wiejska	774146	310297
+448	060214_4	Turobin - miasto	763661	335531
+449	060214_5	Turobin - obszar wiejski	762157	328919
+450	060301_1	Rejowiec Fabryczny - gmina miejska	795639	370467
+451	060302_2	Białopole - gmina wiejska	836042	358937
+452	060303_2	Chełm - gmina wiejska	811371	367089
+453	060304_2	Dorohusk - gmina wiejska	830206	379324
+454	060305_2	Dubienka - gmina wiejska	838223	367213
+455	060306_2	Kamień - gmina wiejska	821438	374142
+456	060307_2	Leśniowice - gmina wiejska	813261	353997
+457	060308_2	Rejowiec Fabryczny - gmina wiejska	798432	375277
+458	060309_2	Ruda-Huta - gmina wiejska	816705	380727
+459	060310_2	Sawin - gmina wiejska	804997	391422
+460	060311_4	Siedliszcze - miasto	792580	378306
+461	060311_5	Siedliszcze - obszar wiejski	786958	378225
+462	060312_2	Wierzbica - gmina wiejska	803478	388719
+463	060313_2	Wojsławice - gmina wiejska	826056	354427
+464	060314_2	Żmudź - gmina wiejska	827390	364995
+465	060315_4	Rejowiec - miasto	801255	366503
+466	060315_5	Rejowiec - obszar wiejski	799653	364771
+467	060401_1	Hrubieszów - gmina miejska	845294	338922
+468	060402_2	Dołhobyczów - gmina wiejska	858453	321431
+469	060403_2	Horodło - gmina wiejska	847330	347087
+470	060404_2	Hrubieszów - gmina wiejska	839845	347976
+471	060405_2	Mircze - gmina wiejska	843902	325730
+472	060406_2	Trzeszczany - gmina wiejska	837740	343007
+473	060407_2	Uchanie - gmina wiejska	832891	342221
+474	060408_2	Werbkowice - gmina wiejska	840554	325832
+475	060501_2	Batorz - gmina wiejska	742214	338961
+476	060502_2	Chrzanów - gmina wiejska	753166	327955
+477	060503_2	Dzwola - gmina wiejska	741315	317874
+478	060504_2	Godziszów - gmina wiejska	750150	329330
+479	060505_4	Janów Lubelski - miasto	741693	319556
+480	060505_5	Janów Lubelski - obszar wiejski	738887	323087
+481	060506_4	Modliborzyce - miasto	734154	327211
+482	060506_5	Modliborzyce - obszar wiejski	739201	328343
+483	060507_2	Potok Wielki - gmina wiejska	723851	316407
+484	060601_1	Krasnystaw - gmina miejska	793894	354952
+485	060602_2	Fajsławice - gmina wiejska	775698	360983
+486	060603_2	Gorzków - gmina wiejska	782721	347097
+487	060604_4	Izbica - miasto	790938	342612
+488	060604_5	Izbica - obszar wiejski	799200	346727
+489	060605_2	Krasnystaw - gmina wiejska	797270	359082
+490	060606_2	Kraśniczyn - gmina wiejska	809165	350842
+491	060607_2	Łopiennik Górny - gmina wiejska	782494	363695
+492	060609_2	Rudnik - gmina wiejska	773603	341498
+493	060610_2	Siennica Różana - gmina wiejska	803190	361626
+494	060611_2	Żółkiewka - gmina wiejska	769982	339312
+495	060701_1	Kraśnik - gmina miejska	726969	344020
+496	060702_4	Annopol - miasto	700061	340673
+497	060702_5	Annopol - obszar wiejski	701002	347195
+498	060703_2	Dzierzkowice - gmina wiejska	712629	350482
+499	060704_2	Gościeradów - gmina wiejska	708968	341528
+500	060705_2	Kraśnik - gmina wiejska	728271	348012
+501	060706_2	Szastarka - gmina wiejska	735862	338630
+502	060707_2	Trzydnik Duży - gmina wiejska	723916	336263
+503	060708_4	Urzędów - miasto	722509	350331
+504	060708_5	Urzędów - obszar wiejski	722704	356288
+505	060709_2	Wilkołaz - gmina wiejska	731496	354290
+506	060710_2	Zakrzówek - gmina wiejska	737199	341732
+507	060801_1	Lubartów - gmina miejska	751719	404903
+508	060802_2	Abramów - gmina wiejska	733297	402915
+509	060803_2	Firlej - gmina wiejska	740678	420982
+510	060804_2	Jeziorzany - gmina wiejska	728714	425738
+511	060805_4	Kamionka - miasto	739106	407910
+512	060805_5	Kamionka - obszar wiejski	738652	408828
+513	060806_4	Kock - miasto	737775	428610
+514	060806_5	Kock - obszar wiejski	733398	425758
+515	060807_2	Lubartów - gmina wiejska	747411	406149
+516	060808_2	Michów - gmina wiejska	726061	410361
+517	060809_2	Niedźwiada - gmina wiejska	754586	410756
+518	060810_4	Ostrów Lubelski - miasto	764185	407521
+519	060810_5	Ostrów Lubelski - obszar wiejski	767827	400120
+520	060811_2	Ostrówek - gmina wiejska	743417	424760
+521	060812_2	Serniki - gmina wiejska	758545	400135
+522	060813_2	Uścimów - gmina wiejska	775375	408426
+523	060901_4	Bełżyce - miasto	730823	371547
+524	060901_5	Bełżyce - obszar wiejski	729436	376490
+525	060902_2	Borzechów - gmina wiejska	734059	359112
+526	060903_4	Bychawa - miasto	748098	356025
+527	060903_5	Bychawa - obszar wiejski	747710	358534
+528	060904_2	Garbów - gmina wiejska	729451	397518
+529	060905_2	Głusk - gmina wiejska	746353	369506
+530	060906_2	Jabłonna - gmina wiejska	754909	365999
+531	060907_2	Jastków - gmina wiejska	742541	384126
+532	060908_2	Konopnica - gmina wiejska	737944	374391
+533	060909_2	Krzczonów - gmina wiejska	759699	357565
+534	060910_2	Niedrzwica Duża - gmina wiejska	736555	360916
+535	060911_2	Niemce - gmina wiejska	750579	388009
+536	060912_2	Strzyżewice - gmina wiejska	741083	361727
+537	060913_2	Wojciechów - gmina wiejska	726007	379860
+538	060914_2	Wólka - gmina wiejska	758255	389709
+539	060915_2	Wysokie - gmina wiejska	760140	349021
+540	060916_2	Zakrzew - gmina wiejska	754025	343564
+541	061001_2	Cyców - gmina wiejska	784460	386302
+542	061002_2	Ludwin - gmina wiejska	778117	395339
+543	061003_4	Łęczna - miasto	767193	391432
+544	061003_5	Łęczna - obszar wiejski	766610	391192
+545	061004_2	Milejów - gmina wiejska	777276	380367
+546	061005_2	Puchaczów - gmina wiejska	774136	386309
+547	061006_2	Spiczyn - gmina wiejska	760282	392604
+548	061101_1	Łuków - gmina miejska	733195	454460
+549	061102_1	Stoczek Łukowski - gmina miejska	705401	458413
+550	061103_2	Adamów - gmina wiejska	724657	435055
+551	061104_2	Krzywda - gmina wiejska	715492	446439
+552	061105_2	Łuków - gmina wiejska	718843	466001
+553	061106_2	Serokomla - gmina wiejska	730884	434297
+554	061107_2	Stanin - gmina wiejska	718392	452614
+555	061108_2	Stoczek Łukowski - gmina wiejska	704336	459482
+556	061109_2	Trzebieszów - gmina wiejska	741205	464024
+557	061110_2	Wojcieszków - gmina wiejska	731788	439975
+558	061111_2	Wola Mysłowska - gmina wiejska	702833	447183
+559	061201_2	Chodel - gmina wiejska	718997	366460
+560	061202_4	Józefów nad Wisłą - miasto	700223	356796
+561	061202_5	Józefów nad Wisłą - obszar wiejski	699827	355891
+562	061203_2	Karczmiska - gmina wiejska	704139	375848
+563	061204_2	Łaziska - gmina wiejska	700399	363907
+564	061205_4	Opole Lubelskie - miasto	709658	368068
+565	061205_5	Opole Lubelskie - obszar wiejski	715009	363107
+566	061206_4	Poniatowa - miasto	712513	372185
+567	061206_5	Poniatowa - obszar wiejski	718501	375551
+568	061207_2	Wilków - gmina wiejska	699020	380856
+569	061301_2	Dębowa Kłoda - gmina wiejska	771496	420680
+570	061302_2	Jabłoń - gmina wiejska	775459	435085
+571	061303_2	Milanów - gmina wiejska	773779	442272
+572	061304_4	Parczew - miasto	767677	425040
+573	061304_5	Parczew - obszar wiejski	776161	425561
+574	061305_2	Podedwórze - gmina wiejska	789972	434981
+575	061306_2	Siemień - gmina wiejska	761545	429188
+576	061307_2	Sosnowica - gmina wiejska	780544	412568
+577	061401_1	Puławy - gmina miejska	708800	396162
+578	061402_2	Baranów - gmina wiejska	717837	409721
+579	061403_2	Janowiec - gmina wiejska	698935	388961
+580	061404_4	Kazimierz Dolny - miasto	704068	386540
+581	061404_5	Kazimierz Dolny - obszar wiejski	710931	386611
+582	061405_4	Końskowola - miasto	714424	396224
+583	061405_5	Końskowola - obszar wiejski	716600	397885
+584	061406_4	Kurów - miasto	721759	395920
+585	061406_5	Kurów - obszar wiejski	718427	402094
+586	061407_2	Markuszów - gmina wiejska	728641	391804
+587	061408_4	Nałęczów - miasto	725260	385731
+588	061408_5	Nałęczów - obszar wiejski	726279	386619
+589	061409_2	Puławy - gmina wiejska	700254	406822
+590	061410_4	Wąwolnica - miasto	718823	385252
+591	061410_5	Wąwolnica - obszar wiejski	718314	383170
+592	061411_2	Żyrzyn - gmina wiejska	708336	405187
+593	061501_1	Radzyń Podlaski - gmina miejska	749760	441398
+594	061502_2	Borki - gmina wiejska	745101	431099
+595	061503_4	Czemierniki - miasto	752910	429462
+596	061503_5	Czemierniki - obszar wiejski	750205	437069
+597	061504_2	Kąkolewnica - gmina wiejska	755953	447702
+598	061505_2	Komarówka Podlaska - gmina wiejska	777459	451729
+599	061506_2	Radzyń Podlaski - gmina wiejska	749131	449221
+600	061507_2	Ulan-Majorat - gmina wiejska	738558	445007
+601	061508_2	Wohyń - gmina wiejska	761098	431594
+602	061601_1	Dęblin - gmina miejska	702122	413155
+603	061602_2	Kłoczew - gmina wiejska	700732	436295
+604	061603_2	Nowodwór - gmina wiejska	716787	427357
+605	061604_4	Ryki - miasto	702636	420594
+606	061604_5	Ryki - obszar wiejski	698412	419135
+607	061605_2	Stężyca - gmina wiejska	691796	422096
+608	061606_2	Ułęż - gmina wiejska	720181	418055
+609	061701_1	Świdnik - gmina miejska	757065	380202
+610	061702_2	Mełgiew - gmina wiejska	766034	379599
+611	061703_4	Piaski - miasto	767747	369527
+612	061703_5	Piaski - obszar wiejski	762819	369649
+613	061704_2	Rybczewice - gmina wiejska	765267	362435
+614	061705_2	Trawniki - gmina wiejska	778031	372338
+615	061801_1	Tomaszów Lubelski - gmina miejska	814801	294317
+616	061802_2	Bełżec - gmina wiejska	816005	288756
+617	061803_2	Jarczów - gmina wiejska	823082	297065
+618	061804_2	Krynice - gmina wiejska	814231	308059
+619	061805_4	Lubycza Królewska - miasto	821517	284260
+620	061805_5	Lubycza Królewska - obszar wiejski	825345	276975
+621	061806_4	Łaszczów - miasto	834137	306900
+622	061806_5	Łaszczów - obszar wiejski	834399	303822
+623	061807_2	Rachanie - gmina wiejska	824408	308865
+624	061808_2	Susiec - gmina wiejska	795735	293781
+625	061809_2	Tarnawatka - gmina wiejska	816826	302095
+626	061810_2	Telatyn - gmina wiejska	841809	305361
+627	061811_2	Tomaszów Lubelski - gmina wiejska	816265	290971
+628	061812_4	Tyszowce - miasto	835884	316758
+629	061812_5	Tyszowce - obszar wiejski	831924	318363
+630	061813_2	Ulhówek - gmina wiejska	848369	298598
+631	061901_1	Włodawa - gmina miejska	814762	418016
+632	061902_2	Hanna - gmina wiejska	809904	439788
+633	061903_2	Hańsk - gmina wiejska	804563	400272
+634	061904_2	Stary Brus - gmina wiejska	797375	407548
+635	061905_2	Urszulin - gmina wiejska	788634	396707
+636	061906_2	Włodawa - gmina wiejska	818757	416678
+637	061907_2	Wola Uhruska - gmina wiejska	819412	398016
+638	061908_2	Wyryki - gmina wiejska	803505	415434
+639	062001_2	Adamów - gmina wiejska	795425	315549
+640	062002_2	Grabowiec - gmina wiejska	815199	340361
+641	062003_2	Komarów-Osada - gmina wiejska	823707	320888
+642	062004_4	Krasnobród - miasto	798333	306519
+643	062004_5	Krasnobród - obszar wiejski	789245	304840
+644	062005_2	Łabunie - gmina wiejska	808914	318280
+645	062006_2	Miączyn - gmina wiejska	818366	334485
+646	062007_2	Nielisz - gmina wiejska	791102	331993
+647	062008_2	Radecznica - gmina wiejska	770183	328480
+648	062009_2	Sitno - gmina wiejska	813930	325833
+649	062010_2	Skierbieszów - gmina wiejska	813908	340368
+650	062011_2	Stary Zamość - gmina wiejska	790858	335429
+651	062012_2	Sułów - gmina wiejska	775785	324854
+652	062013_4	Szczebrzeszyn - miasto	775140	322053
+653	062013_5	Szczebrzeszyn - obszar wiejski	787333	324261
+654	062014_2	Zamość - gmina wiejska	801177	330071
+655	062015_4	Zwierzyniec - miasto	781903	311648
+656	062015_5	Zwierzyniec - obszar wiejski	787497	317588
+657	066101_1	Biała Podlaska - gmina miejska	785993	473071
+658	066201_1	Chełm - gmina miejska	815512	370454
+659	066301_1	Lublin - gmina miejska	752354	375782
+660	066401_1	Zamość - gmina miejska	802621	326655
+661	080101_1	Kostrzyn nad Odrą - gmina miejska	207905	534541
+662	080102_2	Bogdaniec - gmina wiejska	234957	541658
+663	080103_2	Deszczno - gmina wiejska	251478	534617
+664	080104_2	Kłodawa - gmina wiejska	256903	557863
+665	080105_2	Lubiszyn - gmina wiejska	231124	550664
+666	080106_2	Santok - gmina wiejska	265410	547283
+667	080107_4	Witnica - miasto	223199	541688
+668	080107_5	Witnica - obszar wiejski	230160	541686
+669	080201_1	Gubin - gmina miejska	208048	463292
+670	080202_2	Bobrowice - gmina wiejska	228545	462543
+671	080203_2	Bytnica - gmina wiejska	237617	481839
+672	080204_2	Dąbie - gmina wiejska	235631	461010
+673	080205_2	Gubin - gmina wiejska	213693	472984
+674	080206_4	Krosno Odrzańskie - miasto	232004	472682
+675	080206_5	Krosno Odrzańskie - obszar wiejski	226067	474042
+676	080207_2	Maszewo - gmina wiejska	222891	479712
+677	080301_2	Bledzew - gmina wiejska	250918	522316
+678	080302_4	Międzyrzecz - miasto	268629	514559
+679	080302_5	Międzyrzecz - obszar wiejski	274766	510193
+680	080303_2	Przytoczna - gmina wiejska	281202	528547
+681	080304_2	Pszczew - gmina wiejska	279029	524083
+682	080305_4	Skwierzyna - miasto	264974	531989
+683	080305_5	Skwierzyna - obszar wiejski	280022	540276
+684	080306_4	Trzciel - miasto	287541	503713
+685	080306_5	Trzciel - obszar wiejski	282922	502168
+686	080401_1	Nowa Sól - gmina miejska	271696	441198
+687	080402_4	Bytom Odrzański - miasto	280829	433527
+688	080402_5	Bytom Odrzański - obszar wiejski	278555	437800
+689	080403_2	Kolsko - gmina wiejska	290023	466165
+690	080404_4	Kożuchów - miasto	264378	435743
+691	080404_5	Kożuchów - obszar wiejski	260604	438444
+692	080405_2	Nowa Sól - gmina wiejska	283405	451987
+693	080406_4	Nowe Miasteczko - miasto	274616	429471
+694	080406_5	Nowe Miasteczko - obszar wiejski	270624	427145
+695	080407_4	Otyń - miasto	272992	446739
+696	080407_5	Otyń - obszar wiejski	270793	444164
+697	080408_2	Siedlisko - gmina wiejska	284707	438446
+698	080501_4	Cybinka - miasto	213314	489908
+699	080501_5	Cybinka - obszar wiejski	215638	498638
+700	080502_2	Górzyca - gmina wiejska	208077	526880
+701	080503_4	Ośno Lubuskie - miasto	218175	518098
+702	080503_5	Ośno Lubuskie - obszar wiejski	219699	523847
+703	080504_4	Rzepin - miasto	216293	504953
+704	080504_5	Rzepin - obszar wiejski	216741	506447
+705	080505_4	Słubice - miasto	199979	510656
+706	080505_5	Słubice - obszar wiejski	206799	505925
+707	080601_4	Dobiegniew - miasto	284419	573878
+708	080601_5	Dobiegniew - obszar wiejski	291620	566316
+709	080602_4	Drezdenko - miasto	287217	558944
+710	080602_5	Drezdenko - obszar wiejski	280078	560971
+711	080603_2	Stare Kurowo - gmina wiejska	280317	556190
+712	080604_4	Strzelce Krajeńskie - miasto	266439	561571
+713	080604_5	Strzelce Krajeńskie - obszar wiejski	262739	558406
+714	080605_2	Zwierzyn - gmina wiejska	272252	552022
+715	080701_2	Krzeszyce - gmina wiejska	241411	531033
+716	080702_4	Lubniewice - miasto	246469	523493
+717	080702_5	Lubniewice - obszar wiejski	247489	527813
+718	080703_2	Słońsk - gmina wiejska	217486	535116
+719	080704_4	Sulęcin - miasto	236725	516727
+720	080704_5	Sulęcin - obszar wiejski	238786	520442
+721	080705_4	Torzym - miasto	233753	501243
+722	080705_5	Torzym - obszar wiejski	224768	493149
+723	080801_2	Lubrza - gmina wiejska	254678	497197
+724	080802_2	Łagów - gmina wiejska	243605	499036
+725	080803_2	Skąpe - gmina wiejska	251799	484786
+726	080804_2	Szczaniec - gmina wiejska	276007	493191
+727	080805_4	Świebodzin - miasto	263290	491725
+728	080805_5	Świebodzin - obszar wiejski	265120	497820
+729	080806_4	Zbąszynek - miasto	283473	492680
+730	080806_5	Zbąszynek - obszar wiejski	283222	495483
+731	080901_4	Babimost - miasto	283263	482042
+732	080901_5	Babimost - obszar wiejski	280618	479847
+733	080902_2	Bojadła - gmina wiejska	287953	463313
+734	080903_4	Czerwieńsk - miasto	252454	467085
+735	080903_5	Czerwieńsk - obszar wiejski	253987	469461
+736	080904_4	Kargowa - miasto	284706	471492
+737	080904_5	Kargowa - obszar wiejski	277416	472294
+738	080905_4	Nowogród Bobrzański - miasto	242124	443983
+739	080905_5	Nowogród Bobrzański - obszar wiejski	235454	448821
+740	080906_4	Sulechów - miasto	269171	474191
+741	080906_5	Sulechów - obszar wiejski	266569	479151
+742	080907_2	Świdnica - gmina wiejska	254286	457874
+743	080908_2	Trzebiechów - gmina wiejska	278731	469012
+744	080909_2	Zabór - gmina wiejska	272504	453876
+745	081001_1	Gozdnica - gmina miejska	230097	406811
+746	081002_1	Żagań - gmina miejska	242789	422273
+747	081003_2	Brzeźnica - gmina wiejska	250611	433696
+748	081004_4	Iłowa - miasto	237587	409901
+749	081004_5	Iłowa - obszar wiejski	239301	409237
+750	081005_4	Małomice - miasto	253812	415015
+751	081005_5	Małomice - obszar wiejski	263127	407853
+752	081006_2	Niegosławice - gmina wiejska	272620	414863
+753	081007_4	Szprotawa - miasto	259518	417681
+754	081007_5	Szprotawa - obszar wiejski	266473	411318
+755	081008_2	Wymiarki - gmina wiejska	224021	415989
+756	081009_2	Żagań - gmina wiejska	248561	420508
+757	081101_1	Łęknica - gmina miejska	206912	417704
+758	081102_1	Żary - gmina miejska	237259	422959
+759	081103_4	Brody - miasto	208896	444034
+760	081103_5	Brody - obszar wiejski	204349	444413
+761	081104_4	Jasień - miasto	224550	438470
+762	081104_5	Jasień - obszar wiejski	233246	439790
+763	081105_2	Lipinki Łużyckie - gmina wiejska	224788	426131
+764	081106_4	Lubsko - miasto	219800	443171
+765	081106_5	Lubsko - obszar wiejski	228363	444131
+766	081107_2	Przewóz - gmina wiejska	210757	413587
+767	081108_2	Trzebiel - gmina wiejska	210279	424619
+768	081109_2	Tuplice - gmina wiejska	217102	436228
+769	081110_2	Żary - gmina wiejska	228445	428981
+770	081201_4	Sława - miasto	298989	450715
+771	081201_5	Sława - obszar wiejski	304629	444123
+772	081202_4	Szlichtyngowa - miasto	310071	430133
+773	081202_5	Szlichtyngowa - obszar wiejski	316005	432761
+774	081203_4	Wschowa - miasto	315152	439267
+775	081203_5	Wschowa - obszar wiejski	316774	438016
+776	086101_1	Gorzów Wielkopolski - gmina miejska	240277	546934
+777	086201_1	Zielona Góra - gmina miejska	261999	449704
+778	100101_1	Bełchatów - gmina miejska	525681	390378
+779	100102_2	Bełchatów - gmina wiejska	521837	394439
+780	100103_2	Drużbice - gmina wiejska	526073	401808
+781	100104_2	Kleszczów - gmina wiejska	526848	372059
+782	100105_2	Kluki - gmina wiejska	512626	382195
+783	100106_2	Rusiec - gmina wiejska	497875	381596
+784	100107_2	Szczerców - gmina wiejska	509346	391344
+785	100108_4	Zelów - miasto	516460	399280
+786	100108_5	Zelów - obszar wiejski	509956	397215
+787	100201_1	Kutno - gmina miejska	527378	483718
+788	100202_2	Bedlno - gmina wiejska	545410	475835
+789	100203_4	Dąbrowice - miasto	504744	493365
+790	100203_5	Dąbrowice - obszar wiejski	507475	492463
+791	100204_4	Krośniewice - miasto	511614	487698
+792	100204_5	Krośniewice - obszar wiejski	508302	483420
+793	100205_2	Krzyżanów - gmina wiejska	531302	477707
+794	100206_2	Kutno - gmina wiejska	515241	481631
+795	100207_2	Łanięta - gmina wiejska	515505	498780
+796	100208_2	Nowe Ostrowy - gmina wiejska	508704	494040
+797	100209_2	Oporów - gmina wiejska	536638	485734
+798	100210_2	Strzelce - gmina wiejska	529879	489892
+799	100211_4	Żychlin - miasto	541004	486971
+800	100211_5	Żychlin - obszar wiejski	545843	482436
+801	100301_2	Buczek - gmina wiejska	514756	406214
+802	100302_4	Łask - miasto	513863	416063
+803	100302_5	Łask - obszar wiejski	509317	416517
+804	100303_2	Sędziejowice - gmina wiejska	506080	408705
+805	100304_2	Widawa - gmina wiejska	488191	394288
+806	100305_2	Wodzierady - gmina wiejska	514754	426536
+807	100401_1	Łęczyca - gmina miejska	514113	465343
+808	100402_2	Daszyna - gmina wiejska	507822	477611
+809	100403_2	Góra Świętej Małgorzaty - gmina wiejska	522541	466607
+810	100404_4	Grabów - miasto	499664	472889
+811	100404_5	Grabów - obszar wiejski	506101	474315
+812	100405_2	Łęczyca - gmina wiejska	514887	472943
+813	100406_4	Piątek - miasto	531212	468334
+814	100406_5	Piątek - obszar wiejski	537825	463860
+815	100407_2	Świnice Warckie - gmina wiejska	494484	464742
+816	100408_2	Witonia - gmina wiejska	519223	474883
+817	100501_1	Łowicz - gmina miejska	563527	470681
+818	100502_2	Bielawy - gmina wiejska	545202	468043
+819	100503_2	Chąśno - gmina wiejska	561470	483794
+820	100504_2	Domaniewice - gmina wiejska	550043	461182
+821	100505_4	Kiernozia - miasto	558682	489113
+822	100505_5	Kiernozia - obszar wiejski	556333	488029
+823	100506_2	Kocierzew Południowy - gmina wiejska	567841	477218
+824	100507_2	Łowicz - gmina wiejska	562594	466969
+825	100508_2	Łyszkowice - gmina wiejska	571945	459974
+826	100509_2	Nieborów - gmina wiejska	572610	469099
+827	100510_2	Zduny - gmina wiejska	554548	473859
+828	100602_2	Andrespol - gmina wiejska	545513	430875
+829	100603_2	Brójce - gmina wiejska	546749	421964
+830	100607_4	Koluszki - miasto	556816	431025
+831	100607_5	Koluszki - obszar wiejski	550145	431228
+832	100608_2	Nowosolna - gmina wiejska	544216	434658
+833	100610_4	Rzgów - miasto	535175	422097
+834	100610_5	Rzgów - obszar wiejski	530987	424525
+835	100611_4	Tuszyn - miasto	535214	415507
+836	100611_5	Tuszyn - obszar wiejski	541011	405963
+837	100701_4	Białaczów - miasto	591165	381626
+838	100701_5	Białaczów - obszar wiejski	584926	384286
+839	100702_4	Drzewica - miasto	602503	398716
+840	100702_5	Drzewica - obszar wiejski	600791	397146
+841	100703_2	Mniszków - gmina wiejska	571949	394523
+842	100704_4	Opoczno - miasto	590359	389806
+843	100704_5	Opoczno - obszar wiejski	594249	390164
+844	100705_2	Paradyż - gmina wiejska	577000	386199
+845	100706_2	Poświętne - gmina wiejska	588810	405271
+846	100707_2	Sławno - gmina wiejska	580302	389522
+847	100708_4	Żarnów - miasto	583716	375944
+848	100708_5	Żarnów - obszar wiejski	575432	372795
+849	100801_1	Konstantynów Łódzki - gmina miejska	519849	430282
+850	100802_1	Pabianice - gmina miejska	521884	422216
+851	100803_2	Dłutów - gmina wiejska	521123	407808
+852	100804_2	Dobroń - gmina wiejska	518194	421885
+853	100805_2	Ksawerów - gmina wiejska	528373	423272
+854	100806_4	Lutomiersk - miasto	513852	432151
+855	100806_5	Lutomiersk - obszar wiejski	509997	435638
+856	100807_2	Pabianice - gmina wiejska	528257	417535
+857	100901_4	Działoszyn - miasto	491055	361942
+858	100901_5	Działoszyn - obszar wiejski	495248	361760
+859	100902_2	Kiełczygłów - gmina wiejska	494299	379050
+860	100903_2	Nowa Brzeźnica - gmina wiejska	510215	359516
+861	100904_4	Pajęczno - miasto	501292	363888
+862	100904_5	Pajęczno - obszar wiejski	505502	358395
+863	100905_2	Rząśnia - gmina wiejska	504252	374671
+864	100906_2	Siemkowice - gmina wiejska	495815	365661
+865	100907_2	Strzelce Wielkie - gmina wiejska	507099	361433
+866	100908_2	Sulmierzyce - gmina wiejska	510395	372663
+867	101001_2	Aleksandrów - gmina wiejska	570835	380434
+868	101002_2	Czarnocin - gmina wiejska	544587	415097
+869	101003_2	Gorzkowice - gmina wiejska	544932	369141
+870	101004_2	Grabica - gmina wiejska	537188	399348
+871	101005_2	Łęki Szlacheckie - gmina wiejska	553824	367345
+872	101006_2	Moszczenica - gmina wiejska	552421	401015
+873	101007_2	Ręczno - gmina wiejska	558373	364326
+874	101008_4	Rozprza - miasto	544556	383410
+875	101008_5	Rozprza - obszar wiejski	544796	383619
+876	101009_4	Sulejów - miasto	560023	388289
+877	101009_5	Sulejów - obszar wiejski	552183	388026
+878	101010_2	Wola Krzysztoporska - gmina wiejska	540326	385665
+879	101011_4	Wolbórz - miasto	555492	403072
+880	101011_5	Wolbórz - obszar wiejski	555791	406893
+881	101101_2	Dalików - gmina wiejska	506138	445908
+882	101102_2	Pęczniew - gmina wiejska	477438	435830
+883	101103_4	Poddębice - miasto	496728	447972
+884	101103_5	Poddębice - obszar wiejski	494805	441164
+885	101104_4	Uniejów - miasto	485019	457401
+886	101104_5	Uniejów - obszar wiejski	483514	457055
+887	101105_2	Wartkowice - gmina wiejska	503347	451743
+888	101106_2	Zadzim - gmina wiejska	489291	435452
+889	101201_1	Radomsko - gmina miejska	536114	355791
+890	101202_2	Dobryszyce - gmina wiejska	526094	363392
+891	101203_2	Gidle - gmina wiejska	538695	345718
+892	101204_2	Gomunice - gmina wiejska	532769	365799
+893	101205_4	Kamieńsk - miasto	535302	369406
+894	101205_5	Kamieńsk - obszar wiejski	536182	375998
+895	101206_2	Kobiele Wielkie - gmina wiejska	536971	351353
+896	101207_2	Kodrąb - gmina wiejska	542854	356792
+897	101208_2	Lgota Wielka - gmina wiejska	525456	367237
+898	101209_2	Ładzice - gmina wiejska	518520	359760
+899	101210_2	Masłowice - gmina wiejska	552750	356518
+900	101211_4	Przedbórz - miasto	560402	357877
+901	101211_5	Przedbórz - obszar wiejski	568831	361560
+902	101212_2	Radomsko - gmina wiejska	530004	351757
+903	101213_2	Wielgomłyny - gmina wiejska	559222	349707
+904	101214_2	Żytno - gmina wiejska	541837	338156
+905	101301_1	Rawa Mazowiecka - gmina miejska	587262	432385
+906	101302_4	Biała Rawska - miasto	601361	436475
+907	101302_5	Biała Rawska - obszar wiejski	596572	439504
+908	101303_2	Cielądz - gmina wiejska	590423	428908
+909	101304_2	Rawa Mazowiecka - gmina wiejska	589256	432949
+910	101305_2	Regnów - gmina wiejska	597537	428513
+911	101306_2	Sadkowice - gmina wiejska	601927	429395
+912	101401_1	Sieradz - gmina miejska	482424	415269
+913	101402_4	Błaszki - miasto	461150	420326
+914	101402_5	Błaszki - obszar wiejski	463584	411264
+915	101403_2	Brąszewice - gmina wiejska	464807	400703
+916	101404_2	Brzeźnio - gmina wiejska	472588	404025
+917	101405_2	Burzenin - gmina wiejska	490246	399696
+918	101406_2	Goszczanów - gmina wiejska	467771	435838
+919	101407_2	Klonowa - gmina wiejska	460111	393401
+920	101408_2	Sieradz - gmina wiejska	478656	421008
+921	101409_4	Warta - miasto	474456	428045
+922	101409_5	Warta - obszar wiejski	477844	426686
+923	101410_2	Wróblew - gmina wiejska	473325	411824
+924	101411_4	Złoczew - miasto	470850	395624
+925	101411_5	Złoczew - obszar wiejski	476731	392008
+926	101501_4	Bolimów - miasto	579016	468078
+927	101501_5	Bolimów - obszar wiejski	577278	462820
+928	101502_2	Głuchów - gmina wiejska	575608	439807
+929	101503_2	Godzianów - gmina wiejska	571698	447117
+930	101504_2	Kowiesy - gmina wiejska	596230	450896
+931	101505_2	Lipce Reymontowskie - gmina wiejska	565599	453228
+932	101506_2	Maków - gmina wiejska	564917	455978
+933	101507_2	Nowy Kawęczyn - gmina wiejska	587133	443864
+934	101508_2	Skierniewice - gmina wiejska	579350	461869
+935	101509_2	Słupia - gmina wiejska	562981	444321
+936	101601_1	Tomaszów Mazowiecki - gmina miejska	574278	407422
+937	101602_2	Będków - gmina wiejska	552143	411003
+938	101603_2	Budziszewice - gmina wiejska	565700	424438
+939	101604_2	Czerniewice - gmina wiejska	578803	421330
+940	101605_4	Inowłódz - miasto	582733	407750
+941	101605_5	Inowłódz - obszar wiejski	581443	404860
+942	101606_2	Lubochnia - gmina wiejska	573018	419498
+943	101607_2	Rokiciny - gmina wiejska	552963	420235
+944	101608_2	Rzeczyca - gmina wiejska	584928	412098
+945	101609_2	Tomaszów Mazowiecki - gmina wiejska	575636	406360
+946	101610_4	Ujazd - miasto	562966	415015
+947	101610_5	Ujazd - obszar wiejski	558084	413098
+948	101611_2	Żelechlinek - gmina wiejska	573781	429528
+949	101701_2	Biała - gmina wiejska	461951	381359
+950	101702_2	Czarnożyły - gmina wiejska	464694	385029
+951	101703_2	Konopnica - gmina wiejska	490825	389182
+952	101704_2	Mokrsko - gmina wiejska	466068	360587
+953	101705_4	Osjaków - miasto	484998	379966
+954	101705_5	Osjaków - obszar wiejski	483030	382996
+955	101706_2	Ostrówek - gmina wiejska	473697	386105
+956	101707_2	Pątnów - gmina wiejska	477364	358488
+957	101708_2	Skomlin - gmina wiejska	456177	368090
+958	101709_4	Wieluń - miasto	471069	373099
+959	101709_5	Wieluń - obszar wiejski	468228	373641
+960	101710_2	Wierzchlas - gmina wiejska	482162	370913
+961	101801_4	Bolesławiec - miasto	443393	370506
+962	101801_5	Bolesławiec - obszar wiejski	443007	369436
+963	101802_2	Czastary - gmina wiejska	455394	376480
+964	101803_2	Galewice - gmina wiejska	450585	387889
+965	101804_4	Lututów - miasto	459723	390593
+966	101804_5	Lututów - obszar wiejski	466626	386869
+967	101805_2	Łubnice - gmina wiejska	448363	368169
+968	101806_2	Sokolniki - gmina wiejska	446985	380890
+969	101807_4	Wieruszów - miasto	439692	382561
+970	101807_5	Wieruszów - obszar wiejski	443213	383186
+971	101901_1	Zduńska Wola - gmina miejska	497839	413355
+972	101902_4	Szadek - miasto	499136	426321
+973	101902_5	Szadek - obszar wiejski	504494	427626
+974	101903_2	Zapolice - gmina wiejska	494706	404245
+975	101904_2	Zduńska Wola - gmina wiejska	493537	419380
+976	102001_1	Głowno - gmina miejska	551345	454090
+977	102002_1	Ozorków - gmina miejska	521336	454929
+978	102003_1	Zgierz - gmina miejska	524585	444798
+979	102004_4	Aleksandrów Łódzki - miasto	520090	439987
+980	102004_5	Aleksandrów Łódzki - obszar wiejski	512379	443670
+981	102005_2	Głowno - gmina wiejska	543162	456594
+982	102006_2	Ozorków - gmina wiejska	520761	457107
+983	102007_4	Parzęczew - miasto	514357	453210
+984	102007_5	Parzęczew - obszar wiejski	510313	453865
+985	102008_4	Stryków - miasto	543416	447688
+986	102008_5	Stryków - obszar wiejski	539475	451490
+987	102009_2	Zgierz - gmina wiejska	520425	448453
+988	102101_1	Brzeziny - gmina miejska	553453	437598
+989	102102_2	Brzeziny - gmina wiejska	549204	432925
+990	102103_2	Dmosin - gmina wiejska	554850	451311
+991	102104_4	Jeżów - miasto	567689	438852
+992	102104_5	Jeżów - obszar wiejski	567485	440844
+993	102105_2	Rogów - gmina wiejska	563436	441101
+994	106102_9	Łódź-Bałuty - delegatura	537637	439020
+995	106103_9	Łódź-Górna - delegatura	531237	427559
+996	106104_9	Łódź-Polesie - delegatura	529831	432491
+997	106105_9	Łódź-Śródmieście - delegatura	532138	432704
+998	106106_9	Łódź-Widzew - delegatura	540420	430107
+999	106201_1	Piotrków Trybunalski - gmina miejska	544053	391887
+1000	106301_1	Skierniewice - gmina miejska	581615	457551
+1001	120101_1	Bochnia - gmina miejska	601071	232030
+1002	120102_2	Bochnia - gmina wiejska	597963	228446
+1003	120103_2	Drwinia - gmina wiejska	599287	250567
+1004	120104_2	Lipnica Murowana - gmina wiejska	612711	221401
+1005	120105_2	Łapanów - gmina wiejska	597323	227741
+1006	120106_4	Nowy Wiśnicz - miasto	604978	228503
+1007	120106_5	Nowy Wiśnicz - obszar wiejski	605073	229204
+1008	120107_2	Rzezawa - gmina wiejska	609634	244092
+1009	120108_2	Trzciana - gmina wiejska	597964	222506
+1010	120109_2	Żegocina - gmina wiejska	602195	214647
+1011	120201_2	Borzęcin - gmina wiejska	625937	241704
+1012	120202_4	Brzesko - miasto	614303	235195
+1013	120202_5	Brzesko - obszar wiejski	612441	232060
+1014	120203_4	Czchów - miasto	621693	220624
+1015	120203_5	Czchów - obszar wiejski	622959	225440
+1016	120204_2	Dębno - gmina wiejska	624247	228765
+1017	120205_2	Gnojnik - gmina wiejska	613651	226953
+1018	120206_2	Iwkowa - gmina wiejska	612348	215717
+1019	120207_2	Szczurowa - gmina wiejska	614932	253433
+1020	120301_4	Alwernia - miasto	538963	242873
+1021	120301_5	Alwernia - obszar wiejski	540114	241345
+1022	120302_2	Babice - gmina wiejska	529357	243952
+1023	120303_4	Chrzanów - miasto	521909	251999
+1024	120303_5	Chrzanów - obszar wiejski	527812	256628
+1025	120304_4	Libiąż - miasto	523065	247765
+1026	120304_5	Libiąż - obszar wiejski	525795	246935
+1027	120305_4	Trzebinia - miasto	532158	259516
+1028	120305_5	Trzebinia - obszar wiejski	535977	254155
+1029	120401_2	Bolesław - gmina wiejska	634622	269657
+1030	120402_4	Dąbrowa Tarnowska - miasto	641108	257021
+1031	120402_5	Dąbrowa Tarnowska - obszar wiejski	646002	254605
+1032	120403_2	Gręboszów - gmina wiejska	628563	266926
+1033	120404_2	Mędrzechów - gmina wiejska	643352	269049
+1034	120405_2	Olesno - gmina wiejska	637539	265840
+1035	120406_2	Radgoszcz - gmina wiejska	651305	260867
+1036	120407_4	Szczucin - miasto	648875	273706
+1037	120407_5	Szczucin - obszar wiejski	655181	273502
+1038	120501_1	Gorlice - gmina miejska	655061	202886
+1039	120502_4	Biecz - miasto	662891	208241
+1040	120502_5	Biecz - obszar wiejski	651988	213243
+1041	120503_4	Bobowa - miasto	640386	207560
+1042	120503_5	Bobowa - obszar wiejski	642537	205644
+1043	120504_2	Gorlice - gmina wiejska	652110	198450
+1044	120505_2	Lipinki - gmina wiejska	664245	202822
+1045	120506_2	Łużna - gmina wiejska	650024	205068
+1046	120507_2	Moszczenica - gmina wiejska	653322	206184
+1047	120508_2	Ropa - gmina wiejska	644953	195121
+1048	120509_2	Sękowa - gmina wiejska	671197	188651
+1049	120510_2	Uście Gorlickie - gmina wiejska	653897	178756
+1050	120601_2	Czernichów - gmina wiejska	545515	236036
+1051	120602_2	Igołomia-Wawrzeńczyce - gmina wiejska	594694	249598
+1052	120603_2	Iwanowice - gmina wiejska	569413	258500
+1053	120604_2	Jerzmanowice-Przeginia - gmina wiejska	552759	259662
+1054	120605_2	Kocmyrzów-Luborzyca - gmina wiejska	578975	250826
+1055	120606_4	Krzeszowice - miasto	545103	253647
+1056	120606_5	Krzeszowice - obszar wiejski	545541	256725
+1057	120607_2	Liszki - gmina wiejska	554971	238148
+1058	120608_2	Michałowice - gmina wiejska	573719	253490
+1059	120609_2	Mogilany - gmina wiejska	563886	231120
+1060	120610_4	Skała - miasto	560435	262312
+1061	120610_5	Skała - obszar wiejski	560278	257413
+1062	120611_4	Skawina - miasto	559517	235721
+1063	120611_5	Skawina - obszar wiejski	547675	233261
+1064	120612_4	Słomniki - miasto	577182	263881
+1065	120612_5	Słomniki - obszar wiejski	577922	260043
+1066	120613_2	Sułoszowa - gmina wiejska	552365	266758
+1067	120614_4	Świątniki Górne - miasto	568736	229938
+1068	120614_5	Świątniki Górne - obszar wiejski	569379	231215
+1069	120615_2	Wielka Wieś - gmina wiejska	556602	257944
+1070	120616_2	Zabierzów - gmina wiejska	556517	249319
+1071	120617_2	Zielonki - gmina wiejska	569614	251762
+1072	120701_1	Limanowa - gmina miejska	603181	204310
+1073	120702_1	Mszana Dolna - gmina miejska	578451	204991
+1074	120703_2	Dobra - gmina wiejska	585775	210343
+1075	120704_2	Jodłownik - gmina wiejska	591397	210499
+1076	120705_2	Kamienica - gmina wiejska	597125	188311
+1077	120706_2	Laskowa - gmina wiejska	611392	213013
+1078	120707_2	Limanowa - gmina wiejska	596307	217150
+1079	120708_2	Łukowica - gmina wiejska	606262	198323
+1080	120709_2	Mszana Dolna - gmina wiejska	573042	199171
+1081	120710_2	Niedźwiedź - gmina wiejska	580635	192009
+1082	120711_2	Słopnice - gmina wiejska	593877	198649
+1083	120712_2	Tymbark - gmina wiejska	593366	206625
+1084	120713_2	Szczawa - gmina wiejska	591795	195807
+1085	120801_2	Charsznica - gmina wiejska	563733	286014
+1086	120802_2	Gołcza - gmina wiejska	565027	277811
+1087	120803_2	Kozłów - gmina wiejska	571172	289530
+1088	120804_4	Książ Wielki - miasto	581941	285841
+1089	120804_5	Książ Wielki - obszar wiejski	580766	283297
+1090	120805_4	Miechów - miasto	574187	276509
+1091	120805_5	Miechów - obszar wiejski	578141	276664
+1092	120806_2	Racławice - gmina wiejska	587699	271321
+1093	120807_2	Słaboszów - gmina wiejska	591567	277562
+1094	120901_4	Dobczyce - miasto	577666	225690
+1095	120901_5	Dobczyce - obszar wiejski	574908	228424
+1096	120902_2	Lubień - gmina wiejska	568512	204312
+1097	120903_4	Myślenice - miasto	567480	219399
+1098	120903_5	Myślenice - obszar wiejski	569463	222427
+1099	120904_2	Pcim - gmina wiejska	564255	215004
+1100	120905_2	Raciechowice - gmina wiejska	586775	218997
+1101	120906_2	Siepraw - gmina wiejska	570837	229130
+1102	120907_4	Sułkowice - miasto	558534	220356
+1103	120907_5	Sułkowice - obszar wiejski	559556	226133
+1104	120908_2	Tokarnia - gmina wiejska	561153	212023
+1105	120909_2	Wiśniowa - gmina wiejska	576986	209378
+1106	121001_1	Grybów - gmina miejska	639723	196728
+1107	121002_2	Chełmiec - gmina wiejska	626344	193256
+1108	121003_2	Gródek nad Dunajcem - gmina wiejska	623323	205907
+1109	121004_2	Grybów - gmina wiejska	644053	193071
+1110	121005_2	Kamionka Wielka - gmina wiejska	629339	192718
+1111	121006_2	Korzenna - gmina wiejska	630406	209157
+1112	121007_4	Krynica-Zdrój - miasto	637899	175960
+1113	121007_5	Krynica-Zdrój - obszar wiejski	647947	169931
+1114	121008_2	Łabowa - gmina wiejska	630755	185645
+1115	121009_2	Łącko - gmina wiejska	601573	186914
+1116	121010_2	Łososina Dolna - gmina wiejska	619866	205486
+1117	121011_4	Muszyna - miasto	637085	165657
+1118	121011_5	Muszyna - obszar wiejski	632998	166597
+1119	121012_2	Nawojowa - gmina wiejska	627748	188572
+1120	121013_4	Piwniczna-Zdrój - miasto	620266	176363
+1121	121013_5	Piwniczna-Zdrój - obszar wiejski	624603	179456
+1122	121014_2	Podegrodzie - gmina wiejska	615096	190409
+1123	121015_2	Rytro - gmina wiejska	622445	180348
+1124	121016_4	Stary Sącz - miasto	618464	189192
+1125	121016_5	Stary Sącz - obszar wiejski	615364	187770
+1126	121101_1	Nowy Targ - gmina miejska	575500	181708
+1127	121102_4	Szczawnica - miasto	611768	179172
+1128	121102_5	Szczawnica - obszar wiejski	612161	170584
+1129	121103_4	Czarny Dunajec - miasto	563519	176312
+1130	121103_5	Czarny Dunajec - obszar wiejski	556640	180977
+1131	121104_2	Czorsztyn - gmina wiejska	598133	172713
+1132	121105_2	Jabłonka - gmina wiejska	553519	171325
+1133	121106_2	Krościenko nad Dunajcem - gmina wiejska	597709	178332
+1134	121107_2	Lipnica Wielka - gmina wiejska	541959	185360
+1135	121108_2	Łapsze Niżne - gmina wiejska	591750	169357
+1136	121109_2	Nowy Targ - gmina wiejska	569397	182683
+1137	121110_2	Ochotnica Dolna - gmina wiejska	585121	183686
+1138	121111_2	Raba Wyżna - gmina wiejska	564774	184841
+1139	121112_4	Rabka-Zdrój - miasto	566634	195092
+1140	121112_5	Rabka-Zdrój - obszar wiejski	566369	191081
+1141	121113_2	Spytkowice - gmina wiejska	557323	190275
+1142	121114_2	Szaflary - gmina wiejska	571091	169166
+1143	121201_1	Bukowno - gmina miejska	532607	268843
+1144	121203_2	Bolesław - gmina wiejska	530842	270627
+1145	121204_2	Klucze - gmina wiejska	543272	278049
+1146	121205_4	Olkusz - miasto	541897	267398
+1147	121205_5	Olkusz - obszar wiejski	543101	259107
+1148	121206_2	Trzyciąż - gmina wiejska	550271	270719
+1149	121207_4	Wolbrom - miasto	555869	280005
+1150	121207_5	Wolbrom - obszar wiejski	556764	282812
+1151	121301_1	Oświęcim - gmina miejska	518053	240033
+1152	121302_4	Brzeszcze - miasto	510440	233963
+1153	121302_5	Brzeszcze - obszar wiejski	513064	232102
+1154	121303_4	Chełmek - miasto	518754	248127
+1155	121303_5	Chełmek - obszar wiejski	517512	247213
+1156	121304_4	Kęty - miasto	513384	223387
+1157	121304_5	Kęty - obszar wiejski	518917	224318
+1158	121305_2	Osiek - gmina wiejska	524496	231215
+1159	121306_2	Oświęcim - gmina wiejska	521848	238021
+1160	121307_2	Polanka Wielka - gmina wiejska	520382	233025
+1161	121308_2	Przeciszów - gmina wiejska	526920	235125
+1162	121309_4	Zator - miasto	529166	235903
+1163	121309_5	Zator - obszar wiejski	528401	234672
+1164	121401_2	Koniusza - gmina wiejska	589085	252138
+1165	121402_4	Koszyce - miasto	612631	257838
+1166	121402_5	Koszyce - obszar wiejski	607050	254679
+1167	121403_4	Nowe Brzesko - miasto	597079	252981
+1168	121403_5	Nowe Brzesko - obszar wiejski	596031	256117
+1169	121404_2	Pałecznica - gmina wiejska	590966	265464
+1170	121405_4	Proszowice - miasto	593132	259608
+1171	121405_5	Proszowice - obszar wiejski	593449	255814
+1172	121406_2	Radziemice - gmina wiejska	589248	268969
+1173	121501_1	Jordanów - gmina miejska	560761	199645
+1174	121502_1	Sucha Beskidzka - gmina miejska	541485	209846
+1175	121503_2	Budzów - gmina wiejska	556628	213741
+1176	121504_2	Bystra-Sidzina - gmina wiejska	549432	196336
+1177	121505_2	Jordanów - gmina wiejska	559056	204074
+1178	121506_4	Maków Podhalański - miasto	549962	206083
+1179	121506_5	Maków Podhalański - obszar wiejski	555614	205915
+1180	121507_2	Stryszawa - gmina wiejska	528690	204033
+1181	121508_2	Zawoja - gmina wiejska	537998	189776
+1182	121509_2	Zembrzyce - gmina wiejska	539903	214384
+1183	121601_4	Ciężkowice - miasto	642242	215115
+1184	121601_5	Ciężkowice - obszar wiejski	642546	210545
+1185	121602_2	Gromnik - gmina wiejska	639820	222576
+1186	121603_2	Lisia Góra - gmina wiejska	649306	246220
+1187	121604_2	Pleśna - gmina wiejska	639986	225869
+1188	121605_4	Radłów - miasto	631873	247850
+1189	121605_5	Radłów - obszar wiejski	628125	248431
+1190	121606_4	Ryglice - miasto	652980	223710
+1191	121606_5	Ryglice - obszar wiejski	653344	231459
+1192	121607_2	Rzepiennik Strzyżewski - gmina wiejska	645391	218358
+1193	121608_2	Skrzyszów - gmina wiejska	650479	234867
+1194	121609_2	Tarnów - gmina wiejska	649128	244017
+1195	121610_4	Tuchów - miasto	650527	228318
+1196	121610_5	Tuchów - obszar wiejski	643327	231377
+1197	121611_2	Wierzchosławice - gmina wiejska	635677	243676
+1198	121612_2	Wietrzychowice - gmina wiejska	620603	261763
+1199	121613_4	Wojnicz - miasto	630543	233485
+1200	121613_5	Wojnicz - obszar wiejski	627218	235920
+1201	121614_4	Zakliczyn - miasto	629854	223104
+1202	121614_5	Zakliczyn - obszar wiejski	624699	226102
+1203	121615_4	Żabno - miasto	633273	254110
+1204	121615_5	Żabno - obszar wiejski	629001	259515
+1205	121616_2	Szerzyny - gmina wiejska	658463	221714
+1206	121701_1	Zakopane - gmina miejska	569622	161080
+1207	121702_2	Biały Dunajec - gmina wiejska	576248	164117
+1208	121703_2	Bukowina Tatrzańska - gmina wiejska	578948	153158
+1209	121704_2	Kościelisko - gmina wiejska	563044	163246
+1210	121705_2	Poronin - gmina wiejska	570693	166280
+1211	121801_4	Andrychów - miasto	524183	220511
+1212	121801_5	Andrychów - obszar wiejski	525188	216905
+1213	121802_2	Brzeźnica - gmina wiejska	540269	229754
+1214	121803_4	Kalwaria Zebrzydowska - miasto	547461	222434
+1215	121803_5	Kalwaria Zebrzydowska - obszar wiejski	551228	221817
+1216	121804_2	Lanckorona - gmina wiejska	553507	218680
+1217	121805_2	Mucharz - gmina wiejska	538017	218349
+1218	121806_2	Spytkowice - gmina wiejska	536094	237804
+1219	121807_2	Stryszów - gmina wiejska	547103	218016
+1220	121808_2	Tomice - gmina wiejska	541107	227652
+1221	121809_4	Wadowice - miasto	536787	223243
+1222	121809_5	Wadowice - obszar wiejski	534340	219372
+1223	121810_2	Wieprz - gmina wiejska	527102	228485
+1224	121901_2	Biskupice - gmina wiejska	583197	232358
+1225	121902_2	Gdów - gmina wiejska	590513	228075
+1226	121903_2	Kłaj - gmina wiejska	595470	241243
+1227	121904_4	Niepołomice - miasto	590575	240800
+1228	121904_5	Niepołomice - obszar wiejski	584665	237170
+1229	121905_4	Wieliczka - miasto	576603	234778
+1230	121905_5	Wieliczka - obszar wiejski	573334	233061
+1231	126102_9	Kraków-Krowodrza	559060	244675
+1232	126103_9	Kraków-Nowa Huta	582432	248819
+1233	126104_9	Kraków-Podgórze	568976	239701
+1234	126105_9	Kraków-Śródmieście	566922	244297
+1235	126201_1	Nowy Sącz - gmina miejska	624766	189942
+1236	126301_1	Tarnów - gmina miejska	636831	240795
+1237	140101_4	Białobrzegi - miasto	633322	421733
+1238	140101_5	Białobrzegi - obszar wiejski	638374	418082
+1239	140102_2	Promna - gmina wiejska	630528	425350
+1240	140103_2	Radzanów - gmina wiejska	631456	411750
+1241	140104_2	Stara Błotnica - gmina wiejska	641119	412031
+1242	140105_2	Stromiec - gmina wiejska	648844	429049
+1243	140106_4	Wyśmierzyce - miasto	626443	417601
+1244	140106_5	Wyśmierzyce - obszar wiejski	615582	415759
+1245	140201_1	Ciechanów - gmina miejska	610789	555550
+1246	140202_2	Ciechanów - gmina wiejska	598176	561636
+1247	140203_4	Glinojeck - miasto	587798	550706
+1248	140203_5	Glinojeck - obszar wiejski	594667	553691
+1249	140204_2	Gołymin-Ośrodek - gmina wiejska	623401	555718
+1250	140205_2	Grudusk - gmina wiejska	611996	571213
+1251	140206_2	Ojrzeń - gmina wiejska	607710	549760
+1252	140207_2	Opinogóra Górna - gmina wiejska	615414	561990
+1253	140208_2	Regimin - gmina wiejska	602001	566689
+1254	140209_2	Sońsk - gmina wiejska	623911	545182
+1255	140301_1	Garwolin - gmina miejska	680660	449345
+1256	140302_1	Łaskarzew - gmina miejska	678663	440135
+1257	140303_2	Borowie - gmina wiejska	692169	459917
+1258	140304_2	Garwolin - gmina wiejska	666493	450713
+1259	140305_2	Górzno - gmina wiejska	684145	447948
+1260	140306_2	Łaskarzew - gmina wiejska	674061	440518
+1261	140307_4	Maciejowice - miasto	676378	429937
+1262	140307_5	Maciejowice - obszar wiejski	679848	422193
+1263	140308_2	Miastków Kościelny - gmina wiejska	696167	449686
+1264	140309_2	Parysów - gmina wiejska	685419	458480
+1265	140310_4	Pilawa - miasto	673879	456656
+1266	140310_5	Pilawa - obszar wiejski	670348	454422
+1267	140311_2	Sobolew - gmina wiejska	682595	432991
+1268	140312_2	Trojanów - gmina wiejska	688318	428482
+1269	140313_2	Wilga - gmina wiejska	658004	449649
+1270	140314_4	Żelechów - miasto	702181	442555
+1271	140314_5	Żelechów - obszar wiejski	695225	439490
+1272	140401_1	Gostynin - gmina miejska	532296	503002
+1273	140402_2	Gostynin - gmina wiejska	526834	516200
+1274	140403_2	Pacyna - gmina wiejska	549056	494881
+1275	140404_4	Sanniki - miasto	558630	497643
+1276	140404_5	Sanniki - obszar wiejski	563466	494020
+1277	140405_2	Szczawin Kościelny - gmina wiejska	540401	494782
+1278	140501_1	Milanówek - gmina miejska	613976	476748
+1279	140502_1	Podkowa Leśna - gmina miejska	617700	473736
+1280	140503_2	Baranów - gmina wiejska	595461	478862
+1281	140504_4	Grodzisk Mazowiecki - miasto	613671	473029
+1282	140504_5	Grodzisk Mazowiecki - obszar wiejski	609305	471547
+1283	140505_2	Jaktorów - gmina wiejska	604856	467768
+1284	140506_2	Żabia Wola - gmina wiejska	611624	463673
+1285	140601_2	Belsk Duży - gmina wiejska	624045	443930
+1286	140602_2	Błędów - gmina wiejska	614979	438095
+1287	140603_2	Chynów - gmina wiejska	638765	445395
+1288	140604_2	Goszczyn - gmina wiejska	624655	434167
+1289	140605_4	Grójec - miasto	628305	444411
+1290	140605_5	Grójec - obszar wiejski	633704	444291
+1291	140606_2	Jasieniec - gmina wiejska	636770	431998
+1292	140607_4	Mogielnica - miasto	615640	426065
+1293	140607_5	Mogielnica - obszar wiejski	615110	422016
+1294	140608_4	Nowe Miasto nad Pilicą - miasto	608253	419955
+1295	140608_5	Nowe Miasto nad Pilicą - obszar wiejski	608017	421462
+1296	140609_2	Pniewy - gmina wiejska	617081	452476
+1297	140611_4	Warka - miasto	652500	438290
+1298	140611_5	Warka - obszar wiejski	650741	441571
+1299	140701_2	Garbatka-Letnisko - gmina wiejska	681604	407721
+1300	140702_4	Głowaczów - miasto	657959	419524
+1301	140702_5	Głowaczów - obszar wiejski	658099	417762
+1302	140703_2	Gniewoszów - gmina wiejska	695625	407956
+1303	140704_2	Grabów nad Pilicą - gmina wiejska	654421	429225
+1304	140705_4	Kozienice - miasto	677174	415097
+1305	140705_5	Kozienice - obszar wiejski	677340	418009
+1306	140706_4	Magnuszew - miasto	664945	435564
+1307	140706_5	Magnuszew - obszar wiejski	662998	429018
+1308	140707_2	Sieciechów - gmina wiejska	693189	409581
+1309	140801_1	Legionowo - gmina miejska	632441	505873
+1310	140802_2	Jabłonna - gmina wiejska	627401	506787
+1311	140803_2	Nieporęt - gmina wiejska	640419	502909
+1312	140804_4	Serock - miasto	639228	519938
+1313	140804_5	Serock - obszar wiejski	635730	517502
+1314	140805_2	Wieliszew - gmina wiejska	630355	512345
+1315	140901_2	Chotcza - gmina wiejska	694736	378557
+1316	140902_4	Ciepielów - miasto	679952	378665
+1317	140902_5	Ciepielów - obszar wiejski	677245	375340
+1318	140903_4	Lipsko - miasto	685108	368542
+1319	140903_5	Lipsko - obszar wiejski	682622	360449
+1320	140904_2	Rzeczniów - gmina wiejska	668946	367654
+1321	140905_4	Sienno - miasto	673460	360809
+1322	140905_5	Sienno - obszar wiejski	676522	359410
+1323	140906_4	Solec nad Wisłą - miasto	690407	370568
+1324	140906_5	Solec nad Wisłą - obszar wiejski	694716	365882
+1325	141001_2	Huszlew - gmina wiejska	765166	479348
+1326	141002_4	Łosice - miasto	751378	489378
+1327	141002_5	Łosice - obszar wiejski	758711	493498
+1328	141003_2	Olszanka - gmina wiejska	750964	480829
+1329	141004_2	Platerów - gmina wiejska	761299	495905
+1330	141005_2	Sarnaki - gmina wiejska	770089	493135
+1331	141006_2	Stara Kornica - gmina wiejska	763265	485646
+1332	141101_1	Maków Mazowiecki - gmina miejska	641711	556273
+1333	141102_2	Czerwonka - gmina wiejska	651758	563389
+1334	141103_2	Karniewo - gmina wiejska	635627	557286
+1335	141104_2	Krasnosielc - gmina wiejska	646097	572479
+1336	141105_2	Młynarze - gmina wiejska	664117	570158
+1337	141106_2	Płoniawy-Bramura - gmina wiejska	641793	568695
+1338	141107_4	Różan - miasto	662774	557186
+1339	141107_5	Różan - obszar wiejski	660008	562604
+1340	141108_2	Rzewnie - gmina wiejska	654007	549897
+1341	141109_2	Sypniewo - gmina wiejska	650593	573244
+1342	141110_2	Szelków - gmina wiejska	639694	552956
+1343	141201_1	Mińsk Mazowiecki - gmina miejska	672873	481468
+1344	141204_4	Cegłów - miasto	686032	479605
+1345	141204_5	Cegłów - obszar wiejski	688110	475617
+1346	141205_2	Dębe Wielkie - gmina wiejska	672007	484645
+1347	141206_4	Dobre - miasto	681890	498607
+1348	141206_5	Dobre - obszar wiejski	680276	493700
+1349	141207_4	Halinów - miasto	661707	487272
+1350	141207_5	Halinów - obszar wiejski	660011	489701
+1351	141208_2	Jakubów - gmina wiejska	683809	483757
+1352	141209_4	Kałuszyn - miasto	692148	485902
+1353	141209_5	Kałuszyn - obszar wiejski	694902	489494
+1354	141210_4	Latowicz - miasto	691163	466020
+1355	141210_5	Latowicz - obszar wiejski	697876	463169
+1356	141211_2	Mińsk Mazowiecki - gmina wiejska	681430	479342
+1357	141212_4	Mrozy - miasto	693554	481673
+1358	141212_5	Mrozy - obszar wiejski	694938	476200
+1359	141213_4	Siennica - miasto	678815	472328
+1360	141213_5	Siennica - obszar wiejski	673454	474973
+1361	141214_2	Stanisławów - gmina wiejska	673270	489422
+1362	141215_1	Sulejówek - gmina miejska	658079	488524
+1363	141301_1	Mława - gmina miejska	589856	589389
+1364	141302_2	Dzierzgowo - gmina wiejska	608382	585379
+1365	141303_2	Lipowiec Kościelny - gmina wiejska	581606	587887
+1366	141304_2	Radzanów - gmina wiejska	571558	561086
+1367	141305_2	Strzegowo - gmina wiejska	589169	555993
+1368	141306_2	Stupsk - gmina wiejska	598559	570275
+1369	141307_2	Szreńsk - gmina wiejska	571199	570281
+1370	141308_2	Szydłowo - gmina wiejska	603986	581331
+1371	141309_2	Wieczfnia Kościelna - gmina wiejska	597132	592676
+1372	141310_2	Wiśniewo - gmina wiejska	585484	574978
+1373	141401_1	Nowy Dwór Mazowiecki - gmina miejska	616904	508640
+1374	141402_2	Czosnów - gmina wiejska	610300	505600
+1375	141403_2	Leoncin - gmina wiejska	606763	507581
+1376	141404_4	Nasielsk - miasto	623587	526116
+1377	141404_5	Nasielsk - obszar wiejski	621045	524935
+1378	141405_2	Pomiechówek - gmina wiejska	626620	516262
+1379	141406_4	Zakroczym - miasto	609457	509985
+1380	141406_5	Zakroczym - obszar wiejski	607178	510835
+1381	141501_2	Baranowo - gmina wiejska	652390	593833
+1382	141502_2	Czarnia - gmina wiejska	644358	607226
+1383	141503_2	Czerwin - gmina wiejska	687451	564667
+1384	141504_2	Goworowo - gmina wiejska	672035	570461
+1385	141505_2	Kadzidło - gmina wiejska	675908	601946
+1386	141506_2	Lelis - gmina wiejska	679855	590633
+1387	141507_2	Łyse - gmina wiejska	669126	609620
+1388	141508_4	Myszyniec - miasto	658640	615184
+1389	141508_5	Myszyniec - obszar wiejski	652497	618114
+1390	141509_2	Olszewo-Borki - gmina wiejska	659079	586734
+1391	141510_2	Rzekuń - gmina wiejska	676927	581194
+1392	141511_2	Troszyn - gmina wiejska	685547	577867
+1393	141601_1	Ostrów Mazowiecka - gmina miejska	694052	550220
+1394	141602_2	Andrzejewo - gmina wiejska	707904	554872
+1395	141603_2	Boguty-Pianki - gmina wiejska	729292	544216
+1396	141604_4	Brok - miasto	695011	540633
+1397	141604_5	Brok - obszar wiejski	687368	538791
+1398	141605_2	Małkinia Górna - gmina wiejska	702148	540396
+1399	141606_2	Nur - gmina wiejska	723230	540653
+1400	141607_2	Ostrów Mazowiecka - gmina wiejska	690473	563552
+1401	141608_2	Stary Lubotyń - gmina wiejska	696110	564769
+1402	141609_2	Szulborze Wielkie - gmina wiejska	716094	548155
+1403	141610_2	Wąsewo - gmina wiejska	676109	556000
+1404	141611_2	Zaręby Kościelne - gmina wiejska	717557	544696
+1405	141701_1	Józefów - gmina miejska	652588	476923
+1406	141702_1	Otwock - gmina miejska	658667	476420
+1407	141703_2	Celestynów - gmina wiejska	664420	469800
+1408	141704_4	Karczew - miasto	657302	470390
+1409	141704_5	Karczew - obszar wiejski	653293	462093
+1410	141705_2	Kołbiel - gmina wiejska	666592	469453
+1411	141706_4	Osieck - miasto	664487	458552
+1412	141706_5	Osieck - obszar wiejski	667530	453529
+1413	141707_2	Sobienie-Jeziory - gmina wiejska	665977	453451
+1414	141708_2	Wiązowna - gmina wiejska	661045	478108
+1415	141801_4	Góra Kalwaria - miasto	652416	457848
+1416	141801_5	Góra Kalwaria - obszar wiejski	644224	461961
+1417	141802_4	Konstancin-Jeziorna - miasto	642508	470589
+1418	141802_5	Konstancin-Jeziorna - obszar wiejski	647300	469430
+1419	141803_2	Lesznowola - gmina wiejska	627916	468727
+1420	141804_4	Piaseczno - miasto	640546	470829
+1421	141804_5	Piaseczno - obszar wiejski	633145	464040
+1422	141805_2	Prażmów - gmina wiejska	641779	456014
+1423	141806_4	Tarczyn - miasto	626874	460898
+1424	141806_5	Tarczyn - obszar wiejski	627631	459761
+1425	141901_2	Bielsk - gmina wiejska	550758	529329
+1426	141902_4	Bodzanów - miasto	569784	515254
+1427	141902_5	Bodzanów - obszar wiejski	563606	514997
+1428	141903_2	Brudzeń Duży - gmina wiejska	531314	536653
+1429	141904_2	Bulkowo - gmina wiejska	576146	527341
+1430	141905_4	Drobin - miasto	566362	540774
+1431	141905_5	Drobin - obszar wiejski	568323	536681
+1432	141906_4	Gąbin - miasto	551128	504352
+1433	141906_5	Gąbin - obszar wiejski	557238	503082
+1434	141907_2	Łąck - gmina wiejska	539860	509740
+1435	141908_2	Mała Wieś - gmina wiejska	579997	511386
+1436	141909_2	Nowy Duninów - gmina wiejska	536928	518412
+1437	141910_2	Radzanowo - gmina wiejska	560200	526195
+1438	141911_2	Słubice - gmina wiejska	564650	498703
+1439	141912_2	Słupno - gmina wiejska	556596	513044
+1440	141913_2	Stara Biała - gmina wiejska	549565	525735
+1441	141914_2	Staroźreby - gmina wiejska	572495	528549
+1442	141915_4	Wyszogród - miasto	581686	504574
+1443	141915_5	Wyszogród - obszar wiejski	581892	517341
+1444	142001_1	Płońsk - gmina miejska	592139	527817
+1445	142002_1	Raciąż - gmina miejska	575796	545998
+1446	142003_2	Baboszewo - gmina wiejska	581656	540386
+1447	142004_4	Czerwińsk nad Wisłą - miasto	588942	505891
+1448	142004_5	Czerwińsk nad Wisłą - obszar wiejski	593352	508493
+1449	142005_2	Dzierzążnia - gmina wiejska	579132	528687
+1450	142006_2	Joniec - gmina wiejska	603334	525321
+1451	142007_2	Naruszewo - gmina wiejska	586104	516336
+1452	142008_4	Nowe Miasto - miasto	608575	535249
+1453	142008_5	Nowe Miasto - obszar wiejski	607153	537552
+1454	142009_2	Płońsk - gmina wiejska	590794	534472
+1455	142010_2	Raciąż - gmina wiejska	567680	546492
+1456	142011_4	Sochocin - miasto	599683	536350
+1457	142011_5	Sochocin - obszar wiejski	602509	532964
+1458	142012_2	Załuski - gmina wiejska	599820	514378
+1459	142101_1	Piastów - gmina miejska	626232	480896
+1460	142102_1	Pruszków - gmina miejska	623952	481120
+1461	142103_4	Brwinów - miasto	619045	477843
+1462	142103_5	Brwinów - obszar wiejski	614158	479888
+1463	142104_2	Michałowice - gmina wiejska	625402	478400
+1464	142105_2	Nadarzyn - gmina wiejska	620624	470257
+1465	142106_2	Raszyn - gmina wiejska	628944	476004
+1466	142201_1	Przasnysz - gmina miejska	627550	576190
+1467	142202_4	Chorzele - miasto	626513	600024
+1468	142202_5	Chorzele - obszar wiejski	629748	605148
+1469	142203_2	Czernice Borowe - gmina wiejska	621094	573464
+1470	142204_2	Jednorożec - gmina wiejska	641330	585981
+1471	142205_2	Krasne - gmina wiejska	625339	565467
+1472	142206_2	Krzynowłoga Mała - gmina wiejska	618667	587540
+1473	142207_2	Przasnysz - gmina wiejska	630805	577000
+1474	142301_2	Borkowice - gmina wiejska	616005	378426
+1475	142302_4	Gielniów - miasto	605807	392065
+1476	142302_5	Gielniów - obszar wiejski	608138	392144
+1477	142303_2	Klwów - gmina wiejska	612247	402936
+1478	142304_4	Odrzywół - miasto	607925	405905
+1479	142304_5	Odrzywół - obszar wiejski	603026	414382
+1480	142305_2	Potworów - gmina wiejska	619347	398175
+1481	142306_4	Przysucha - miasto	613614	387262
+1482	142306_5	Przysucha - obszar wiejski	618620	397515
+1483	142307_2	Rusinów - gmina wiejska	608560	403220
+1484	142308_2	Wieniawa - gmina wiejska	625863	388034
+1485	142401_2	Gzy - gmina wiejska	634682	543491
+1486	142402_2	Obryte - gmina wiejska	644646	540059
+1487	142403_2	Pokrzywnica - gmina wiejska	638596	524549
+1488	142404_4	Pułtusk - miasto	640490	539594
+1489	142404_5	Pułtusk - obszar wiejski	640616	543932
+1490	142405_2	Świercze - gmina wiejska	618513	533533
+1491	142406_2	Winnica - gmina wiejska	632957	533410
+1492	142407_2	Zatory - gmina wiejska	643274	524923
+1493	142501_1	Pionki - gmina miejska	669878	401776
+1494	142502_2	Gózd - gmina wiejska	658257	392817
+1495	142503_4	Iłża - miasto	657352	370350
+1496	142503_5	Iłża - obszar wiejski	647745	368125
+1497	142504_2	Jastrzębia - gmina wiejska	659296	411150
+1498	142505_2	Jedlińsk - gmina wiejska	647589	413804
+1499	142506_4	Jedlnia-Letnisko - miasto	663137	399451
+1500	142506_5	Jedlnia-Letnisko - obszar wiejski	666175	397457
+1501	142507_2	Kowala - gmina wiejska	650540	387094
+1502	142508_2	Pionki - gmina wiejska	674608	397479
+1503	142509_4	Przytyk- miasto	631410	400669
+1504	142509_5	Przytyk - obszar wiejski	630173	405184
+1505	142510_4	Skaryszew - miasto	656698	381596
+1506	142510_5	Skaryszew - obszar wiejski	650399	380700
+1507	142511_2	Wierzbica - gmina wiejska	645326	381931
+1508	142512_2	Wolanów - gmina wiejska	635882	395516
+1509	142513_2	Zakrzew - gmina wiejska	637402	401097
+1510	142601_2	Domanice - gmina wiejska	711495	465095
+1511	142602_2	Korczew - gmina wiejska	747123	507838
+1512	142603_2	Kotuń - gmina wiejska	702618	479321
+1513	142604_2	Mokobody - gmina wiejska	718362	490784
+1514	142605_4	Mordy - miasto	741200	488128
+1515	142605_5	Mordy - obszar wiejski	741453	486309
+1516	142606_2	Paprotnia - gmina wiejska	731509	496976
+1517	142607_2	Przesmyki - gmina wiejska	750707	497904
+1518	142608_2	Siedlce - gmina wiejska	727424	481215
+1519	142609_2	Skórzec - gmina wiejska	717628	479906
+1520	142610_2	Suchożebry - gmina wiejska	718972	495821
+1521	142611_2	Wiśniew - gmina wiejska	729503	470964
+1522	142612_2	Wodynie - gmina wiejska	709400	466981
+1523	142613_2	Zbuczyn - gmina wiejska	732339	471866
+1524	142701_1	Sierpc - gmina miejska	543701	554516
+1525	142702_2	Gozdowo - gmina wiejska	543405	543460
+1526	142703_2	Mochowo - gmina wiejska	538787	549970
+1527	142704_2	Rościszewo - gmina wiejska	548133	560500
+1528	142705_2	Sierpc - gmina wiejska	538697	554045
+1529	142706_2	Szczutowo - gmina wiejska	540075	558676
+1530	142707_2	Zawidz - gmina wiejska	558617	552267
+1531	142801_1	Sochaczew - gmina miejska	585560	486493
+1532	142802_2	Brochów - gmina wiejska	592065	494812
+1533	142803_2	Iłów - gmina wiejska	571886	490454
+1534	142804_2	Młodzieszyn - gmina wiejska	585696	492414
+1535	142805_2	Nowa Sucha - gmina wiejska	575812	476419
+1536	142806_2	Rybno - gmina wiejska	574335	481550
+1537	142807_2	Sochaczew - gmina wiejska	589200	488668
+1538	142808_2	Teresin - gmina wiejska	592179	481694
+1539	142901_1	Sokołów Podlaski - gmina miejska	722269	508333
+1540	142902_2	Bielany - gmina wiejska	714913	500156
+1541	142903_2	Ceranów - gmina wiejska	716495	530978
+1542	142904_2	Jabłonna Lacka - gmina wiejska	734031	526058
+1543	142905_4	Kosów Lacki - miasto	712374	528810
+1544	142905_5	Kosów Lacki - obszar wiejski	707847	538476
+1545	142906_2	Repki - gmina wiejska	725737	513238
+1546	142907_2	Sabnie - gmina wiejska	722723	515917
+1547	142908_2	Sokołów Podlaski - gmina wiejska	714934	519554
+1548	142909_2	Sterdyń - gmina wiejska	730424	530553
+1549	143001_2	Chlewiska - gmina wiejska	620573	377915
+1550	143002_4	Jastrząb - miasto	638638	375613
+1551	143002_5	Jastrząb - obszar wiejski	637490	374613
+1552	143003_2	Mirów - gmina wiejska	642143	370499
+1553	143004_2	Orońsko - gmina wiejska	635973	386994
+1554	143005_4	Szydłowiec - miasto	626670	372716
+1555	143005_5	Szydłowiec - obszar wiejski	625500	368055
+1556	143201_4	Błonie - miasto	611057	482125
+1557	143201_5	Błonie - obszar wiejski	611886	485131
+1558	143202_2	Izabelin - gmina wiejska	615802	496238
+1559	143203_2	Kampinos - gmina wiejska	597212	495324
+1560	143204_2	Leszno - gmina wiejska	603273	487537
+1561	143205_4	Łomianki - miasto	627837	497479
+1562	143205_5	Łomianki - obszar wiejski	630353	499479
+1563	143206_4	Ożarów Mazowiecki - miasto	624934	485144
+1564	143206_5	Ożarów Mazowiecki - obszar wiejski	618060	481754
+1565	143207_2	Stare Babice - gmina wiejska	626024	490744
+1566	143301_1	Węgrów - gmina miejska	707738	508996
+1567	143302_2	Grębków - gmina wiejska	706106	488087
+1568	143303_2	Korytnica - gmina wiejska	696243	506310
+1569	143304_2	Liw - gmina wiejska	703460	504172
+1570	143305_4	Łochów - miasto	682171	520141
+1571	143305_5	Łochów - obszar wiejski	684393	528247
+1572	143306_2	Miedzna - gmina wiejska	704006	517840
+1573	143307_2	Sadowne - gmina wiejska	689072	533551
+1574	143308_2	Stoczek - gmina wiejska	692408	525337
+1575	143309_2	Wierzbno - gmina wiejska	700628	499104
+1576	143401_1	Kobyłka - gmina miejska	649469	496637
+1577	143402_1	Marki - gmina miejska	642885	499698
+1578	143403_1	Ząbki - gmina miejska	644258	495217
+1579	143404_1	Zielonka - gmina miejska	653398	492250
+1580	143405_2	Dąbrówka - gmina wiejska	651516	520823
+1581	143406_4	Jadów - miasto	679344	516937
+1582	143406_5	Jadów - obszar wiejski	683848	516408
+1583	143407_2	Klembów - gmina wiejska	659723	511597
+1584	143408_2	Poświętne - gmina wiejska	664950	500705
+1585	143409_4	Radzymin - miasto	646952	510480
+1586	143409_5	Radzymin - obszar wiejski	644798	514361
+1587	143410_2	Strachówka - gmina wiejska	673201	501042
+1588	143411_4	Tłuszcz - miasto	665069	509981
+1589	143411_5	Tłuszcz - obszar wiejski	670318	506094
+1590	143412_4	Wołomin - miasto	654180	500698
+1591	143412_5	Wołomin - obszar wiejski	657428	499250
+1592	143501_2	Brańszczyk - gmina wiejska	673254	536180
+1593	143502_2	Długosiodło - gmina wiejska	678310	547824
+1594	143503_2	Rząśnik - gmina wiejska	657429	532501
+1595	143504_2	Somianka - gmina wiejska	656807	529315
+1596	143505_4	Wyszków - miasto	666335	526178
+1597	143505_5	Wyszków - obszar wiejski	675546	524794
+1598	143506_2	Zabrodzie - gmina wiejska	658244	519412
+1599	143601_4	Kazanów - miasto	671954	380565
+1600	143601_5	Kazanów - obszar wiejski	667359	380920
+1601	143602_2	Policzna - gmina wiejska	681918	397321
+1602	143603_2	Przyłęk - gmina wiejska	689078	394219
+1603	143604_2	Tczów - gmina wiejska	665846	386915
+1604	143605_4	Zwoleń - miasto	678365	390084
+1605	143605_5	Zwoleń - obszar wiejski	687689	391787
+1606	143701_4	Bieżuń - miasto	560141	566682
+1607	143701_5	Bieżuń - obszar wiejski	562995	561532
+1608	143702_2	Kuczbork-Osada - gmina wiejska	571678	576807
+1609	143703_4	Lubowidz - miasto	556247	584240
+1610	143703_5	Lubowidz - obszar wiejski	558492	589659
+1611	143704_2	Lutocin - gmina wiejska	546747	570344
+1612	143705_2	Siemiątkowo - gmina wiejska	573049	559233
+1613	143706_4	Żuromin - miasto	559468	577788
+1614	143706_5	Żuromin - obszar wiejski	564054	572733
+1615	143801_1	Żyrardów - gmina miejska	600490	466010
+1616	143802_4	Mszczonów - miasto	605546	457723
+1617	143802_5	Mszczonów - obszar wiejski	612207	448784
+1618	143803_2	Puszcza Mariańska - gmina wiejska	596978	456648
+1619	143804_2	Radziejowice - gmina wiejska	602674	462847
+1620	143805_4	Wiskitki - miasto	593819	469287
+1621	143805_5	Wiskitki - obszar wiejski	593048	470067
+1622	146101_1	Ostrołęka - gmina miejska	676986	583740
+1623	146201_1	Płock - gmina miejska	548304	524069
+1624	146301_1	Radom - gmina miejska	651036	397858
+1625	146401_1	Siedlce - gmina miejska	721781	483724
+1626	146502_8	Bemowo - dzielnica	631229	490906
+1627	146503_8	Białołęka - dzielnica	635506	499248
+1628	146504_8	Bielany - dzielnica	630655	496199
+1629	146505_8	Mokotów - dzielnica	640474	480221
+1630	146506_8	Ochota - dzielnica	634568	484988
+1631	146507_8	Praga-Południe - dzielnica	643875	487210
+1632	146508_8	Praga-Północ - dzielnica	639406	490259
+1633	146509_8	Rembertów - dzielnica	644629	490332
+1634	146510_8	Śródmieście - dzielnica	637031	485074
+1635	146511_8	Targówek - dzielnica	641882	494463
+1636	146512_8	Ursus - dzielnica	628346	482769
+1637	146513_8	Ursynów - dzielnica	638177	478556
+1638	146514_8	Wawer - dzielnica	650732	482013
+1639	146515_8	Wesoła - dzielnica	653670	485665
+1640	146516_8	Wilanów - dzielnica	643290	480397
+1641	146517_8	Włochy - dzielnica	634269	479975
+1642	146518_8	Wola - dzielnica	633757	488315
+1643	146519_8	Żoliborz - dzielnica	634282	490802
+1644	160101_1	Brzeg - gmina miejska	389986	334133
+1645	160102_2	GMINA SKARBIMIERZ	399877	328064
+1646	160103_4	Grodków - miasto	388024	314386
+1647	160103_5	Grodków - obszar wiejski	388893	319259
+1648	160104_4	Lewin Brzeski - miasto	402204	319982
+1649	160104_5	Lewin Brzeski - obszar wiejski	409489	322040
+1650	160105_2	Lubsza - gmina wiejska	395555	343971
+1651	160106_2	Olszanka - gmina wiejska	390831	326799
+1652	160201_4	Baborów - miasto	427962	255149
+1653	160201_5	Baborów - obszar wiejski	426372	260829
+1654	160202_2	Branice - gmina wiejska	411594	247280
+1655	160203_4	Głubczyce - miasto	417908	261198
+1656	160203_5	Głubczyce - obszar wiejski	420702	267568
+1657	160204_4	Kietrz - miasto	429939	246648
+1658	160204_5	Kietrz - obszar wiejski	428785	242218
+1659	160301_1	Kędzierzyn-Koźle - gmina miejska	446499	274852
+1660	160302_2	Bierawa - gmina wiejska	449984	268342
+1661	160303_2	Cisek - gmina wiejska	442136	258334
+1662	160304_2	Pawłowiczki - gmina wiejska	424851	263679
+1663	160305_2	Polska Cerekiew - gmina wiejska	438300	265826
+1664	160306_2	Reńska Wieś - gmina wiejska	437391	270996
+1665	160401_4	Byczyna - miasto	444604	360273
+1666	160401_5	Byczyna - obszar wiejski	448921	363748
+1667	160402_4	Kluczbork - miasto	444521	345385
+1668	160402_5	Kluczbork - obszar wiejski	441362	346639
+1669	160403_2	Lasowice Wielkie - gmina wiejska	446151	335491
+1670	160404_4	Wołczyn - miasto	433825	350609
+1671	160404_5	Wołczyn - obszar wiejski	434458	353493
+1672	160501_4	Gogolin - miasto	431826	289426
+1673	160501_5	Gogolin - obszar wiejski	431920	293855
+1674	160502_4	Krapkowice - miasto	425044	292192
+1675	160502_5	Krapkowice - obszar wiejski	423109	297633
+1676	160503_4	Strzeleczki- miasto	418356	289199
+1677	160503_5	Strzeleczki - obszar wiejski	413720	291016
+1678	160504_2	Walce - gmina wiejska	426788	283201
+1679	160505_4	Zdzieszowice - miasto	437190	284795
+1680	160505_5	Zdzieszowice - obszar wiejski	433258	285506
+1681	160601_2	Domaszowice - gmina wiejska	424002	351170
+1682	160602_4	Namysłów - miasto	411804	358188
+1683	160602_5	Namysłów - obszar wiejski	414765	369107
+1684	160603_2	Pokój - gmina wiejska	417819	333971
+1685	160604_2	Świerczów - gmina wiejska	419803	347572
+1686	160605_2	Wilków - gmina wiejska	405703	361918
+1687	160701_4	Głuchołazy - miasto	384960	273710
+1688	160701_5	Głuchołazy - obszar wiejski	389667	275162
+1689	160702_2	Kamiennik - gmina wiejska	362895	298939
+1690	160703_4	Korfantów - miasto	401663	292862
+1691	160703_5	Korfantów - obszar wiejski	396067	287186
+1692	160704_2	Łambinowice - gmina wiejska	392750	293455
+1693	160705_4	Nysa - miasto	379983	291944
+1694	160705_5	Nysa - obszar wiejski	383015	296156
+1695	160706_4	Otmuchów - miasto	369920	293417
+1696	160706_5	Otmuchów - obszar wiejski	370805	296445
+1697	160707_4	Paczków - miasto	359596	289890
+1698	160707_5	Paczków - obszar wiejski	362426	286361
+1699	160708_2	Pakosławice - gmina wiejska	377636	301212
+1700	160709_2	Skoroszyce - gmina wiejska	384043	306154
+1701	160801_4	Dobrodzień - miasto	459494	317318
+1702	160801_5	Dobrodzień - obszar wiejski	465546	323869
+1703	160802_4	Gorzów Śląski - miasto	456573	352838
+1704	160802_5	Gorzów Śląski - obszar wiejski	453674	361132
+1705	160803_4	Olesno - miasto	458840	334738
+1706	160803_5	Olesno - obszar wiejski	467761	333977
+1707	160804_4	Praszka - miasto	461242	353565
+1708	160804_5	Praszka - obszar wiejski	468650	362180
+1709	160805_2	Radłów - gmina wiejska	471553	344039
+1710	160806_2	Rudniki - gmina wiejska	478117	350039
+1711	160807_2	Zębowice - gmina wiejska	457944	325901
+1712	160901_2	Chrząstowice - gmina wiejska	432556	311768
+1713	160902_2	Dąbrowa - gmina wiejska	414642	321232
+1714	160903_2	Dobrzeń Wielki - gmina wiejska	423244	328784
+1715	160904_2	Komprachcice - gmina wiejska	414765	304231
+1716	160905_2	Łubniany - gmina wiejska	435885	324767
+1717	160906_2	Murów - gmina wiejska	428149	334037
+1718	160907_4	Niemodlin - miasto	403005	307542
+1719	160907_5	Niemodlin - obszar wiejski	398301	311850
+1720	160908_4	Ozimek - miasto	444313	312434
+1721	160908_5	Ozimek - obszar wiejski	441757	315554
+1722	160909_2	Popielów - gmina wiejska	405466	332792
+1723	160910_4	Prószków - miasto	422019	301937
+1724	160910_5	Prószków - obszar wiejski	424300	305457
+1725	160911_2	Tarnów Opolski - gmina wiejska	433669	304437
+1726	160912_4	Tułowice - miasto	403596	304297
+1727	160912_5	Tułowice - obszar wiejski	411688	307404
+1728	160913_2	Turawa - gmina wiejska	438218	326408
+1729	161001_4	Biała - miasto	404654	277775
+1730	161001_5	Biała - obszar wiejski	411003	290786
+1731	161002_4	Głogówek - miasto	420730	276431
+1732	161002_5	Głogówek - obszar wiejski	424776	274063
+1733	161003_2	Lubrza - gmina wiejska	404261	276764
+1734	161004_4	Prudnik - miasto	396771	269793
+1735	161004_5	Prudnik - obszar wiejski	396211	282385
+1736	161101_2	Izbicko - gmina wiejska	440529	302677
+1737	161102_2	Jemielnica - gmina wiejska	459308	300306
+1738	161103_4	Kolonowskie - miasto	461001	306787
+1739	161103_5	Kolonowskie - obszar wiejski	450514	307613
+1740	161104_4	Leśnica - miasto	442785	285209
+1741	161104_5	Leśnica - obszar wiejski	446388	286091
+1742	161105_4	Strzelce Opolskie - miasto	450480	295209
+1743	161105_5	Strzelce Opolskie - obszar wiejski	444377	295314
+1744	161106_4	Ujazd - miasto	455551	282619
+1745	161106_5	Ujazd - obszar wiejski	449232	287853
+1746	161107_4	Zawadzkie - miasto	464399	304257
+1747	161107_5	Zawadzkie - obszar wiejski	468596	305459
+1748	166101_1	Opole - gmina miejska	425243	307894
+1749	180103_2	Czarna - gmina wiejska	758349	167918
+1750	180105_2	Lutowiska - gmina wiejska	779454	135535
+1751	180108_4	Ustrzyki Dolne - miasto	761235	178148
+1752	180108_5	Ustrzyki Dolne - obszar wiejski	758788	184923
+1753	180201_4	Brzozów - miasto	716615	206778
+1754	180201_5	Brzozów - obszar wiejski	720545	204919
+1755	180202_2	Domaradz - gmina wiejska	717443	214987
+1756	180203_2	Dydnia - gmina wiejska	733071	203425
+1757	180204_2	Haczów - gmina wiejska	706424	202515
+1758	180205_2	Jasienica Rosielna - gmina wiejska	707866	213903
+1759	180206_2	Nozdrzec - gmina wiejska	723534	212606
+1760	180301_1	Dębica - gmina miejska	674696	246372
+1761	180302_4	Brzostek - miasto	674284	224923
+1762	180302_5	Brzostek - obszar wiejski	674140	224105
+1763	180303_2	Czarna - gmina wiejska	659744	245965
+1764	180304_2	Dębica - gmina wiejska	676463	245310
+1765	180305_2	Jodłowa - gmina wiejska	668216	222827
+1766	180306_4	Pilzno - miasto	662649	235180
+1767	180306_5	Pilzno - obszar wiejski	672801	236095
+1768	180307_2	Żyraków - gmina wiejska	668888	255927
+1769	180401_1	Jarosław - gmina miejska	763904	250403
+1770	180402_1	Radymno - gmina miejska	776390	238244
+1771	180403_2	Chłopice - gmina wiejska	759994	238589
+1772	180404_2	Jarosław - gmina wiejska	769634	245306
+1773	180405_2	Laszki - gmina wiejska	776391	249423
+1774	180406_2	Pawłosiów - gmina wiejska	756722	243305
+1775	180407_4	Pruchnik - miasto	751687	229936
+1776	180407_5	Pruchnik - obszar wiejski	751320	234082
+1777	180408_2	Radymno - gmina wiejska	777702	238321
+1778	180409_2	Rokietnica - gmina wiejska	759054	233097
+1779	180410_2	Roźwienica - gmina wiejska	754413	225546
+1780	180411_2	Wiązownica - gmina wiejska	771611	260289
+1781	180501_1	Jasło - gmina miejska	673721	212969
+1782	180502_2	Brzyska - gmina wiejska	668708	220787
+1783	180503_2	Dębowiec - gmina wiejska	669363	194418
+1784	180504_2	Jasło - gmina wiejska	676870	207604
+1785	180505_4	Kołaczyce - miasto	674981	216627
+1786	180505_5	Kołaczyce - obszar wiejski	679554	216869
+1787	180506_2	Krempna - gmina wiejska	674699	182979
+1788	180507_2	Nowy Żmigród - gmina wiejska	678970	192095
+1789	180508_2	Osiek Jasielski - gmina wiejska	678438	199171
+1790	180509_2	Skołyszyn - gmina wiejska	664761	216144
+1791	180511_2	Tarnowiec - gmina wiejska	684586	203642
+1792	180601_2	Cmolas - gmina wiejska	689229	278463
+1793	180602_4	Kolbuszowa - miasto	697930	267543
+1794	180602_5	Kolbuszowa - obszar wiejski	702012	269675
+1795	180603_2	Majdan Królewski - gmina wiejska	698855	289835
+1796	180604_2	Niwiska - gmina wiejska	687721	263676
+1797	180605_2	Raniżów - gmina wiejska	708953	277396
+1798	180606_2	Dzikowiec - gmina wiejska	706289	278232
+1799	180701_2	Chorkówka - gmina wiejska	693021	203603
+1800	180702_4	Dukla - miasto	693293	188627
+1801	180702_5	Dukla - obszar wiejski	698975	184795
+1802	180703_4	Iwonicz-Zdrój - miasto	701732	192371
+1803	180703_5	Iwonicz-Zdrój - obszar wiejski	700758	186078
+1804	180704_4	Jedlicze - miasto	691662	209373
+1805	180704_5	Jedlicze - obszar wiejski	690418	205806
+1806	180705_2	Korczyna - gmina wiejska	704909	208498
+1807	180706_2	Krościenko Wyżne - gmina wiejska	704848	206331
+1808	180707_2	Miejsce Piastowe - gmina wiejska	697709	199866
+1809	180708_4	Rymanów - miasto	708044	193391
+1810	180708_5	Rymanów - obszar wiejski	709274	192997
+1811	180709_2	Wojaszówka - gmina wiejska	689688	215445
+1812	180710_2	Jaśliska - gmina wiejska	713129	171450
+1813	180801_1	Leżajsk - gmina miejska	743650	272563
+1814	180802_2	Grodzisko Dolne - gmina wiejska	749546	258057
+1815	180803_2	Kuryłówka - gmina wiejska	744721	277405
+1816	180804_2	Leżajsk - gmina wiejska	740711	277769
+1817	180805_4	Nowa Sarzyna - miasto	735928	277931
+1818	180805_5	Nowa Sarzyna - obszar wiejski	728572	276609
+1819	180901_1	Lubaczów - gmina miejska	792095	264497
+1820	180902_4	Cieszanów - miasto	793328	272310
+1821	180902_5	Cieszanów - obszar wiejski	804848	272319
+1822	180903_2	Horyniec-Zdrój - gmina wiejska	817990	278837
+1823	180904_2	Lubaczów - gmina wiejska	800158	266660
+1824	180905_4	Narol - miasto	803608	286887
+1825	180905_5	Narol - obszar wiejski	811191	280906
+1826	180906_4	Oleszyce - miasto	788898	263677
+1827	180906_5	Oleszyce - obszar wiejski	782831	253405
+1828	180907_2	Stary Dzików - gmina wiejska	771462	268550
+1829	180908_2	Wielkie Oczy - gmina wiejska	793330	253201
+1830	181001_1	Łańcut - gmina miejska	731528	248667
+1831	181002_2	Białobrzegi - gmina wiejska	733233	254677
+1832	181003_2	Czarna - gmina wiejska	723595	259836
+1833	181004_2	Łańcut - gmina wiejska	730105	245655
+1834	181005_2	Markowa - gmina wiejska	735850	238495
+1835	181006_2	Rakszawa - gmina wiejska	731874	266591
+1836	181007_2	Żołynia - gmina wiejska	733820	261453
+1837	181101_1	Mielec - gmina miejska	672596	271410
+1838	181102_2	Borowa - gmina wiejska	666956	281074
+1839	181103_2	Czermin - gmina wiejska	658845	273724
+1840	181104_2	Gawłuszowice - gmina wiejska	671488	280790
+1841	181105_2	Mielec - gmina wiejska	672694	278849
+1842	181106_2	Padew Narodowa - gmina wiejska	676349	287397
+1843	181107_4	Przecław - miasto	671940	260994
+1844	181107_5	Przecław - obszar wiejski	672141	263948
+1845	181108_4	Radomyśl Wielki - miasto	662552	261283
+1846	181108_5	Radomyśl Wielki - obszar wiejski	663708	262576
+1847	181109_2	Tuszów Narodowy - gmina wiejska	683937	279433
+1848	181110_2	Wadowice Górne - gmina wiejska	655993	271859
+1849	181201_2	Harasiuki - gmina wiejska	742957	305838
+1850	181202_2	Jarocin - gmina wiejska	738654	309544
+1851	181203_2	Jeżowe - gmina wiejska	712479	276224
+1852	181204_2	Krzeszów - gmina wiejska	737609	288568
+1853	181205_4	Nisko - miasto	723773	294437
+1854	181205_5	Nisko - obszar wiejski	724985	300352
+1855	181206_4	Rudnik nad Sanem - miasto	730025	290267
+1856	181206_5	Rudnik nad Sanem - obszar wiejski	727156	296576
+1857	181207_4	Ulanów - miasto	731940	296643
+1858	181207_5	Ulanów - obszar wiejski	734914	294426
+1859	181301_4	Bircza- miasto	751256	207883
+1860	181301_5	Bircza - obszar wiejski	747023	200271
+1861	181302_4	Dubiecko - miasto	744713	224228
+1862	181302_5	Dubiecko - obszar wiejski	742319	223075
+1863	181303_2	Fredropol - gmina wiejska	770084	212595
+1864	181304_2	Krasiczyn - gmina wiejska	760061	212732
+1865	181305_2	Krzywcza - gmina wiejska	756634	219022
+1866	181306_2	Medyka - gmina wiejska	779628	220495
+1867	181307_2	Orły - gmina wiejska	768614	229236
+1868	181308_2	Przemyśl - gmina wiejska	766094	218695
+1869	181309_2	Stubno - gmina wiejska	784237	229342
+1870	181310_2	Żurawica - gmina wiejska	765496	228774
+1871	181401_1	Przeworsk - gmina miejska	751089	247709
+1872	181402_2	Adamówka - gmina wiejska	766774	273987
+1873	181403_2	Gać - gmina wiejska	742022	242870
+1874	181404_4	Jawornik Polski- miasto	736756	229793
+1875	181404_5	Jawornik Polski - obszar wiejski	736291	231324
+1876	181405_4	Kańczuga - miasto	743545	240647
+1877	181405_5	Kańczuga - obszar wiejski	744032	234678
+1878	181406_2	Przeworsk - gmina wiejska	748923	253811
+1879	181407_4	Sieniawa - miasto	755190	263777
+1880	181407_5	Sieniawa - obszar wiejski	758038	266995
+1881	181408_2	Tryńcza - gmina wiejska	753184	254485
+1882	181409_2	Zarzecze - gmina wiejska	750760	244542
+1883	181501_2	Iwierzyce	695148	245236
+1884	181502_2	Ostrów	687327	259932
+1885	181503_4	Ropczyce - Miasto	685660	240814
+1886	181503_5	Ropczyce - Obszar Wiejski	678949	246495
+1887	181504_4	Sędziszów Małopolski - Miasto	692509	249483
+1888	181504_5	Sędziszów Małopolski - Obszar Wiejski	694150	241871
+1889	181505_2	Wielopole Skrzyńskie	682181	232534
+1890	181601_1	Dynów - gmina miejska	731754	222951
+1891	181602_4	Błażowa - miasto	722680	229353
+1892	181602_5	Błażowa - obszar wiejski	721560	232858
+1893	181603_4	Boguchwała - miasto	710502	238404
+1894	181603_5	Boguchwała - obszar wiejski	704229	236958
+1895	181604_2	Chmielnik - gmina wiejska	724727	237403
+1896	181605_2	Dynów - gmina wiejska	730330	224570
+1897	181606_4	Głogów Małopolski - miasto	709653	261473
+1898	181606_5	Głogów Małopolski - obszar wiejski	711805	267926
+1899	181607_2	Hyżne - gmina wiejska	726761	231301
+1900	181608_2	Kamień - gmina wiejska	720309	276976
+1901	181609_2	Krasne - gmina wiejska	723712	244662
+1902	181610_2	Lubenia - gmina wiejska	708526	232299
+1903	181611_4	Sokołów Małopolski - miasto	719591	266457
+1904	181611_5	Sokołów Małopolski - obszar wiejski	720361	264681
+1905	181612_2	Świlcza - gmina wiejska	708085	252279
+1906	181613_2	Trzebownisko - gmina wiejska	720667	255504
+1907	181614_4	Tyczyn - miasto	717814	236581
+1908	181614_5	Tyczyn - obszar wiejski	718426	232254
+1909	181701_1	Sanok - gmina miejska	735895	196158
+1910	181702_2	Besko - gmina wiejska	712334	192987
+1911	181703_2	Bukowsko - gmina wiejska	722968	176572
+1912	181704_2	Komańcza - gmina wiejska	721371	164427
+1913	181705_2	Sanok - gmina wiejska	728770	200870
+1914	181706_2	Tyrawa Wołoska - gmina wiejska	738772	196029
+1915	181707_4	Zagórz - miasto	734243	186391
+1916	181707_5	Zagórz - obszar wiejski	731912	180449
+1917	181708_2	Zarszyn - gmina wiejska	718893	189624
+1918	181801_1	Stalowa Wola - gmina miejska	717909	303991
+1919	181802_2	Bojanów - gmina wiejska	703016	291025
+1920	181803_2	Pysznica - gmina wiejska	724904	304409
+1921	181804_2	Radomyśl nad Sanem - gmina wiejska	704414	327571
+1922	181805_4	Zaklików - miasto	718230	324833
+1923	181805_5	Zaklików - obszar wiejski	722653	329452
+1924	181806_2	Zaleszany - gmina wiejska	704098	317820
+1925	181901_2	Czudec - gmina wiejska	702932	232725
+1926	181902_2	Frysztak - gmina wiejska	686242	217921
+1927	181903_2	Niebylec - gmina wiejska	705387	224395
+1928	181904_4	Strzyżów - miasto	700012	228538
+1929	181904_5	Strzyżów - obszar wiejski	701430	224138
+1930	181905_2	Wiśniowa - gmina wiejska	688527	224203
+1931	182001_4	Baranów Sandomierski - miasto	679775	296897
+1932	182001_5	Baranów Sandomierski - obszar wiejski	684502	290811
+1933	182002_2	Gorzyce - gmina wiejska	701395	315596
+1934	182003_2	Grębów - gmina wiejska	703978	307376
+1935	182004_4	Nowa Dęba - miasto	697909	285701
+1936	182004_5	Nowa Dęba - obszar wiejski	691542	293312
+1937	182101_2	Baligród - gmina wiejska	733191	165005
+1938	182102_2	Cisna - gmina wiejska	753178	143167
+1939	182103_4	Lesko - miasto	743128	181357
+1940	182103_5	Lesko - obszar wiejski	746478	187842
+1941	182104_2	Olszanica - gmina wiejska	751630	190552
+1942	182105_2	Solina - gmina wiejska	749973	177868
+1943	186101_1	Krosno - gmina miejska	702509	202862
+1944	186201_1	Przemyśl - gmina miejska	771671	216904
+1945	186301_1	Rzeszów - gmina miejska	717240	248207
+1946	186401_1	Tarnobrzeg - gmina miejska	691860	310727
+1947	200101_1	Augustów - gmina miejska	764758	671900
+1948	200102_2	Augustów - gmina wiejska	763718	668676
+1949	200103_2	Bargłów Kościelny - gmina wiejska	757737	656460
+1950	200104_4	Lipsk - miasto	789667	662024
+1951	200104_5	Lipsk - obszar wiejski	798276	659684
+1952	200105_2	Nowinka - gmina wiejska	766965	689307
+1953	200106_2	Płaska - gmina wiejska	774468	682802
+1954	200107_2	Sztabin - gmina wiejska	771727	660609
+1955	200201_4	Choroszcz - miasto	767297	594998
+1956	200201_5	Choroszcz - obszar wiejski	758479	593406
+1957	200202_4	Czarna Białostocka - miasto	783977	612842
+1958	200202_5	Czarna Białostocka - obszar wiejski	789580	610088
+1959	200203_2	Dobrzyniewo Duże - gmina wiejska	762477	601423
+1960	200204_2	Gródek - gmina wiejska	798272	600464
+1961	200205_2	Juchnowiec Kościelny - gmina wiejska	777695	578610
+1962	200206_4	Łapy - miasto	759465	577725
+1963	200206_5	Łapy - obszar wiejski	759234	580518
+1964	200207_4	Michałowo - miasto	808900	584546
+1965	200207_5	Michałowo - obszar wiejski	823964	572029
+1966	200208_2	Poświętne - gmina wiejska	756984	563677
+1967	200209_4	Supraśl - miasto	792846	601850
+1968	200209_5	Supraśl - obszar wiejski	784081	596916
+1969	200210_4	Suraż - miasto	766887	572611
+1970	200210_5	Suraż - obszar wiejski	775153	571010
+1971	200211_2	Turośń Kościelna - gmina wiejska	770543	585948
+1972	200212_4	Tykocin - miasto	752158	599104
+1973	200212_5	Tykocin - obszar wiejski	754388	595222
+1974	200213_4	Wasilków - miasto	780410	601452
+1975	200213_5	Wasilków - obszar wiejski	775950	601002
+1976	200214_4	Zabłudów - miasto	792889	582013
+1977	200214_5	Zabłudów - obszar wiejski	789357	589522
+1978	200215_2	Zawady - gmina wiejska	740251	595951
+1979	200216_2	Grabówka - gmina wiejska	786391	591978
+1980	200301_1	Bielsk Podlaski - gmina miejska	784178	553248
+1981	200302_1	Brańsk - gmina miejska	760002	549010
+1982	200303_2	Bielsk Podlaski - gmina wiejska	771058	554153
+1983	200304_2	Boćki - gmina wiejska	772881	536724
+1984	200305_2	Brańsk - gmina wiejska	763734	543535
+1985	200306_2	Orla - gmina wiejska	789060	545289
+1986	200307_2	Rudka - gmina wiejska	754479	548515
+1987	200308_2	Wyszki - gmina wiejska	765365	562888
+1988	200401_1	Grajewo - gmina miejska	726164	646152
+1989	200402_2	Grajewo - gmina wiejska	733964	641833
+1990	200403_2	Radziłów - gmina wiejska	723679	618203
+1991	200404_4	Rajgród - miasto	745606	658964
+1992	200404_5	Rajgród - obszar wiejski	740945	649462
+1993	200405_4	Szczuczyn - miasto	716926	639432
+1994	200405_5	Szczuczyn - obszar wiejski	716133	633026
+1995	200406_2	Wąsosz - gmina wiejska	720625	630415
+1996	200501_1	Hajnówka - gmina miejska	810407	551543
+1997	200502_2	Białowieża - gmina wiejska	826517	543590
+1998	200503_2	Czeremcha - gmina wiejska	795284	525956
+1999	200504_2	Czyże - gmina wiejska	791656	565096
+2000	200505_2	Dubicze Cerkiewne - gmina wiejska	806710	534644
+2001	200506_2	Hajnówka - gmina wiejska	801820	549237
+2002	200507_4	Kleszczele - miasto	789235	533606
+2003	200507_5	Kleszczele - obszar wiejski	798071	532574
+2004	200508_2	Narew - gmina wiejska	806714	566601
+2005	200509_2	Narewka - gmina wiejska	819463	557940
+2006	200601_1	Kolno - gmina miejska	693387	619609
+2007	200602_2	Grabowo - gmina wiejska	712667	633150
+2008	200603_2	Kolno - gmina wiejska	700874	629139
+2009	200604_2	Mały Płock - gmina wiejska	697439	610412
+2010	200605_4	Stawiski - miasto	711447	618362
+2011	200605_5	Stawiski - obszar wiejski	706402	614903
+2012	200606_2	Turośl - gmina wiejska	674064	625388
+2013	200701_4	Jedwabne - miasto	719207	607562
+2014	200701_5	Jedwabne - obszar wiejski	722028	610219
+2015	200702_2	Łomża - gmina wiejska	719518	585840
+2016	200703_2	Miastkowo - gmina wiejska	685333	589644
+2017	200704_4	Nowogród - miasto	692455	598507
+2018	200704_5	Nowogród - obszar wiejski	696382	596051
+2019	200705_2	Piątnica - gmina wiejska	709105	605079
+2020	200706_2	Przytuły - gmina wiejska	724273	614793
+2021	200707_2	Śniadowo - gmina wiejska	693376	584162
+2022	200708_2	Wizna - gmina wiejska	727163	601600
+2023	200709_2	Zbójna - gmina wiejska	678250	606273
+2024	200801_4	Goniądz - miasto	748180	631850
+2025	200801_5	Goniądz - obszar wiejski	755090	641834
+2026	200802_2	Jasionówka - gmina wiejska	763847	623227
+2027	200803_2	Jaświły - gmina wiejska	759826	626958
+2028	200804_4	Knyszyn - miasto	761020	615683
+2029	200804_5	Knyszyn - obszar wiejski	760913	622859
+2030	200805_2	Krypno - gmina wiejska	752424	612615
+2031	200806_4	Mońki - miasto	754251	621689
+2032	200806_5	Mońki - obszar wiejski	749766	615151
+2033	200807_2	Trzcianne - gmina wiejska	743534	618068
+2034	200901_1	Sejny - gmina miejska	783802	701764
+2035	200902_2	Giby - gmina wiejska	771801	688223
+2036	200903_2	Krasnopol - gmina wiejska	768887	705871
+2037	200904_2	Puńsk - gmina wiejska	771634	713391
+2038	200905_2	Sejny - gmina wiejska	779935	709165
+2039	201001_1	Siemiatycze - gmina miejska	760116	512147
+2040	201002_4	Drohiczyn - miasto	747611	510627
+2041	201002_5	Drohiczyn - obszar wiejski	753874	511993
+2042	201003_2	Dziadkowice - gmina wiejska	771808	527810
+2043	201004_2	Grodzisk - gmina wiejska	750405	535980
+2044	201005_2	Mielnik - gmina wiejska	784183	505337
+2045	201006_2	Milejczyce - gmina wiejska	775552	526545
+2046	201007_2	Nurzec-Stacja - gmina wiejska	780262	520705
+2047	201008_2	Perlejewo - gmina wiejska	739167	523947
+2048	201009_2	Siemiatycze - gmina wiejska	768622	514556
+2049	201101_4	Dąbrowa Białostocka - miasto	786508	651881
+2050	201101_5	Dąbrowa Białostocka - obszar wiejski	784837	639914
+2051	201102_2	Janów - gmina wiejska	778565	623883
+2052	201103_2	Korycin - gmina wiejska	770453	624053
+2053	201104_4	Krynki - miasto	817806	610608
+2054	201104_5	Krynki - obszar wiejski	820294	610474
+2055	201105_2	Kuźnica - gmina wiejska	808708	637113
+2056	201106_2	Nowy Dwór - gmina wiejska	798626	657426
+2057	201107_2	Sidra - gmina wiejska	797332	636504
+2058	201108_4	Sokółka - miasto	796571	623546
+2059	201108_5	Sokółka - obszar wiejski	805064	626106
+2060	201109_4	Suchowola - miasto	772312	644681
+2061	201109_5	Suchowola - obszar wiejski	778005	646046
+2062	201110_2	Szudziałowo - gmina wiejska	802250	605682
+2063	201201_2	Bakałarzewo - gmina wiejska	745978	695151
+2064	201202_2	Filipów - gmina wiejska	736400	703484
+2065	201203_2	Jeleniewo - gmina wiejska	751735	713458
+2066	201204_2	Przerośl - gmina wiejska	734413	716541
+2067	201205_2	Raczki - gmina wiejska	750110	684308
+2068	201206_2	Rutka-Tartak - gmina wiejska	760999	728140
+2069	201207_2	Suwałki - gmina wiejska	752823	705271
+2070	201208_2	Szypliszki - gmina wiejska	765770	721511
+2071	201209_2	Wiżajny - gmina wiejska	746538	723373
+2072	201301_1	Wysokie Mazowieckie - gmina miejska	737041	568165
+2073	201302_4	Ciechanowiec - miasto	735484	542783
+2074	201302_5	Ciechanowiec - obszar wiejski	739994	538487
+2075	201303_4	Czyżew - miasto	724579	553081
+2076	201303_5	Czyżew - obszar wiejski	727009	561940
+2077	201304_2	Klukowo - gmina wiejska	741377	551405
+2078	201305_2	Kobylin-Borzymy - gmina wiejska	751468	588577
+2079	201306_2	Kulesze Kościelne - gmina wiejska	730037	575395
+2080	201307_2	Nowe Piekuty - gmina wiejska	745539	561657
+2081	201308_2	Sokoły - gmina wiejska	747423	582003
+2082	201309_4	Szepietowo - miasto	738778	561897
+2083	201309_5	Szepietowo - obszar wiejski	743449	557144
+2084	201310_2	Wysokie Mazowieckie - gmina wiejska	734372	570815
+2085	201401_1	Zambrów - gmina miejska	716409	571429
+2086	201402_2	Kołaki Kościelne - gmina wiejska	728300	580701
+2087	201403_2	Rutki - gmina wiejska	733257	593772
+2088	201404_2	Szumowo - gmina wiejska	704826	570129
+2089	201405_2	Zambrów - gmina wiejska	723267	569553
+2090	206101_1	Białystok - gmina miejska	780659	588611
+2091	206201_1	Łomża - gmina miejska	701851	591976
+2092	206301_1	Suwałki - gmina miejska	755537	697117
+2093	220101_2	Borzytuchom - gmina wiejska	392859	699675
+2094	220102_4	Bytów - miasto	401485	702513
+2095	220102_5	Bytów - obszar wiejski	398558	698222
+2096	220103_2	Czarna Dąbrówka - gmina wiejska	401400	715394
+2097	220104_2	Kołczygłowy - gmina wiejska	385485	698316
+2098	220105_2	Lipnica - gmina wiejska	394274	685798
+2099	220106_4	Miastko - miasto	367417	682909
+2100	220106_5	Miastko - obszar wiejski	375744	696539
+2101	220107_2	Parchowo - gmina wiejska	414484	704670
+2102	220108_2	Studzienice - gmina wiejska	410757	692864
+2103	220109_2	Trzebielino - gmina wiejska	376597	712647
+2104	220110_2	Tuchomie - gmina wiejska	388013	700702
+2105	220201_1	Chojnice - gmina miejska	406461	650487
+2106	220202_4	Brusy - miasto	414926	669819
+2107	220202_5	Brusy - obszar wiejski	415839	678181
+2108	220203_2	Chojnice - gmina wiejska	411698	635953
+2109	220204_4	Czersk - miasto	431563	659477
+2110	220204_5	Czersk - obszar wiejski	436974	668658
+2111	220205_2	Konarzyny - gmina wiejska	395274	673136
+2112	220301_1	Człuchów - gmina miejska	391878	644204
+2113	220302_4	Czarne - miasto	364135	650001
+2114	220302_5	Czarne - obszar wiejski	377775	645308
+2115	220303_2	Człuchów - gmina wiejska	393939	645391
+2116	220304_4	Debrzno - miasto	382171	632895
+2117	220304_5	Debrzno - obszar wiejski	374236	639997
+2118	220305_2	Koczała - gmina wiejska	381957	680991
+2119	220306_2	Przechlewo - gmina wiejska	375604	660685
+2120	220307_2	Rzeczenica - gmina wiejska	363446	663164
+2121	220401_1	Pruszcz Gdański - gmina miejska	477894	711109
+2122	220402_2	Cedry Wielkie - gmina wiejska	495022	711401
+2123	220403_2	Kolbudy - gmina wiejska	472822	714027
+2124	220404_2	Pruszcz Gdański - gmina wiejska	473151	709736
+2125	220405_2	Przywidz - gmina wiejska	456074	710604
+2126	220406_2	Pszczółki - gmina wiejska	475700	701337
+2127	220407_2	Suchy Dąb - gmina wiejska	482275	705464
+2128	220408_2	Trąbki Wielkie - gmina wiejska	468597	703585
+2129	220501_2	Chmielno - gmina wiejska	437522	718282
+2130	220502_4	Kartuzy - miasto	448518	717860
+2131	220502_5	Kartuzy - obszar wiejski	438693	726530
+2132	220503_2	Przodkowo - gmina wiejska	455199	722230
+2133	220504_2	Sierakowice - gmina wiejska	426890	727377
+2134	220505_2	Somonino - gmina wiejska	449775	710771
+2135	220506_2	Stężyca - gmina wiejska	435305	704065
+2136	220507_2	Sulęczyno - gmina wiejska	417862	709197
+2137	220508_4	Żukowo - miasto	457976	720045
+2138	220508_5	Żukowo - obszar wiejski	455213	718372
+2139	220601_1	Kościerzyna - gmina miejska	433300	695760
+2140	220602_2	Dziemiany - gmina wiejska	416023	686981
+2141	220603_2	Karsin - gmina wiejska	426913	680511
+2142	220604_2	Kościerzyna - gmina wiejska	442477	689202
+2143	220605_2	Liniewo - gmina wiejska	448365	693473
+2144	220606_2	Lipusz - gmina wiejska	423611	700835
+2145	220607_2	Nowa Karczma - gmina wiejska	442865	695571
+2146	220608_2	Stara Kiszewa - gmina wiejska	446721	681358
+2147	220701_1	Kwidzyn - gmina miejska	494369	649234
+2148	220702_2	Gardeja - gmina wiejska	504400	649689
+2149	220703_2	Kwidzyn - gmina wiejska	492700	660656
+2150	220704_4	Prabuty - miasto	514051	652408
+2151	220704_5	Prabuty - obszar wiejski	519079	653208
+2152	220705_2	Ryjewo - gmina wiejska	492724	671720
+2153	220706_2	Sadlinki - gmina wiejska	485946	646382
+2154	220801_1	Lębork - gmina miejska	418760	741840
+2155	220802_1	Łeba - gmina miejska	412508	769234
+2156	220803_2	Cewice - gmina wiejska	414904	733291
+2157	220804_2	Nowa Wieś Lęborska - gmina wiejska	409313	739621
+2158	220805_2	Wicko - gmina wiejska	417441	758975
+2159	220901_1	Malbork - gmina miejska	503624	685496
+2160	220903_2	Lichnowy - gmina wiejska	494593	696924
+2161	220904_2	Malbork - gmina wiejska	508360	690491
+2162	220906_2	Miłoradz - gmina wiejska	493295	687458
+2163	220907_4	Nowy Staw - miasto	500644	695777
+2164	220907_5	Nowy Staw - obszar wiejski	503066	698228
+2165	220908_2	Stare Pole - gmina wiejska	510926	689508
+2166	221001_1	Krynica Morska - gmina miejska	537953	729225
+2167	221002_4	Nowy Dwór Gdański - miasto	506538	705746
+2168	221002_5	Nowy Dwór Gdański - obszar wiejski	513891	701281
+2169	221003_2	Ostaszewo - gmina wiejska	498656	707095
+2170	221004_2	Stegna - gmina wiejska	513372	730368
+2171	221005_2	Sztutowo - gmina wiejska	513819	725189
+2172	221101_1	Hel - gmina miejska	484547	753921
+2173	221102_4	Jastarnia - miasto	477612	759758
+2174	221102_5	Jastarnia - obszar wiejski	478370	759446
+2175	221103_1	Puck - gmina miejska	462075	761076
+2176	221104_4	Władysławowo - miasto	459677	770181
+2177	221104_5	Władysławowo - obszar wiejski	453387	774294
+2178	221105_2	Kosakowo - gmina wiejska	473957	753618
+2179	221106_2	Krokowa - gmina wiejska	444887	767484
+2180	221107_2	Puck - gmina wiejska	451823	761179
+2181	221201_1	Ustka - gmina miejska	362966	747292
+2182	221202_2	Damnica - gmina wiejska	384824	733406
+2183	221203_2	Dębnica Kaszubska - gmina wiejska	378954	719640
+2184	221204_2	Główczyce - gmina wiejska	384662	746401
+2185	221205_4	Kępice - miasto	362006	710892
+2186	221205_5	Kępice - obszar wiejski	362348	713207
+2187	221206_4	Kobylnica - miasto	369898	731200
+2188	221206_5	Kobylnica - obszar wiejski	367759	733978
+2189	221207_2	Potęgowo - gmina wiejska	401945	736168
+2190	221208_2	Redzikowo - gmina wiejska	374468	740742
+2191	221209_2	Smołdzino - gmina wiejska	398311	764831
+2192	221210_2	Ustka - gmina wiejska	368500	745115
+2193	221301_4	Czarna Woda - miasto	442468	663456
+2194	221301_5	Czarna Woda - obszar wiejski	445755	663621
+2195	221302_1	Skórcz - gmina miejska	467298	658669
+2196	221303_1	Starogard Gdański - gmina miejska	468312	679324
+2197	221304_2	Bobowo - gmina wiejska	471728	664823
+2198	221305_2	Kaliska - gmina wiejska	450169	671819
+2199	221306_2	Lubichowo - gmina wiejska	453912	663946
+2200	221307_2	Osieczna - gmina wiejska	449065	655379
+2201	221308_2	Osiek - gmina wiejska	454880	648729
+2202	221309_4	Skarszewy - miasto	463089	689890
+2203	221309_5	Skarszewy - obszar wiejski	463562	693213
+2204	221310_2	Skórcz - gmina wiejska	475642	659302
+2205	221311_2	Smętowo Graniczne - gmina wiejska	480022	651245
+2206	221312_2	Starogard Gdański - gmina wiejska	464757	672346
+2207	221313_2	Zblewo - gmina wiejska	452669	671304
+2208	221401_1	Tczew - gmina miejska	484526	688803
+2209	221402_4	Gniew - miasto	487308	663992
+2210	221402_5	Gniew - obszar wiejski	484626	667301
+2211	221403_2	Morzeszczyn - gmina wiejska	480430	662417
+2212	221404_4	Pelplin - miasto	481002	673876
+2213	221404_5	Pelplin - obszar wiejski	478822	676476
+2214	221405_2	Subkowy - gmina wiejska	484184	684494
+2215	221406_2	Tczew - gmina wiejska	479839	695578
+2216	221501_1	Reda - gmina miejska	456443	752260
+2217	221502_1	Rumia - gmina miejska	460493	744079
+2218	221503_1	Wejherowo - gmina miejska	454603	750070
+2219	221504_2	Choczewo - gmina wiejska	429988	766824
+2220	221505_2	Gniewino - gmina wiejska	436228	763001
+2221	221506_2	Linia - gmina wiejska	436174	735536
+2222	221507_2	Luzino - gmina wiejska	442830	738058
+2223	221508_2	Łęczyce - gmina wiejska	421701	749290
+2224	221509_2	Szemud - gmina wiejska	451268	731174
+2225	221510_2	Wejherowo - gmina wiejska	442995	756196
+2226	221601_4	Dzierzgoń - miasto	523746	673324
+2227	221601_5	Dzierzgoń - obszar wiejski	522714	675275
+2228	221602_2	Mikołajki Pomorskie - gmina wiejska	515605	668675
+2229	221603_2	Stary Dzierzgoń - gmina wiejska	527750	664041
+2230	221604_2	Stary Targ - gmina wiejska	509280	681705
+2231	221605_4	Sztum - miasto	502290	672155
+2232	221605_5	Sztum - obszar wiejski	496609	676564
+2233	226101_1	Gdańsk - gmina miejska	484911	721051
+2234	226201_1	Gdynia - gmina miejska	478158	743189
+2235	226301_1	Słupsk - gmina miejska	368917	734523
+2236	226401_1	Sopot - gmina miejska	469674	731097
+2237	240101_1	Będzin - gmina miejska	506697	273737
+2238	240102_1	Czeladź - gmina miejska	504670	274190
+2239	240103_1	Wojkowice - gmina miejska	499879	278099
+2240	240104_2	Bobrowniki - gmina wiejska	504246	283832
+2241	240105_2	Mierzęcice - gmina wiejska	510220	283215
+2242	240106_2	Psary - gmina wiejska	513002	278502
+2243	240107_4	Siewierz - miasto	519286	288412
+2244	240107_5	Siewierz - obszar wiejski	518391	292280
+2245	240108_1	Sławków - gmina miejska	526692	268588
+2246	240201_1	Szczyrk - gmina miejska	502041	206491
+2247	240202_2	Bestwina - gmina wiejska	505094	226257
+2248	240203_2	Buczkowice - gmina wiejska	503997	207912
+2249	240204_4	Czechowice-Dziedzice - miasto	502233	223331
+2250	240204_5	Czechowice-Dziedzice - obszar wiejski	493331	224087
+2251	240205_2	Jasienica - gmina wiejska	493013	212775
+2252	240206_2	Jaworze - gmina wiejska	493573	211116
+2253	240207_2	Kozy - gmina wiejska	510515	216631
+2254	240208_2	Porąbka - gmina wiejska	517680	214560
+2255	240209_4	Wilamowice - miasto	510646	228618
+2256	240209_5	Wilamowice - obszar wiejski	511881	222728
+2257	240210_2	Wilkowice - gmina wiejska	508649	209023
+2258	240301_1	Cieszyn - gmina miejska	471837	212142
+2259	240302_1	Ustroń - gmina miejska	490515	205467
+2260	240303_1	Wisła - gmina miejska	490444	199322
+2261	240304_2	Brenna - gmina wiejska	491805	212449
+2262	240305_2	Chybie - gmina wiejska	486363	222341
+2263	240306_2	Dębowiec - gmina wiejska	480498	210718
+2264	240307_2	Goleszów - gmina wiejska	482103	202000
+2265	240308_2	Hażlach - gmina wiejska	473392	213222
+2266	240309_2	Istebna - gmina wiejska	494882	185021
+2267	240310_4	Skoczów - miasto	485118	216059
+2268	240310_5	Skoczów - obszar wiejski	488728	214694
+2269	240311_4	Strumień - miasto	481570	228036
+2270	240311_5	Strumień - obszar wiejski	481534	222283
+2271	240312_2	Zebrzydowice - gmina wiejska	471664	221632
+2272	240401_4	Blachownia - miasto	495488	325312
+2273	240401_5	Blachownia - obszar wiejski	490554	324412
+2274	240402_2	Dąbrowa Zielona - gmina wiejska	540409	333679
+2275	240403_2	Janów - gmina wiejska	537931	313976
+2276	240404_2	Kamienica Polska - gmina wiejska	507462	311633
+2277	240405_2	Kłomnice - gmina wiejska	519267	336700
+2278	240406_4	Koniecpol - miasto	546334	323297
+2279	240406_5	Koniecpol - obszar wiejski	544641	327482
+2280	240407_2	Konopiska - gmina wiejska	499212	312524
+2281	240408_2	Kruszyna - gmina wiejska	523725	343001
+2282	240409_2	Lelów - gmina wiejska	542382	311390
+2283	240410_2	Mstów - gmina wiejska	528497	328361
+2284	240411_2	Mykanów - gmina wiejska	506203	341967
+2285	240412_4	Olsztyn - miasto	517427	317298
+2286	240412_5	Olsztyn - obszar wiejski	520226	323203
+2287	240413_2	Poczesna - gmina wiejska	511227	319420
+2288	240414_4	Przyrów- miasto	536577	325121
+2289	240414_5	Przyrów - obszar wiejski	535820	323185
+2290	240415_2	Rędziny - gmina wiejska	515461	333751
+2291	240416_2	Starcza - gmina wiejska	504802	313409
+2292	240501_1	Knurów - gmina miejska	477950	261350
+2293	240502_1	Pyskowice - gmina miejska	473664	279420
+2294	240503_2	Gierałtowice - gmina wiejska	483245	259230
+2295	240504_2	Pilchowice - gmina wiejska	468644	257665
+2296	240505_2	Rudziniec - gmina wiejska	456602	284421
+2297	240506_4	Sośnicowice - miasto	466004	266492
+2298	240506_5	Sośnicowice - obszar wiejski	463399	270093
+2299	240507_4	Toszek - miasto	465389	288230
+2300	240507_5	Toszek - obszar wiejski	468060	288447
+2301	240508_2	Wielowieś - gmina wiejska	467924	292189
+2302	240601_4	Kłobuck - miasto	499550	336638
+2303	240601_5	Kłobuck - obszar wiejski	499875	335514
+2304	240602_4	Krzepice - miasto	480862	345253
+2305	240602_5	Krzepice - obszar wiejski	475275	342309
+2306	240603_2	Lipie - gmina wiejska	489923	354067
+2307	240604_2	Miedźno - gmina wiejska	497571	343325
+2308	240605_2	Opatów - gmina wiejska	484884	343773
+2309	240606_2	Panki - gmina wiejska	484252	336798
+2310	240607_2	Popów - gmina wiejska	494437	356050
+2311	240608_2	Przystajń - gmina wiejska	476729	333362
+2312	240609_2	Wręczyca Wielka - gmina wiejska	490748	331772
+2313	240701_1	Lubliniec - gmina miejska	480646	309644
+2314	240702_2	Boronów - gmina wiejska	490640	312157
+2315	240703_2	Ciasna - gmina wiejska	471800	321637
+2316	240704_2	Herby - gmina wiejska	484291	321693
+2317	240705_2	Kochanowice - gmina wiejska	481070	315394
+2318	240706_2	Koszęcin - gmina wiejska	483115	308344
+2319	240707_2	Pawonków - gmina wiejska	475118	311863
+2320	240708_4	Woźniki - miasto	503958	297645
+2321	240708_5	Woźniki - obszar wiejski	499653	305945
+2322	240801_1	Łaziska Górne - gmina miejska	489702	253766
+2323	240802_1	Mikołów - gmina miejska	484661	255516
+2324	240803_1	Orzesze - gmina miejska	481267	253818
+2325	240804_2	Ornontowice - gmina wiejska	482904	259066
+2326	240805_2	Wyry - gmina wiejska	490673	250335
+2327	240901_1	Myszków - gmina miejska	525276	299603
+2328	240902_4	Koziegłowy - miasto	511479	304086
+2329	240902_5	Koziegłowy - obszar wiejski	507632	297428
+2330	240903_2	Niegowa - gmina wiejska	534932	312228
+2331	240904_2	Poraj - gmina wiejska	513641	312703
+2332	240905_4	Żarki - miasto	523971	305846
+2333	240905_5	Żarki - obszar wiejski	531518	305811
+2334	241001_2	Goczałkowice-Zdrój - gmina wiejska	489845	228733
+2335	241002_2	Kobiór - gmina wiejska	496791	244341
+2336	241003_2	Miedźna - gmina wiejska	504095	238381
+2337	241004_2	Pawłowice - gmina wiejska	477420	227540
+2338	241005_4	Pszczyna - miasto	495471	237189
+2339	241005_5	Pszczyna - obszar wiejski	500696	241502
+2340	241006_2	Suszec - gmina wiejska	485556	244244
+2341	241101_1	Racibórz - gmina miejska	446126	249086
+2342	241102_2	Kornowac - gmina wiejska	448792	247258
+2343	241103_4	Krzanowice - miasto	436847	239559
+2344	241103_5	Krzanowice - obszar wiejski	440521	238137
+2345	241104_2	Krzyżanowice - gmina wiejska	449703	230584
+2346	241105_4	Kuźnia Raciborska - miasto	451027	261901
+2347	241105_5	Kuźnia Raciborska - obszar wiejski	446574	259471
+2348	241106_2	Nędza - gmina wiejska	451606	255161
+2349	241107_2	Pietrowice Wielkie - gmina wiejska	435784	254442
+2350	241108_2	Rudnik - gmina wiejska	445898	256337
+2351	241201_4	Czerwionka-Leszczyny - miasto	477972	255179
+2352	241201_5	Czerwionka-Leszczyny - obszar wiejski	480101	250332
+2353	241202_2	Gaszowice - gmina wiejska	456076	246159
+2354	241203_2	Jejkowice - gmina wiejska	462816	249517
+2355	241204_2	Lyski - gmina wiejska	458009	252930
+2356	241205_2	Świerklany - gmina wiejska	470331	241407
+2357	241301_1	Kalety - gmina miejska	497665	296470
+2358	241302_1	Miasteczko Śląskie - gmina miejska	492132	296069
+2359	241303_1	Radzionków - gmina miejska	493468	283037
+2360	241304_1	Tarnowskie Góry - gmina miejska	490470	284361
+2361	241305_2	Krupski Młyn - gmina wiejska	474226	300655
+2362	241306_2	Ożarowice - gmina wiejska	507165	293338
+2363	241307_2	Świerklaniec - gmina wiejska	494183	288082
+2364	241308_2	Tworóg - gmina wiejska	482332	298250
+2365	241309_2	Zbrosławice - gmina wiejska	477893	278149
+2366	241401_1	Bieruń - gmina miejska	505443	245319
+2367	241402_1	Imielin - gmina miejska	511956	253282
+2368	241403_1	Lędziny - gmina miejska	509370	253564
+2369	241404_2	Bojszowy - gmina wiejska	507236	241197
+2370	241405_2	Chełm Śląski - gmina wiejska	513864	249433
+2371	241501_1	Pszów - gmina miejska	454877	240465
+2372	241502_1	Radlin - gmina miejska	460517	241353
+2373	241503_1	Rydułtowy - gmina miejska	460027	244438
+2374	241504_1	Wodzisław Śląski - gmina miejska	462685	233591
+2375	241505_2	Godów - gmina wiejska	463835	232656
+2376	241506_2	Gorzyce - gmina wiejska	451700	235887
+2377	241507_2	Lubomia - gmina wiejska	451067	237701
+2378	241508_2	Marklowice - gmina wiejska	466943	240144
+2379	241509_2	Mszana - gmina wiejska	468582	235510
+2380	241601_1	Poręba - gmina miejska	523690	288397
+2381	241602_1	Zawiercie - gmina miejska	532801	293788
+2382	241603_2	Irządze - gmina wiejska	550296	304283
+2383	241604_2	Kroczyce - gmina wiejska	544066	295469
+2384	241605_4	Łazy - miasto	529558	283178
+2385	241605_5	Łazy - obszar wiejski	524786	286085
+2386	241606_4	Ogrodzieniec - miasto	533402	284634
+2387	241606_5	Ogrodzieniec - obszar wiejski	539493	289313
+2388	241607_4	Pilica - miasto	545280	289076
+2389	241607_5	Pilica - obszar wiejski	549755	295770
+2390	241608_4	Szczekociny - miasto	560045	305858
+2391	241608_5	Szczekociny - obszar wiejski	555152	313758
+2392	241609_4	Włodowice - miasto	532512	297822
+2393	241609_5	Włodowice - obszar wiejski	527682	301523
+2394	241610_2	Żarnowiec - gmina wiejska	557831	296024
+2395	241701_1	Żywiec - gmina miejska	514406	203607
+2396	241702_2	Czernichów - gmina wiejska	514440	211433
+2397	241703_2	Gilowice - gmina wiejska	518377	203164
+2398	241704_2	Jeleśnia - gmina wiejska	522122	194444
+2399	241705_2	Koszarawa - gmina wiejska	529534	200156
+2400	241706_2	Lipowa - gmina wiejska	503498	198874
+2401	241707_2	Łękawica - gmina wiejska	519590	206594
+2402	241708_2	Łodygowice - gmina wiejska	511870	205115
+2403	241709_2	Milówka - gmina wiejska	501422	185159
+2404	241710_2	Radziechowy-Wieprz - gmina wiejska	514549	192158
+2405	241711_2	Rajcza - gmina wiejska	499052	174149
+2406	241712_2	Ślemień - gmina wiejska	527836	207334
+2407	241713_2	Świnna - gmina wiejska	520931	201891
+2408	241714_2	Ujsoły - gmina wiejska	511102	172026
+2409	241715_2	Węgierska Górka - gmina wiejska	506810	191908
+2410	246101_1	Bielsko-Biała - gmina miejska	500793	218051
+2411	246201_1	Bytom - gmina miejska	490684	277237
+2412	246301_1	Chorzów - gmina miejska	497749	272473
+2413	246401_1	Częstochowa - gmina miejska	506515	331144
+2414	246501_1	Dąbrowa Górnicza - gmina miejska	519409	270443
+2415	246601_1	Gliwice - gmina miejska	478343	263382
+2416	246701_1	Jastrzębie-Zdrój - gmina miejska	468222	230604
+2417	246801_1	Jaworzno - gmina miejska	517693	254614
+2418	246901_1	Katowice - gmina miejska	496799	256528
+2419	247001_1	Mysłowice - gmina miejska	510001	259279
+2420	247101_1	Piekary Śląskie - gmina miejska	497391	280254
+2421	247201_1	Ruda Śląska - gmina miejska	492909	263153
+2422	247301_1	Rybnik - gmina miejska	464252	242326
+2423	247401_1	Siemianowice Śląskie - gmina miejska	499175	271781
+2424	247501_1	Sosnowiec - gmina miejska	516797	268962
+2425	247601_1	Świętochłowice - gmina miejska	494572	271668
+2426	247701_1	Tychy - gmina miejska	495441	250943
+2427	247801_1	Zabrze - gmina miejska	484403	265566
+2428	247901_1	Żory - gmina miejska	477284	245022
+2429	260101_4	Busko-Zdrój - miasto	622064	291372
+2430	260101_5	Busko-Zdrój - obszar wiejski	625081	284054
+2431	260102_2	Gnojno - gmina wiejska	630404	302918
+2432	260103_4	Nowy Korczyn - miasto	627352	271438
+2433	260103_5	Nowy Korczyn - obszar wiejski	633706	271944
+2434	260104_4	Pacanów - miasto	644811	283991
+2435	260104_5	Pacanów - obszar wiejski	642782	273868
+2436	260105_2	Solec-Zdrój - gmina wiejska	635675	275431
+2437	260106_4	Stopnica - miasto	638343	287220
+2438	260106_5	Stopnica - obszar wiejski	635083	291926
+2439	260107_2	Tuczępy - gmina wiejska	639225	295312
+2440	260108_4	Wiślica - miasto	617965	277036
+2441	260108_5	Wiślica - obszar wiejski	616740	274190
+2442	260201_2	Imielno - gmina wiejska	602032	308428
+2443	260202_4	Jędrzejów - miasto	591618	308440
+2444	260202_5	Jędrzejów - obszar wiejski	589050	310334
+2445	260203_4	Małogoszcz - miasto	588690	328054
+2446	260203_5	Małogoszcz - obszar wiejski	591804	324303
+2447	260204_2	Nagłowice - gmina wiejska	580461	313162
+2448	260205_2	Oksa - gmina wiejska	582054	316828
+2449	260206_4	Sędziszów - miasto	573140	299533
+2450	260206_5	Sędziszów - obszar wiejski	579907	301450
+2451	260207_2	Słupia - gmina wiejska	574480	307171
+2452	260208_4	Sobków - miasto	604055	317447
+2453	260208_5	Sobków - obszar wiejski	596273	320066
+2454	260209_4	Wodzisław - miasto	585660	296378
+2455	260209_5	Wodzisław - obszar wiejski	589372	293431
+2456	260301_2	Bejsce - gmina wiejska	612363	261048
+2457	260302_2	Czarnocin - gmina wiejska	607857	277787
+2458	260303_4	Kazimierza Wielka - miasto	604641	268567
+2459	260303_5	Kazimierza Wielka - obszar wiejski	610545	265012
+2460	260304_4	Opatowiec - miasto	623196	266867
+2461	260304_5	Opatowiec - obszar wiejski	619028	264006
+2462	260305_4	Skalbmierz - miasto	599338	274508
+2463	260305_5	Skalbmierz - obszar wiejski	593446	275084
+2464	260401_2	Bieliny - gmina wiejska	638705	325471
+2465	260402_4	Bodzentyn - miasto	636202	342874
+2466	260402_5	Bodzentyn - obszar wiejski	634251	345632
+2467	260403_4	Chęciny - miasto	606076	329361
+2468	260403_5	Chęciny - obszar wiejski	595617	328635
+2469	260404_4	Chmielnik - miasto	623468	307903
+2470	260404_5	Chmielnik - obszar wiejski	615879	310376
+2471	260405_4	Daleszyce - miasto	627971	328131
+2472	260405_5	Daleszyce - obszar wiejski	617936	322789
+2473	260406_2	Górno - gmina wiejska	621962	334276
+2474	260407_4	Łagów - miasto	647510	326225
+2475	260407_5	Łagów - obszar wiejski	642482	324075
+2476	260408_4	Łopuszno - miasto	588005	343885
+2477	260408_5	Łopuszno - obszar wiejski	590138	341885
+2478	260409_2	Masłów - gmina wiejska	615002	341304
+2479	260410_2	Miedziana Góra - gmina wiejska	610568	339339
+2480	260411_2	Mniów - gmina wiejska	601023	352169
+2481	260412_4	Morawica - miasto	614696	321267
+2482	260412_5	Morawica - obszar wiejski	619492	321340
+2483	260413_4	Nowa Słupia - miasto	646392	335681
+2484	260413_5	Nowa Słupia - obszar wiejski	642932	332586
+2485	260414_4	Piekoszów - miasto	603823	336363
+2486	260414_5	Piekoszów - obszar wiejski	595619	335955
+2487	260415_4	Pierzchnica - miasto	623128	315098
+2488	260415_5	Pierzchnica - obszar wiejski	623285	317891
+2489	260416_2	Raków - gmina wiejska	632425	316227
+2490	260417_2	Nowiny - gmina wiejska	605087	330473
+2491	260418_2	Strawczyn - gmina wiejska	597882	343821
+2492	260419_2	Zagnańsk - gmina wiejska	611281	353506
+2493	260501_2	Fałków - gmina wiejska	573652	370076
+2494	260502_4	Gowarczów - miasto	600743	379704
+2495	260502_5	Gowarczów - obszar wiejski	602402	385485
+2496	260503_4	Końskie - miasto	597904	366615
+2497	260503_5	Końskie - obszar wiejski	593391	367971
+2498	260504_4	Radoszyce - miasto	588141	356787
+2499	260504_5	Radoszyce - obszar wiejski	590777	360698
+2500	260505_2	Ruda Maleniecka - gmina wiejska	586968	369046
+2501	260506_2	Słupia Konecka - gmina wiejska	582002	348364
+2502	260507_2	Smyków - gmina wiejska	596871	354542
+2503	260508_4	Stąporków - miasto	611864	365429
+2504	260508_5	Stąporków - obszar wiejski	614057	367572
+2505	260601_2	Baćkowice - gmina wiejska	653212	321015
+2506	260602_4	Iwaniska - miasto	659777	320277
+2507	260602_5	Iwaniska - obszar wiejski	658963	323291
+2508	260603_2	Lipnik - gmina wiejska	670398	322638
+2509	260604_4	Opatów - miasto	669698	330681
+2510	260604_5	Opatów - obszar wiejski	673720	326464
+2511	260605_4	Ożarów - miasto	687468	339380
+2512	260605_5	Ożarów - obszar wiejski	690752	343805
+2513	260606_2	Sadowie - gmina wiejska	670248	333177
+2514	260607_2	Tarłów - gmina wiejska	687795	349087
+2515	260608_2	Wojciechowice - gmina wiejska	684834	333026
+2516	260701_1	Ostrowiec Świętokrzyski - gmina miejska	665961	344793
+2517	260702_2	Bałtów - gmina wiejska	683207	354252
+2518	260703_2	Bodzechów - gmina wiejska	661927	342188
+2519	260704_4	Ćmielów - miasto	678122	340092
+2520	260704_5	Ćmielów - obszar wiejski	676141	342649
+2521	260705_4	Kunów - miasto	660257	347282
+2522	260705_5	Kunów - obszar wiejski	666182	350458
+2523	260706_2	Waśniów - gmina wiejska	653672	335984
+2524	260801_4	Działoszyce - miasto	595988	278734
+2525	260801_5	Działoszyce - obszar wiejski	596120	285260
+2526	260802_2	Kije - gmina wiejska	611186	305178
+2527	260803_2	Michałów - gmina wiejska	600264	295073
+2528	260804_4	Pińczów - miasto	609103	295740
+2529	260804_5	Pińczów - obszar wiejski	612569	286731
+2530	260805_2	Złota - gmina wiejska	612284	280259
+2531	260901_1	Sandomierz - gmina miejska	695694	315316
+2532	260902_2	Dwikozy - gmina wiejska	699537	326328
+2533	260903_4	Klimontów - miasto	672894	312338
+2534	260903_5	Klimontów - obszar wiejski	673290	317397
+2535	260904_4	Koprzywnica - miasto	682900	304923
+2536	260904_5	Koprzywnica - obszar wiejski	680558	308190
+2537	260905_2	Łoniów - gmina wiejska	683051	301678
+2538	260906_2	Obrazów - gmina wiejska	686173	317921
+2539	260907_2	Samborzec - gmina wiejska	680143	311957
+2540	260908_2	Wilczyce - gmina wiejska	682068	325568
+2541	260909_4	Zawichost - miasto	700713	327707
+2542	260909_5	Zawichost - obszar wiejski	696407	334897
+2543	261001_1	Skarżysko-Kamienna - gmina miejska	629989	365108
+2544	261002_2	Bliżyn - gmina wiejska	622750	366816
+2545	261003_2	Łączna - gmina wiejska	624038	351438
+2546	261004_2	Skarżysko Kościelne - gmina wiejska	634961	369963
+2547	261005_4	Suchedniów - miasto	630780	352233
+2548	261005_5	Suchedniów - obszar wiejski	628124	352379
+2549	261101_1	Starachowice - gmina miejska	647543	351740
+2550	261102_2	Brody - gmina wiejska	653407	357938
+2551	261103_2	Mirzec - gmina wiejska	641961	366246
+2552	261104_2	Pawłów - gmina wiejska	646105	350508
+2553	261105_4	Wąchock - miasto	641507	359238
+2554	261105_5	Wąchock - obszar wiejski	636363	356432
+2555	261201_4	Bogoria - miasto	659323	310789
+2556	261201_5	Bogoria - obszar wiejski	665569	309845
+2557	261202_2	Łubnice - gmina wiejska	656802	285014
+2558	261203_4	Oleśnica - miasto	645249	288038
+2559	261203_5	Oleśnica - obszar wiejski	651956	290252
+2560	261204_4	Osiek - miasto	674366	295318
+2561	261204_5	Osiek - obszar wiejski	668959	303023
+2562	261205_4	Połaniec - miasto	662809	286815
+2563	261205_5	Połaniec - obszar wiejski	663980	291545
+2564	261206_2	Rytwiany - gmina wiejska	666211	300719
+2565	261207_4	Staszów - miasto	658375	300655
+2566	261207_5	Staszów - obszar wiejski	658347	304301
+2567	261208_4	Szydłów - miasto	644224	305293
+2568	261208_5	Szydłów - obszar wiejski	642710	301488
+2569	261301_2	Kluczewsko - gmina wiejska	561505	353504
+2570	261302_2	Krasocin - gmina wiejska	576359	330932
+2571	261303_2	Moskorzew - gmina wiejska	567754	307990
+2572	261304_2	Radków - gmina wiejska	571110	318560
+2573	261305_2	Secemin - gmina wiejska	561399	325614
+2574	261306_4	Włoszczowa - miasto	568369	334373
+2575	261306_5	Włoszczowa - obszar wiejski	573685	324143
+2576	266101_1	Kielce - gmina miejska	614807	331935
+2577	280101_1	Bartoszyce - gmina miejska	616012	710407
+2578	280102_1	Górowo Iławeckie - gmina miejska	596272	714560
+2579	280103_2	Bartoszyce - gmina wiejska	611288	722226
+2580	280104_4	Bisztynek - miasto	624144	692511
+2581	280104_5	Bisztynek - obszar wiejski	631664	694441
+2582	280105_2	Górowo Iławeckie - gmina wiejska	603508	716505
+2583	280106_4	Sępopol - miasto	630500	712950
+2584	280106_5	Sępopol - obszar wiejski	638732	719688
+2585	280201_1	Braniewo - gmina miejska	553129	722866
+2586	280202_2	Braniewo - gmina wiejska	571647	723747
+2587	280203_4	Frombork - miasto	546014	722119
+2588	280203_5	Frombork - obszar wiejski	541721	722233
+2589	280204_2	Lelkowo - gmina wiejska	576016	716302
+2590	280205_4	Pieniężno - miasto	572563	707481
+2591	280205_5	Pieniężno - obszar wiejski	586850	705186
+2592	280206_2	Płoskinia - gmina wiejska	562242	709161
+2593	280207_2	Wilczęta - gmina wiejska	559240	705702
+2594	280301_1	Działdowo - gmina miejska	577565	595835
+2595	280302_2	Działdowo - gmina wiejska	571241	606012
+2596	280303_2	Iłowo-Osada - gmina wiejska	591959	591364
+2597	280304_4	Lidzbark - miasto	555842	600832
+2598	280304_5	Lidzbark - obszar wiejski	550610	592340
+2599	280305_2	Płośnica - gmina wiejska	569735	593935
+2600	280306_2	Rybno - gmina wiejska	562991	610606
+2601	280401_2	Elbląg - gmina wiejska	528607	694460
+2602	280402_2	Godkowo - gmina wiejska	559164	693077
+2603	280403_2	Gronowo Elbląskie - gmina wiejska	518540	693863
+2604	280404_2	Markusy - gmina wiejska	526924	685356
+2605	280405_2	Milejewo - gmina wiejska	535737	703866
+2606	280406_4	Młynary - miasto	547896	703444
+2607	280406_5	Młynary - obszar wiejski	544020	702863
+2608	280407_4	Pasłęk - miasto	543548	690267
+2609	280407_5	Pasłęk - obszar wiejski	544585	691795
+2610	280408_2	Rychliki - gmina wiejska	535544	687185
+2611	280409_4	Tolkmicko - miasto	534053	717789
+2612	280409_5	Tolkmicko - obszar wiejski	528654	711116
+2613	280501_1	Ełk - gmina miejska	718425	663823
+2614	280502_2	Ełk - gmina wiejska	713159	667884
+2615	280503_2	Kalinowo - gmina wiejska	733132	673126
+2616	280504_2	Prostki - gmina wiejska	713225	649284
+2617	280505_2	Stare Juchy - gmina wiejska	703808	678553
+2618	280601_1	Giżycko - gmina miejska	679994	688133
+2619	280604_2	Giżycko - gmina wiejska	685693	687825
+2620	280605_2	Kruklanki - gmina wiejska	692007	692361
+2621	280606_2	Miłki - gmina wiejska	680137	677554
+2622	280608_4	Ryn - miasto	665591	677648
+2623	280608_5	Ryn - obszar wiejski	672305	675015
+2624	280610_2	Wydminy - gmina wiejska	705004	672670
+2625	280701_1	Iława - gmina miejska	537657	634616
+2626	280702_1	Lubawa - gmina miejska	551502	626643
+2627	280703_2	Iława	534681	648353
+2628	280704_4	Kisielice - miasto	517818	638518
+2629	280704_5	Kisielice - obszar wiejski	519816	636854
+2630	280705_2	Lubawa - gmina wiejska	546554	629639
+2631	280706_4	Susz - miasto	522507	649080
+2632	280706_5	Susz - obszar wiejski	521589	656234
+2633	280707_4	Zalewo - miasto	539943	664666
+2634	280707_5	Zalewo - obszar wiejski	534496	656803
+2635	280801_1	Kętrzyn - gmina miejska	654242	692578
+2636	280802_2	Barciany - gmina wiejska	647941	720140
+2637	280803_2	Kętrzyn - gmina wiejska	650203	693611
+2638	280804_4	Korsze - miasto	638523	703307
+2639	280804_5	Korsze - obszar wiejski	638701	701146
+2640	280805_4	Reszel - miasto	640322	689951
+2641	280805_5	Reszel - obszar wiejski	644629	689212
+2642	280806_2	Srokowo - gmina wiejska	661879	706112
+2643	280901_1	Lidzbark Warmiński - gmina miejska	603061	696845
+2644	280902_2	Kiwity - gmina wiejska	610569	699726
+2645	280903_2	Lidzbark Warmiński - gmina wiejska	607115	685852
+2646	280904_2	Lubomino - gmina wiejska	577114	685296
+2647	280905_4	Orneta - miasto	573959	694447
+2648	280905_5	Orneta - obszar wiejski	573648	690954
+2649	281001_1	Mrągowo - gmina miejska	652069	669306
+2650	281002_4	Mikołajki - miasto	668842	661946
+2651	281002_5	Mikołajki - obszar wiejski	668098	656737
+2652	281003_2	Mrągowo - gmina wiejska	657570	663111
+2653	281004_2	Piecki - gmina wiejska	654229	652137
+2654	281005_2	Sorkwity - gmina wiejska	640808	659764
+2655	281101_2	Janowiec Kościelny - gmina wiejska	604934	607014
+2656	281102_2	Janowo - gmina wiejska	618779	609596
+2657	281103_2	Kozłowo - gmina wiejska	583588	609320
+2658	281104_4	Nidzica - miasto	593567	611931
+2659	281104_5	Nidzica - obszar wiejski	592265	615476
+2660	281201_1	Nowe Miasto Lubawskie - gmina miejska	539234	617291
+2661	281202_2	Biskupiec - gmina wiejska	529043	626520
+2662	281203_2	Grodziczno - gmina wiejska	549456	615396
+2663	281204_2	Kurzętnik - gmina wiejska	537537	610740
+2664	281205_2	Nowe Miasto Lubawskie - gmina wiejska	530764	622439
+2665	281303_2	Kowale Oleckie - gmina wiejska	714555	704887
+2666	281304_4	Olecko - miasto	727429	693359
+2667	281304_5	Olecko - obszar wiejski	725628	687418
+2668	281305_2	Świętajno - gmina wiejska	718872	687949
+2669	281306_2	Wieliczki - gmina wiejska	736126	685551
+2670	281401_4	Barczewo - miasto	610548	664337
+2671	281401_5	Barczewo - obszar wiejski	622662	662562
+2672	281402_4	Biskupiec - miasto	628291	668304
+2673	281402_5	Biskupiec - obszar wiejski	628625	666142
+2674	281403_4	Dobre Miasto - miasto	592835	680866
+2675	281403_5	Dobre Miasto - obszar wiejski	595999	681099
+2676	281404_2	Dywity - gmina wiejska	602901	673827
+2677	281405_2	Gietrzwałd - gmina wiejska	576998	651413
+2678	281406_4	Jeziorany - miasto	614034	680469
+2679	281406_5	Jeziorany - obszar wiejski	611459	677872
+2680	281407_2	Jonkowo - gmina wiejska	586763	663315
+2681	281408_2	Kolno - gmina wiejska	634231	679052
+2682	281409_4	Olsztynek - miasto	586096	637328
+2683	281409_5	Olsztynek - obszar wiejski	581898	641984
+2684	281410_2	Purda - gmina wiejska	607072	636447
+2685	281411_2	Stawiguda - gmina wiejska	590571	644777
+2686	281412_2	Świątki - gmina wiejska	585252	674388
+2687	281501_1	Ostróda - gmina miejska	562322	650850
+2688	281502_2	DĄBRÓWNO	564182	622819
+2689	281503_2	Grunwald - gmina wiejska	568197	632034
+2690	281504_2	Łukta - gmina wiejska	566436	659380
+2691	281505_2	Małdyty - gmina wiejska	548380	664766
+2692	281506_4	Miłakowo - miasto	570899	681947
+2693	281506_5	Miłakowo - obszar wiejski	568242	684409
+2694	281507_4	Miłomłyn - miasto	555739	656013
+2695	281507_5	Miłomłyn - obszar wiejski	552480	658491
+2696	281508_4	Morąg - miasto	561651	673944
+2697	281508_5	Morąg - obszar wiejski	559239	667817
+2698	281509_2	OSTRÓDA	561423	641504
+2699	281601_4	Biała Piska - miasto	701625	641887
+2700	281601_5	Biała Piska - obszar wiejski	698992	654514
+2701	281602_4	Orzysz - miasto	695765	664877
+2702	281602_5	Orzysz - obszar wiejski	687382	666704
+2703	281603_4	Pisz - miasto	687725	643922
+2704	281603_5	Pisz - obszar wiejski	686841	653610
+2705	281604_4	Ruciane-Nida - miasto	670183	646048
+2706	281604_5	Ruciane-Nida - obszar wiejski	675415	645131
+2707	281701_1	Szczytno - gmina miejska	634095	635822
+2708	281702_2	Dźwierzuty - gmina wiejska	634130	656558
+2709	281703_2	Jedwabno - gmina wiejska	622823	627063
+2710	281704_4	Pasym - miasto	617259	645378
+2711	281704_5	Pasym - obszar wiejski	618117	647913
+2712	281705_2	Rozogi - gmina wiejska	656860	627063
+2713	281706_2	Szczytno - gmina wiejska	631316	643453
+2714	281707_2	Świętajno - gmina wiejska	646552	637410
+2715	281708_4	Wielbark - miasto	627764	616310
+2716	281708_5	Wielbark - obszar wiejski	621520	618742
+2717	281801_2	Banie Mazurskie - gmina wiejska	696091	722766
+2718	281802_2	Dubeninki - gmina wiejska	730471	717183
+2719	281803_4	Gołdap - miasto	715524	720729
+2720	281803_5	Gołdap - obszar wiejski	716872	713576
+2721	281901_2	Budry - gmina wiejska	688243	710170
+2722	281902_2	Pozezdrze - gmina wiejska	688797	704306
+2723	281903_4	Węgorzewo - miasto	679135	708122
+2724	281903_5	Węgorzewo - obszar wiejski	686093	707394
+2725	286101_1	Elbląg - gmina miejska	532865	707877
+2726	286201_1	Olsztyn - gmina miejska	597177	655177
+2727	300101_1	Chodzież - gmina miejska	360500	571387
+2728	300102_4	Budzyń - miasto	361652	560970
+2729	300102_5	Budzyń - obszar wiejski	351471	559359
+2730	300103_2	Chodzież - gmina wiejska	361822	576517
+2731	300104_4	Margonin - miasto	370890	569132
+2732	300104_5	Margonin - obszar wiejski	369617	564977
+2733	300105_4	Szamocin - miasto	374409	576093
+2734	300105_5	Szamocin - obszar wiejski	376685	580782
+2735	300201_1	Czarnków - gmina miejska	337160	562232
+2736	300202_2	Czarnków - gmina wiejska	342589	558150
+2737	300203_2	Drawsko - gmina wiejska	301439	549498
+2738	300204_4	Krzyż Wielkopolski - miasto	299721	561146
+2739	300204_5	Krzyż Wielkopolski - obszar wiejski	296193	574535
+2740	300205_2	Lubasz - gmina wiejska	327403	550454
+2741	300206_2	Połajewo - gmina wiejska	343958	548539
+2742	300207_4	Trzcianka - miasto	331727	578219
+2743	300207_5	Trzcianka - obszar wiejski	326895	570699
+2744	300208_4	Wieleń - miasto	310488	561053
+2745	300208_5	Wieleń - obszar wiejski	313101	567914
+2746	300301_1	Gniezno - gmina miejska	408179	519794
+2747	300302_4	Czerniejewo - miasto	396799	507120
+2748	300302_5	Czerniejewo - obszar wiejski	396342	512582
+2749	300303_2	Gniezno - gmina wiejska	401598	524604
+2750	300304_2	Kiszkowo - gmina wiejska	384937	521398
+2751	300305_4	Kłecko - miasto	392556	528962
+2752	300305_5	Kłecko - obszar wiejski	392001	530277
+2753	300306_2	Łubowo - gmina wiejska	397079	521218
+2754	300307_2	Mieleszyn - gmina wiejska	400579	531807
+2755	300308_2	Niechanowo - gmina wiejska	405113	504641
+2756	300309_4	Trzemeszno - miasto	418084	522633
+2757	300309_5	Trzemeszno - obszar wiejski	418444	524897
+2758	300310_4	Witkowo - miasto	417952	507433
+2759	300310_5	Witkowo - obszar wiejski	414378	511849
+2760	300401_4	Borek Wielkopolski - miasto	377312	451154
+2761	300401_5	Borek Wielkopolski - obszar wiejski	377393	454391
+2762	300402_4	Gostyń - miasto	363271	448581
+2763	300402_5	Gostyń - obszar wiejski	354532	451936
+2764	300403_4	Krobia - miasto	359974	434902
+2765	300403_5	Krobia - obszar wiejski	366443	440617
+2766	300404_2	Pępowo - gmina wiejska	371323	436123
+2767	300405_2	Piaski - gmina wiejska	374724	444832
+2768	300406_4	Pogorzela - miasto	377264	441486
+2769	300406_5	Pogorzela - obszar wiejski	379137	435493
+2770	300407_4	Poniec - miasto	349080	435955
+2771	300407_5	Poniec - obszar wiejski	347789	433608
+2772	300501_2	Granowo - gmina wiejska	330580	484292
+2773	300502_4	Grodzisk Wielkopolski - miasto	317367	488833
+2774	300502_5	Grodzisk Wielkopolski - obszar wiejski	313441	489326
+2775	300503_2	Kamieniec - gmina wiejska	322829	474739
+2776	300504_4	Rakoniewice - miasto	313844	477829
+2777	300504_5	Rakoniewice - obszar wiejski	306560	484297
+2778	300505_4	Wielichowo - miasto	318244	476058
+2779	300505_5	Wielichowo - obszar wiejski	320492	481784
+2780	300601_4	Jaraczewo - miasto	381737	456708
+2781	300601_5	Jaraczewo - obszar wiejski	387527	460427
+2782	300602_4	Jarocin - miasto	398371	456379
+2783	300602_5	Jarocin - obszar wiejski	399345	459445
+2784	300603_2	Kotlin - gmina wiejska	405632	456370
+2785	300604_4	Żerków - miasto	401848	467847
+2786	300604_5	Żerków - obszar wiejski	402313	473925
+2787	300701_2	Blizanów - gmina wiejska	434853	446826
+2788	300702_2	Brzeziny - gmina wiejska	453485	415750
+2789	300703_2	Ceków-Kolonia - gmina wiejska	446803	439105
+2790	300704_2	Godziesze Wielkie - gmina wiejska	441135	427554
+2791	300705_4	Koźminek - miasto	453259	436772
+2792	300705_5	Koźminek - obszar wiejski	455767	432835
+2793	300706_2	Lisków - gmina wiejska	459421	440157
+2794	300707_2	Mycielin - gmina wiejska	447050	460320
+2795	300708_4	Opatówek - miasto	443573	430845
+2796	300708_5	Opatówek - obszar wiejski	448040	434273
+2797	300709_4	Stawiszyn - miasto	438947	450918
+2798	300709_5	Stawiszyn - obszar wiejski	439821	451783
+2799	300710_2	Szczytniki - gmina wiejska	452014	429875
+2800	300711_2	Żelazków - gmina wiejska	444575	441662
+2801	300801_2	Baranów - gmina wiejska	429378	373083
+2802	300802_2	Bralin - gmina wiejska	424111	380235
+2803	300803_4	Kępno - miasto	428347	379680
+2804	300803_5	Kępno - obszar wiejski	431800	389863
+2805	300804_2	Łęka Opatowska - gmina wiejska	437017	373327
+2806	300805_2	Perzów - gmina wiejska	414875	375809
+2807	300806_4	Rychtal - miasto	421564	366589
+2808	300806_5	Rychtal - obszar wiejski	422908	368557
+2809	300807_2	Trzcinica - gmina wiejska	432434	365876
+2810	300901_1	Koło - gmina miejska	475260	482268
+2811	300902_2	Babiak - gmina wiejska	481471	498781
+2812	300903_2	Chodów - gmina wiejska	500331	491442
+2813	300904_4	Dąbie - miasto	488421	471455
+2814	300904_5	Dąbie - obszar wiejski	488510	473914
+2815	300905_2	Grzegorzew - gmina wiejska	483534	488757
+2816	300906_4	Kłodawa - miasto	493860	488254
+2817	300906_5	Kłodawa - obszar wiejski	486368	489272
+2818	300907_2	Koło - gmina wiejska	469847	482997
+2819	300908_2	Kościelec - gmina wiejska	474547	475072
+2820	300909_2	Olszówka - gmina wiejska	490471	476913
+2821	300910_2	Osiek Mały - gmina wiejska	473492	494070
+2822	300911_4	Przedecz - miasto	493146	496974
+2823	300911_5	Przedecz - obszar wiejski	495194	501870
+2824	301001_4	Golina - miasto	437431	487936
+2825	301001_5	Golina - obszar wiejski	438228	488651
+2826	301002_2	Grodziec - gmina wiejska	431743	471164
+2827	301003_2	Kazimierz Biskupi - gmina wiejska	437252	497117
+2828	301004_4	Kleczew - miasto	443539	500266
+2829	301004_5	Kleczew - obszar wiejski	438534	504993
+2830	301005_2	Kramsk - gmina wiejska	462067	491486
+2831	301006_2	Krzymów - gmina wiejska	451595	482496
+2832	301007_4	Rychwał - miasto	442767	469506
+2833	301007_5	Rychwał - obszar wiejski	440713	475040
+2834	301008_2	Rzgów - gmina wiejska	439981	477564
+2835	301009_2	Skulsk - gmina wiejska	455803	507534
+2836	301010_4	Sompolno - miasto	466202	504307
+2837	301010_5	Sompolno - obszar wiejski	462848	500139
+2838	301011_2	Stare Miasto - gmina wiejska	448310	474601
+2839	301012_4	Ślesin - miasto	453747	502712
+2840	301012_5	Ślesin - obszar wiejski	454368	495154
+2841	301013_2	Wierzbinek - gmina wiejska	465992	511474
+2842	301014_2	Wilczyn - gmina wiejska	443723	515146
+2843	301101_1	Kościan - gmina miejska	338710	470598
+2844	301102_4	Czempiń - miasto	346635	477498
+2845	301102_5	Czempiń - obszar wiejski	348429	473457
+2846	301103_2	Kościan - gmina wiejska	337181	473670
+2847	301104_4	Krzywiń - miasto	350019	457479
+2848	301104_5	Krzywiń - obszar wiejski	353432	468765
+2849	301105_4	Śmigiel - miasto	330570	463010
+2850	301105_5	Śmigiel - obszar wiejski	330675	464375
+2851	301201_1	Sulmierzyce - gmina miejska	399206	414677
+2852	301202_4	Kobylin - miasto	379442	429345
+2853	301202_5	Kobylin - obszar wiejski	379029	434344
+2854	301203_4	Koźmin Wielkopolski - miasto	393339	440948
+2855	301203_5	Koźmin Wielkopolski - obszar wiejski	395243	446787
+2856	301204_4	Krotoszyn - miasto	392350	424643
+2857	301204_5	Krotoszyn - obszar wiejski	405427	429112
+2858	301205_2	Rozdrażew - gmina wiejska	397027	438240
+2859	301206_4	Zduny - miasto	388154	421524
+2860	301206_5	Zduny - obszar wiejski	383882	425310
+2861	301301_2	Krzemieniewo - gmina wiejska	350491	452419
+2862	301302_2	Lipno - gmina wiejska	327446	449360
+2863	301303_4	Osieczna - miasto	339436	450758
+2864	301303_5	Osieczna - obszar wiejski	339328	452117
+2865	301304_4	Rydzyna - miasto	339125	437752
+2866	301304_5	Rydzyna - obszar wiejski	339744	443306
+2867	301305_2	Święciechowa - gmina wiejska	326962	448354
+2868	301306_2	Wijewo - gmina wiejska	310908	455074
+2869	301307_2	Włoszakowice - gmina wiejska	315381	457765
+2870	301401_2	Chrzypsko Wielkie - gmina wiejska	312877	526341
+2871	301402_2	Kwilcz - gmina wiejska	310814	521530
+2872	301403_4	Międzychód - miasto	290926	530755
+2873	301403_5	Międzychód - obszar wiejski	295617	526027
+2874	301404_4	Sieraków - miasto	303558	536035
+2875	301404_5	Sieraków - obszar wiejski	294554	543491
+2876	301501_2	Kuślin - gmina wiejska	314754	498140
+2877	301502_4	Lwówek - miasto	308922	512429
+2878	301502_5	Lwówek - obszar wiejski	299584	512604
+2879	301503_2	Miedzichowo - gmina wiejska	293744	511550
+2880	301504_4	Nowy Tomyśl - miasto	304769	498377
+2881	301504_5	Nowy Tomyśl - obszar wiejski	302352	494595
+2882	301505_4	Opalenica - miasto	324468	496180
+2883	301505_5	Opalenica - obszar wiejski	321457	499063
+2884	301506_4	Zbąszyń - miasto	291195	492043
+2885	301506_5	Zbąszyń - obszar wiejski	291310	490586
+2886	301601_4	Oborniki - miasto	351657	534755
+2887	301601_5	Oborniki - obszar wiejski	342849	529992
+2888	301602_4	Rogoźno - miasto	364672	544131
+2889	301602_5	Rogoźno - obszar wiejski	364328	542632
+2890	301603_2	Ryczywół - gmina wiejska	356395	554771
+2891	301701_1	Ostrów Wielkopolski - gmina miejska	420592	421582
+2892	301702_4	Nowe Skalmierzyce - miasto	430764	426558
+2893	301702_5	Nowe Skalmierzyce - obszar wiejski	428468	425331
+2894	301703_4	Odolanów - miasto	407818	413734
+2895	301703_5	Odolanów - obszar wiejski	410017	410623
+2896	301704_2	Ostrów Wielkopolski - gmina wiejska	419602	432872
+2897	301705_2	Przygodzice - gmina wiejska	424158	412901
+2898	301706_4	Raszków - miasto	411428	429654
+2899	301706_5	Raszków - obszar wiejski	409136	438670
+2900	301707_2	Sieroszewice - gmina wiejska	437419	412029
+2901	301708_2	Sośnie - gmina wiejska	399607	404798
+2902	301801_2	Czajków - gmina wiejska	455400	407444
+2903	301802_2	Doruchów - gmina wiejska	432652	397008
+2904	301803_4	Grabów nad Prosną - miasto	438482	404219
+2905	301803_5	Grabów nad Prosną - obszar wiejski	433171	398478
+2906	301804_2	Kobyla Góra - gmina wiejska	414859	386660
+2907	301805_2	Kraszewice - gmina wiejska	449992	402799
+2908	301806_4	Mikstat - miasto	429745	408033
+2909	301806_5	Mikstat - obszar wiejski	435318	407733
+2910	301807_4	Ostrzeszów - miasto	425836	397392
+2911	301807_5	Ostrzeszów - obszar wiejski	424882	391825
+2912	301901_1	Piła - gmina miejska	349095	581862
+2913	301902_2	Białośliwie - gmina wiejska	372156	586466
+2914	301903_4	Kaczory - miasto	355887	585770
+2915	301903_5	Kaczory - obszar wiejski	362718	581556
+2916	301904_4	Łobżenica - miasto	383334	601176
+2917	301904_5	Łobżenica - obszar wiejski	387572	603278
+2918	301905_4	Miasteczko Krajeńskie - miasto	367113	583227
+2919	301905_5	Miasteczko Krajeńskie - obszar wiejski	364210	586530
+2920	301906_2	Szydłowo - gmina wiejska	346916	600643
+2921	301907_4	Ujście - miasto	349807	578721
+2922	301907_5	Ujście - obszar wiejski	344018	582810
+2923	301908_4	Wyrzysk - miasto	383107	589198
+2924	301908_5	Wyrzysk - obszar wiejski	390123	582968
+2925	301909_4	Wysoka - miasto	372213	592665
+2926	301909_5	Wysoka - obszar wiejski	373764	591204
+2927	302001_4	Chocz - miasto	421646	458661
+2928	302001_5	Chocz - obszar wiejski	426419	458596
+2929	302002_2	Czermin - gmina wiejska	414777	456831
+2930	302003_4	Dobrzyca - miasto	401329	444152
+2931	302003_5	Dobrzyca - obszar wiejski	408359	446321
+2932	302004_2	Gizałki - gmina wiejska	424820	463365
+2933	302005_2	Gołuchów - gmina wiejska	428320	444173
+2934	302006_4	Pleszew - miasto	415033	448071
+2935	302006_5	Pleszew - obszar wiejski	421901	447453
+2936	302101_1	Luboń - gmina miejska	356622	500392
+2937	302102_1	Puszczykowo - gmina miejska	354624	495013
+2938	302103_4	Buk - miasto	330593	500868
+2939	302103_5	Buk - obszar wiejski	334809	500040
+2940	302104_2	Czerwonak - gmina wiejska	364279	516038
+2941	302105_2	Dopiewo - gmina wiejska	341414	499640
+2942	302106_2	Kleszczewo - gmina wiejska	370735	497367
+2943	302107_2	Komorniki - gmina wiejska	350036	494017
+2944	302108_4	Kostrzyn - miasto	378885	506739
+2945	302108_5	Kostrzyn - obszar wiejski	382682	506676
+2946	302109_4	Kórnik - miasto	369056	489349
+2947	302109_5	Kórnik - obszar wiejski	364867	497467
+2948	302110_4	Mosina - miasto	354612	488875
+2949	302110_5	Mosina - obszar wiejski	356847	488259
+2950	302111_4	Murowana Goślina - miasto	366865	525237
+2951	302111_5	Murowana Goślina - obszar wiejski	368346	522794
+2952	302112_4	Pobiedziska - miasto	381377	514140
+2953	302112_5	Pobiedziska - obszar wiejski	387141	507806
+2954	302113_2	Rokietnica - gmina wiejska	344105	519136
+2955	302114_4	Stęszew - miasto	342642	492965
+2956	302114_5	Stęszew - obszar wiejski	345585	494458
+2957	302115_2	Suchy Las - gmina wiejska	359228	527271
+2958	302116_4	Swarzędz - miasto	368377	505735
+2959	302116_5	Swarzędz - obszar wiejski	372376	505669
+2960	302117_2	Tarnowo Podgórne - gmina wiejska	339536	508743
+2961	302201_4	Bojanowo - miasto	344247	428882
+2962	302201_5	Bojanowo - obszar wiejski	346752	426575
+2963	302202_4	Jutrosin - miasto	374073	421538
+2964	302202_5	Jutrosin - obszar wiejski	370476	414665
+2965	302203_4	Miejska Górka - miasto	358010	422063
+2966	302203_5	Miejska Górka - obszar wiejski	356986	422714
+2967	302204_2	Pakosław - gmina wiejska	365723	414161
+2968	302205_4	Rawicz - miasto	351291	418413
+2969	302205_5	Rawicz - obszar wiejski	349144	417137
+2970	302301_1	Słupca - gmina miejska	423494	492748
+2971	302302_2	Lądek - gmina wiejska	426861	482969
+2972	302303_2	Orchowo - gmina wiejska	429732	514534
+2973	302304_2	Ostrowite - gmina wiejska	432834	499269
+2974	302305_2	Powidz - gmina wiejska	430556	508823
+2975	302306_2	Słupca - gmina wiejska	428012	495932
+2976	302307_2	Strzałkowo - gmina wiejska	411906	499667
+2977	302308_4	Zagórów - miasto	424357	477828
+2978	302308_5	Zagórów - obszar wiejski	418070	477063
+2979	302401_1	Obrzycko - gmina miejska	334047	540266
+2980	302402_2	Duszniki - gmina wiejska	319980	515413
+2981	302403_2	Kaźmierz - gmina wiejska	337075	512879
+2982	302404_2	Obrzycko - gmina wiejska	335789	540874
+2983	302405_4	Ostroróg - miasto	327205	531880
+2984	302405_5	Ostroróg - obszar wiejski	325133	531145
+2985	302406_4	Pniewy - miasto	315655	518839
+2986	302406_5	Pniewy - obszar wiejski	318270	512912
+2987	302407_4	Szamotuły - miasto	335703	529795
+2988	302407_5	Szamotuły - obszar wiejski	337085	525023
+2989	302408_4	Wronki - miasto	323738	540794
+2990	302408_5	Wronki - obszar wiejski	312551	545030
+2991	302501_2	Dominowo - gmina wiejska	394324	487665
+2992	302502_2	Krzykosy - gmina wiejska	392886	478223
+2993	302503_2	Nowe Miasto nad Wartą - gmina wiejska	388178	463749
+2994	302504_4	Środa Wielkopolska - miasto	381903	486888
+2995	302504_5	Środa Wielkopolska - obszar wiejski	378610	490662
+2996	302505_4	Zaniemyśl - miasto	374654	477277
+2997	302505_5	Zaniemyśl - obszar wiejski	374390	483317
+2998	302601_2	Brodnica - gmina wiejska	359299	473767
+2999	302602_4	Dolsk - miasto	366738	457992
+3000	302602_5	Dolsk - obszar wiejski	364079	460699
+3001	302603_4	Książ Wielkopolski - miasto	380739	468080
+3002	302603_5	Książ Wielkopolski - obszar wiejski	378018	468820
+3003	302604_4	Śrem - miasto	363982	469982
+3004	302604_5	Śrem - obszar wiejski	358698	464335
+3005	302701_1	Turek - gmina miejska	465953	462628
+3006	302702_2	Brudzew - gmina wiejska	472675	466699
+3007	302703_4	Dobra - miasto	473893	450579
+3008	302703_5	Dobra - obszar wiejski	471327	447626
+3009	302704_2	Kawęczyn - gmina wiejska	462385	450844
+3010	302705_2	Malanów - gmina wiejska	460963	450153
+3011	302706_2	Przykona - gmina wiejska	476686	455619
+3012	302707_4	Tuliszków - miasto	451452	468774
+3013	302707_5	Tuliszków - obszar wiejski	454924	468040
+3014	302708_2	Turek - gmina wiejska	463887	458747
+3015	302709_2	Władysławów - gmina wiejska	462935	476818
+3016	302801_1	Wągrowiec - gmina miejska	378837	552778
+3017	302802_2	Damasławek - gmina wiejska	390623	555117
+3018	302803_4	Gołańcz - miasto	385533	564957
+3019	302803_5	Gołańcz - obszar wiejski	377510	565508
+3020	302804_4	Mieścisko - miasto	388778	542877
+3021	302804_5	Mieścisko - gmina wiejska	391841	542261
+3022	302805_4	Skoki - miasto	375751	533290
+3023	302805_5	Skoki - obszar wiejski	382253	531938
+3024	302806_2	Wapno - gmina wiejska	397552	563703
+3025	302807_2	Wągrowiec - gmina wiejska	386296	544214
+3026	302901_2	Przemęt - gmina wiejska	308613	458805
+3027	302902_2	Siedlec - gmina wiejska	284433	476050
+3028	302903_4	Wolsztyn - miasto	303128	476695
+3029	302903_5	Wolsztyn - obszar wiejski	298667	476212
+3030	303001_2	Kołaczkowo - gmina wiejska	412480	489547
+3031	303002_4	Miłosław - miasto	397483	483080
+3032	303002_5	Miłosław - obszar wiejski	398862	486891
+3033	303003_4	Nekla - miasto	392644	504122
+3034	303003_5	Nekla - obszar wiejski	389112	505779
+3035	303004_4	Pyzdry - miasto	408971	478745
+3036	303004_5	Pyzdry - obszar wiejski	412311	482440
+3037	303005_4	Września - miasto	400835	495811
+3038	303005_5	Września - obszar wiejski	401286	500858
+3039	303101_1	Złotów - gmina miejska	371833	612520
+3040	303102_4	Jastrowie - miasto	358457	621303
+3041	303102_5	Jastrowie - obszar wiejski	347835	608733
+3042	303103_4	Krajenka - miasto	366813	605835
+3043	303103_5	Krajenka - obszar wiejski	363882	602766
+3044	303104_2	Lipka - gmina wiejska	383387	629862
+3045	303105_4	Okonek - miasto	356189	629758
+3046	303105_5	Okonek - obszar wiejski	353861	622825
+3047	303106_2	Tarnówka - gmina wiejska	353359	609840
+3048	303107_2	Zakrzewo - gmina wiejska	375597	612781
+3049	303108_2	Złotów - gmina wiejska	380867	608109
+3050	306101_1	Kalisz - gmina miejska	434898	429446
+3051	306201_1	Konin - gmina miejska	448362	484082
+3052	306301_1	Leszno - gmina miejska	332344	447114
+3053	306401_1	Poznań - gmina miejska	357097	506856
+3054	320101_1	Białogard - gmina miejska	302093	689864
+3055	320102_2	Białogard - gmina wiejska	291873	677985
+3056	320103_4	Karlino - miasto	294549	688510
+3057	320103_5	Karlino - obszar wiejski	293686	690679
+3058	320104_4	Tychowo - miasto	318755	675492
+3059	320104_5	Tychowo - obszar wiejski	320078	679141
+3060	320201_2	Bierzwnik - gmina wiejska	272668	581030
+3061	320202_4	Choszczno - miasto	262237	595456
+3062	320202_5	Choszczno - obszar wiejski	268294	595886
+3063	320203_4	Drawno - miasto	282692	599241
+3064	320203_5	Drawno - obszar wiejski	283790	594934
+3065	320204_2	Krzęcin - gmina wiejska	269333	580348
+3066	320205_4	Pełczyce - miasto	253774	581814
+3067	320205_5	Pełczyce - obszar wiejski	260142	582355
+3068	320206_4	Recz - miasto	268745	603892
+3069	320206_5	Recz - obszar wiejski	265738	602096
+3070	320301_4	Czaplinek - miasto	316903	633110
+3071	320301_5	Czaplinek - obszar wiejski	315139	650401
+3072	320302_4	Drawsko Pomorskie - miasto	288828	632939
+3073	320302_5	Drawsko Pomorskie - obszar wiejski	285350	640695
+3074	320303_4	Kalisz Pomorski - miasto	294346	609823
+3075	320303_5	Kalisz Pomorski - obszar wiejski	283044	618435
+3076	320305_2	Wierzchowo - gmina wiejska	323634	624003
+3077	320306_4	Złocieniec - miasto	300712	631932
+3078	320306_5	Złocieniec - obszar wiejski	305067	631796
+3079	320402_4	Goleniów - miasto	224866	639633
+3080	320402_5	Goleniów - obszar wiejski	221049	634572
+3081	320403_4	Maszewo - miasto	238222	633512
+3082	320403_5	Maszewo - obszar wiejski	233715	630351
+3083	320404_4	Nowogard - miasto	241587	652390
+3084	320404_5	Nowogard - obszar wiejski	240975	660612
+3085	320405_2	Osina - gmina wiejska	234737	643840
+3086	320406_2	Przybiernów - gmina wiejska	222075	658450
+3087	320407_4	Stepnica - miasto	213215	652229
+3088	320407_5	Stepnica - obszar wiejski	210022	656357
+3089	320501_2	Brojce - gmina wiejska	265708	679372
+3090	320502_4	Gryfice - miasto	250934	678842
+3091	320502_5	Gryfice - obszar wiejski	251571	686166
+3092	320503_2	Karnice - gmina wiejska	244235	690914
+3093	320504_4	Płoty - miasto	254374	666209
+3094	320504_5	Płoty - obszar wiejski	251541	665456
+3095	320507_2	Rewal - gmina wiejska	234967	695171
+3096	320508_4	Trzebiatów - miasto	256989	694418
+3097	320508_5	Trzebiatów - obszar wiejski	256153	701842
+3098	320601_2	Banie - gmina wiejska	210865	586669
+3099	320602_4	Cedynia - miasto	177779	567060
+3100	320602_5	Cedynia - obszar wiejski	174862	564521
+3101	320603_4	Chojna - miasto	193045	576409
+3102	320603_5	Chojna - obszar wiejski	185623	581059
+3103	320604_4	Gryfino - miasto	200789	610510
+3104	320604_5	Gryfino - obszar wiejski	198165	602486
+3105	320605_4	Mieszkowice - miasto	196240	556142
+3106	320605_5	Mieszkowice - obszar wiejski	188520	555036
+3107	320606_4	Moryń - miasto	189760	563957
+3108	320606_5	Moryń - obszar wiejski	184999	567756
+3109	320607_2	Stare Czarnowo - gmina wiejska	219233	605931
+3110	320608_4	Trzcińsko-Zdrój - miasto	205194	576270
+3111	320608_5	Trzcińsko-Zdrój - obszar wiejski	208567	577187
+3112	320609_2	Widuchowa - gmina wiejska	196303	589325
+3113	320701_4	Dziwnów - miasto	222489	691659
+3114	320701_5	Dziwnów - obszar wiejski	223093	691344
+3115	320702_4	Golczewo - miasto	235198	670858
+3116	320702_5	Golczewo - obszar wiejski	235162	673640
+3117	320703_4	Kamień Pomorski - miasto	222194	688149
+3118	320703_5	Kamień Pomorski - obszar wiejski	225325	683684
+3119	320704_4	Międzyzdroje - miasto	199667	683051
+3120	320704_5	Międzyzdroje - obszar wiejski	199562	674991
+3121	320705_2	Świerzno - gmina wiejska	232926	685657
+3122	320706_4	Wolin - miasto	211508	674004
+3123	320706_5	Wolin - obszar wiejski	205983	670142
+3124	320801_1	Kołobrzeg - gmina miejska	273846	705417
+3125	320802_2	Dygowo - gmina wiejska	288395	696714
+3126	320803_4	Gościno - miasto	281048	690991
+3127	320803_5	Gościno - obszar wiejski	278151	694823
+3128	320804_2	Kołobrzeg - gmina wiejska	264398	698255
+3129	320805_2	Rymań - gmina wiejska	268070	687751
+3130	320806_2	Siemyśl - gmina wiejska	278745	686154
+3131	320807_2	Ustronie Morskie - gmina wiejska	291199	706733
+3132	320901_2	Będzino - gmina wiejska	292911	706687
+3133	320902_2	Biesiekierz - gmina wiejska	306285	704104
+3134	320903_4	Bobolice - miasto	341452	679049
+3135	320903_5	Bobolice - obszar wiejski	342151	682001
+3136	320904_2	Manowo - gmina wiejska	327967	694469
+3137	320905_4	Mielno - miasto	312996	714266
+3138	320905_5	Mielno - obszar wiejski	297633	712768
+3139	320906_4	Polanów - miasto	349541	697041
+3140	320906_5	Polanów - obszar wiejski	354132	700947
+3141	320907_4	Sianów - miasto	326846	710136
+3142	320907_5	Sianów - obszar wiejski	336823	707917
+3143	320908_2	Świeszyno - gmina wiejska	319194	699177
+3144	321001_4	Barlinek - miasto	245153	576324
+3145	321001_5	Barlinek - obszar wiejski	248033	573549
+3146	321002_2	Boleszkowice - gmina wiejska	202605	550985
+3147	321003_4	Dębno - miasto	211015	549593
+3148	321003_5	Dębno - obszar wiejski	212248	542913
+3149	321004_4	Myślibórz - miasto	220425	572627
+3150	321004_5	Myślibórz - obszar wiejski	218295	579497
+3151	321005_2	Nowogródek Pomorski - gmina wiejska	231721	565731
+3152	321101_2	Dobra (Szczecińska) - gmina wiejska	196249	638846
+3153	321102_2	Kołbaskowo - gmina wiejska	195177	614237
+3154	321103_4	Nowe Warpno - miasto	191781	661061
+3155	321103_5	Nowe Warpno - obszar wiejski	199210	661434
+3156	321104_4	Police - miasto	208677	639711
+3157	321104_5	Police - obszar wiejski	203909	645220
+3158	321201_2	Bielice - gmina wiejska	217521	600052
+3159	321202_2	Kozielice - gmina wiejska	221488	588166
+3160	321203_4	Lipiany - miasto	230145	579336
+3161	321203_5	Lipiany - obszar wiejski	233083	584951
+3162	321204_2	Przelewice - gmina wiejska	235772	597616
+3163	321205_4	Pyrzyce - miasto	228737	596637
+3164	321205_5	Pyrzyce - obszar wiejski	222856	602839
+3165	321206_2	Warnice - gmina wiejska	236912	601260
+3166	321301_1	Darłowo - gmina miejska	333653	730827
+3167	321302_1	Sławno - gmina miejska	349205	726996
+3168	321303_2	Darłowo - gmina wiejska	340009	726389
+3169	321304_2	Malechowo - gmina wiejska	340887	722659
+3170	321305_2	Postomino - gmina wiejska	346097	741159
+3171	321306_2	Sławno - gmina wiejska	352168	713301
+3172	321401_1	Stargard - gmina miejska	238441	614745
+3173	321402_4	Chociwel - miasto	256680	628720
+3174	321402_5	Chociwel - obszar wiejski	251576	629385
+3175	321403_4	Dobrzany - miasto	264024	616106
+3176	321403_5	Dobrzany - obszar wiejski	265548	617065
+3177	321404_2	Dolice - gmina wiejska	254479	595860
+3178	321405_4	Ińsko - miasto	268973	624820
+3179	321405_5	Ińsko - obszar wiejski	269861	620150
+3180	321406_2	Kobylanka - gmina wiejska	223184	621065
+3181	321408_2	Marianowo - gmina wiejska	253274	620813
+3182	321409_2	Stara Dąbrowa - gmina wiejska	241887	627558
+3183	321410_2	Stargard - gmina wiejska	237838	608657
+3184	321411_4	Suchań - miasto	255270	607458
+3185	321411_5	Suchań - obszar wiejski	250037	611558
+3186	321501_1	Szczecinek - gmina miejska	350555	649523
+3187	321502_4	Barwice - miasto	325015	657166
+3188	321502_5	Barwice - obszar wiejski	329723	654627
+3189	321503_4	Biały Bór - miasto	359371	667338
+3190	321503_5	Biały Bór - obszar wiejski	359064	667757
+3191	321504_4	Borne Sulinowo - miasto	336249	639164
+3192	321504_5	Borne Sulinowo - obszar wiejski	344808	633684
+3193	321505_2	Grzmiąca - gmina wiejska	334110	673093
+3194	321506_2	Szczecinek - gmina wiejska	344546	668262
+3195	321601_1	Świdwin - gmina miejska	288268	661846
+3196	321602_2	Brzeżno - gmina wiejska	292521	648062
+3197	321603_4	Połczyn-Zdrój - miasto	307089	657163
+3198	321603_5	Połczyn-Zdrój - obszar wiejski	300154	662782
+3199	321604_2	Rąbino - gmina wiejska	303571	666402
+3200	321605_2	Sławoborze - gmina wiejska	282813	682162
+3201	321606_2	Świdwin - gmina wiejska	274833	664211
+3202	321701_1	Wałcz - gmina miejska	330041	602496
+3203	321702_4	Człopa - miasto	307017	584832
+3204	321702_5	Człopa - obszar wiejski	310068	584416
+3205	321703_4	Mirosławiec - miasto	305921	611950
+3206	321703_5	Mirosławiec - obszar wiejski	316227	607997
+3207	321704_4	Tuczno - miasto	312139	594593
+3208	321704_5	Tuczno - obszar wiejski	308290	594907
+3209	321705_2	Wałcz - gmina wiejska	318151	600941
+3210	321801_4	Dobra - miasto	255275	641038
+3211	321801_5	Dobra - obszar wiejski	255056	645153
+3212	321802_4	Łobez - miasto	275096	646058
+3213	321802_5	Łobez - obszar wiejski	285574	649100
+3214	321803_2	Radowo Małe - gmina wiejska	269407	652817
+3215	321804_4	Resko - miasto	261863	662199
+3216	321804_5	Resko - obszar wiejski	259274	659681
+3217	321805_4	Węgorzyno - miasto	271543	637424
+3218	321805_5	Węgorzyno - obszar wiejski	262008	641229
+3219	326101_1	Koszalin - gmina miejska	318184	705181
+3220	326201_1	Szczecin - gmina miejska	207428	636837
+3221	326301_1	Świnoujście - gmina miejska	188920	679621

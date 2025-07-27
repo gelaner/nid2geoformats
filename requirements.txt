@@ -1,0 +1,5 @@
+requests
+pandas
+geopandas
+tqdm
+pyarrow
