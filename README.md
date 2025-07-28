@@ -113,7 +113,17 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 5. Więcej informacji
+## 🧾 5. Licencjonowanie danych źródłowych
+
+Korzystając z danych akceptujesz warunki/komunikaty opisane na [stronie NID](https://mapy.zabytek.gov.pl/dane/notaPrawna.html)
+
+Wszystkie dane zamieszczane w katalogu [dane.gov.pl](https://dane.gov.pl/) pochodzące z [Narodowego Instytutu Dziedzictwa](https://dane.gov.pl/pl/institution/64,narodowy-instytut-dziedzictwa) udostęniane są na licencji [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.pl)
+
+Udostępnianie otwartych danych reguluje ustawa z dnia 11 sierpnia 2021 r. o otwartych danych i ponownym wykorzystywaniu informacji sektora publicznego ([Dz. U. z 2023 r. poz. 1524](https://dziennikustaw.gov.pl/DU/2021/1641)).
+
+---
+
+## 📚 6. Więcej informacji
 
 Szczegółowy opis działania oraz przykłady wykorzystania aplikacji znajdziesz na blogu:
 
