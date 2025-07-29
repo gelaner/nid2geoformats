@@ -1,7 +1,7 @@
 # nid2geoformats/fetcher.py
 import os
 import requests
-import pandas as pdh
+import pandas as pd
 from tqdm import tqdm
 
 def fetch_archives(archive_list_path: str, download_dir: str):  # funkcja pobierająca pliki ZIP z listy linków
