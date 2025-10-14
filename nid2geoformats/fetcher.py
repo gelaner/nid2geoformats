@@ -3,12 +3,13 @@ import os
 import requests
 import pandas as pd
 from tqdm import tqdm
+from pathlib import Path
 
-def fetch_archives(archive_list_path: str, download_dir: str):  # funkcja pobierająca pliki ZIP z listy linków
+def fetch_archives(archive_list_path: Path, download_dir: Path):  # funkcja pobierająca pliki ZIP z listy linków
     """
     Pobiera archiwa ZIP z listy i zapisuje je w podanym katalogu.
     """
-    os.makedirs(download_dir, exist_ok=True)
+    download_dir.mkdir(parents=True, exist_ok=True)
     
     df = pd.read_csv(archive_list_path, sep='\t')
 
@@ -18,12 +19,12 @@ def fetch_archives(archive_list_path: str, download_dir: str):  # funkcja pobier
         register_type = row['typ_rejestru']
         
         # Tworzenie podkatalogu dla typu rejestru
-        register_dir = os.path.join(download_dir, register_type)
-        os.makedirs(register_dir, exist_ok=True)
+        register_dir = download_dir / register_type
+        register_dir.mkdir(parents=True, exist_ok=True)
 
         # Nazwa pliku na podstawie JPT_KOD_JE
         filename = f"{jpt_kod}.zip"
-        file_path = os.path.join(register_dir, filename)
+        file_path = register_dir / filename
 
         # Pobieranie pliku
         response = requests.get(url, stream=True)  # wysłanie zapytania HTTP do serwera WMS

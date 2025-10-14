@@ -3,7 +3,7 @@ import requests  # importowanie modułów zewnętrznych i standardowych
 import re  # importowanie modułów zewnętrznych i standardowych
 import csv  # importowanie modułów zewnętrznych i standardowych
 from tqdm import tqdm
-
+from pathlib import Path
 
 # Szablon URL GetFeatureInfo do serwera NID
 URL_TEMPLATE = (
@@ -18,7 +18,7 @@ URL_TEMPLATE = (
 ZIP_PATTERN = re.compile(r"/dane/([A-Z]{3})/([A-F0-9]{32})\.zip")
 
 
-def test_wms_availability(session_id):  # test połączenia z usługą WMS i ważność session_id
+def test_wms_availability(session_id: str) -> bool:  # test połączenia z usługą WMS i ważność session_id
     """
     Testuje dostępność usługi WMS i ważność podanego SESSION_ID.
     Zwraca True, jeśli połączenie jest poprawne, False w przeciwnym razie.
@@ -39,8 +39,7 @@ def test_wms_availability(session_id):  # test połączenia z usługą WMS i wa�
 
 
 
-
-def initialize_archives_list(session_id, input_path, output_path):  # inicjalizacja listy archiwów ZIP do pobrania z NID
+def initialize_archives_list(session_id: str, input_path: Path, output_path: Path):  # inicjalizacja listy archiwów ZIP do pobrania z NID
     """
     Dla każdego punktu (XCoord, YCoord) pobiera listę dostępnych ZIP-ów z usługi WMS GetFeatureInfo 
     a na końcu zapisuje wszystkie pobrane adresy do pliku tekstowego.
@@ -66,6 +65,7 @@ def initialize_archives_list(session_id, input_path, output_path):  # inicjaliza
 
             url = URL_TEMPLATE.format(session_id=session_id, bbox=bbox)
             response = requests.get(url, timeout=10)  # wysłanie zapytania HTTP do serwera WMS
+            
             if response.status_code == 200:
                 matches = ZIP_PATTERN.findall(response.text)
                 for register_type, zip_name in set(matches):  # set() usuwa duplikaty

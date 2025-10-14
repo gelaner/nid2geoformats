@@ -3,3 +3,6 @@ pandas
 geopandas
 tqdm
 pyarrow
+dotenv
+sqlalchemy
+psycopg2
