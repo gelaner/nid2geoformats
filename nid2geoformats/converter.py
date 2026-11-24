@@ -1,105 +1,118 @@
 # nid2geoformats/converter.py
-import os
-import zipfile
-import geopandas as gpd
-import pandas as pd
+"""Agregacja pobranych archiwów ZIP i zapis do wybranego formatu."""
+from __future__ import annotations
+
+import logging
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+
+import geopandas as gpd
+import pandas as pd
+from shapely.geometry import MultiLineString, MultiPoint, MultiPolygon
 from tqdm import tqdm
-import re
 
-shp_pattern = re.compile(r"(\w+)_(\w+)_(point|line|area)_[A-F0-9]{32}\.shp$", re.IGNORECASE)
+from .config import TARGET_CRS
+from .processor import read_zip
+from .writers import PostgisParams, Writer, make_writer
 
-def process_zip(zip_path, register_type):
-    """
-    Funkcja przetwrzająca pojedyncze archiwa ZIP pobierane z NID
-    """
-    results = []
-    try:
-        with zipfile.ZipFile(zip_path, "r") as archive:  # otwarcie archiwum ZIP
-            for file in archive.namelist():
-                if file.lower().endswith(".shp"):
-                    match = shp_pattern.search(os.path.basename(file))
-                    if match:
-                        _, _, geometry_type = match.groups()
+log = logging.getLogger(__name__)
 
-                        temp_dir = f"/tmp/{os.path.basename(zip_path)}_{geometry_type}"
-                        os.makedirs(temp_dir, exist_ok=True)
 
-                        for ext in ['.shp', '.shx', '.dbf', '.prj']:
-                            name = file[:-4] + ext
-                            if name in archive.namelist():
-                                archive.extract(name, temp_dir)
+def find_datasets(indir: Path) -> list[Path]:
+    """Katalogi zawierające bezpośrednio pliki ZIP (np. data/raw/wojewodztwa/ZEN)."""
+    found = {p.parent for p in indir.rglob("*.zip") if p.is_file()}
+    return sorted(found)
 
-                        shp_path = os.path.join(temp_dir, file)
 
-                        #testowanie zawartości plików pod kątem kodowania i narzucenie ukłądu współrzędnych
-                        try:
-                            gdf = gpd.read_file(shp_path, encoding="utf-8")
-                            gdf.set_crs("EPSG:2180", inplace=True, allow_override=True)
-                        except UnicodeDecodeError:
-                            #naprawianie kodowania jeśli jest inne niż utf-8
-                            try:
-                                gdf = gpd.read_file(shp_path, encoding="cp1250")
-                                for col in gdf.select_dtypes(include="object").columns:
-                                    gdf[col] = gdf[col].apply(
-                                        lambda x: x.encode("cp1250", errors="replace").decode("utf-8", errors="replace")
-                                        if isinstance(x, str) else x
-                                    )
-                            except Exception as e:
-                                print(f"Nie udało się naprawić pliku {shp_path}: {e}")
-                                continue
+_MULTI = {"Polygon": MultiPolygon, "LineString": MultiLineString, "Point": MultiPoint}
 
-                        results.append((geometry_type, gdf))
-    except Exception as e:
-        print(f"Błąd przetwarzania {zip_path}: {e}")
-    return results
 
-def convert_data(indir, outdir, format):
-    """
-    Funkcja przetwarzająca ZIPy z NID do wybranego formatu GIS
-    """
-    os.makedirs(outdir, exist_ok=True)
+def to_multi(geoms: gpd.GeoSeries) -> gpd.GeoSeries:
+    """Ujednolica typy w warstwie (Polygon -> MultiPolygon itd.), aby kolumna miała jeden typ geometrii."""
+    def conv(g):
+        cls = _MULTI.get(g.geom_type) if g is not None else None
+        return cls([g]) if cls else g
+    return geoms.apply(conv)
 
-    for register_type in sorted(os.listdir(indir)):
-        subdir = os.path.join(indir, register_type)
-        if not os.path.isdir(subdir):
-            continue
 
-        print(f"Przetwarzanie katalogu: {register_type}")
-        aggregated = defaultdict(list)
-
-        zip_files = [os.path.join(subdir, f) for f in os.listdir(subdir) if f.lower().endswith(".zip")]
-
-        # równoległe przetwarzanie zawartości plików ZIP
-        with ThreadPoolExecutor(max_workers=4) as executor:
-            futures = {executor.submit(process_zip, zip_path, register_type): zip_path for zip_path in zip_files}
-            for future in tqdm(as_completed(futures), total=len(futures), desc=f"ZIP-y {register_type}"):
-                for geometry_type, gdf in future.result():
-                    aggregated[geometry_type].append(gdf)
-        # obsługa plików parquet
-        if format == "parquet":
-            for geometry_type, gdf_list in aggregated.items():
-                if gdf_list:
-                    combined = gpd.GeoDataFrame(pd.concat(gdf_list, ignore_index=True), crs=gdf_list[0].crs)  # operacje na danych geoprzestrzennych
-                    for col in combined.select_dtypes(include="object").columns:
-                        combined[col] = combined[col].apply(lambda x: str(x) if x is not None else None)
-                    output_path = os.path.join(outdir, f"{register_type}_{geometry_type}.parquet")
-                    combined.to_parquet(output_path, engine="pyarrow")
-                    print(f"Zapisano: {output_path}")
-
-        # obsługa plików gepackage
-        elif format == "gpkg":
-            output_gpkg_path = os.path.join(outdir, f"{register_type}.gpkg")
-            for geometry_type, gdf_list in aggregated.items():
-                if gdf_list:
-                    combined = gpd.GeoDataFrame(pd.concat(gdf_list, ignore_index=True), crs=gdf_list[0].crs)  # operacje na danych geoprzestrzennych
-                    for col in combined.select_dtypes(include="object").columns:
-                        combined[col] = combined[col].apply(lambda x: str(x) if x is not None else None)
-                    layer_name = f"{register_type}_{geometry_type}"
-                    mode = 'w' if not os.path.exists(output_gpkg_path) else 'a'
-                    combined.to_file(output_gpkg_path, layer=layer_name, driver="GPKG", mode=mode)  # operacje na danych geoprzestrzennych
-                    print(f"Zapisano warstwę '{layer_name}' do: {output_gpkg_path}")
-
+def check_validity(gdf: gpd.GeoDataFrame, label: str, make_valid: bool = False) -> gpd.GeoDataFrame:
+    invalid = ~gdf.geometry.is_valid & gdf.geometry.notna()
+    if invalid.any():
+        ids = gdf.loc[invalid, "INSPIRE_ID"].head(5).tolist() if "INSPIRE_ID" in gdf.columns else []
+        if make_valid:
+            gdf = gdf.copy()
+            gdf.loc[invalid, gdf.geometry.name] = gdf.geometry[invalid].make_valid()
+            log.info("%s: naprawiono %d niepoprawnych geometrii", label, int(invalid.sum()))
         else:
-            raise ValueError(f"Nieobsługiwany format: {format}")
+            log.warning("%s: %d niepoprawnych geometrii (np. %s); użyj --make-valid, aby je naprawić",
+                        label, int(invalid.sum()), ", ".join(map(str, ids)))
+    return gdf
+
+
+def merge_frames(frames: list[gpd.GeoDataFrame]) -> gpd.GeoDataFrame:
+    combined = gpd.GeoDataFrame(pd.concat(frames, ignore_index=True), crs=TARGET_CRS)
+    combined[combined.geometry.name] = to_multi(combined.geometry)
+    # kolumny tekstowe o mieszanych typach -> tekst (wymóg zapisu do parquet)
+    for col in combined.columns:
+        if col != combined.geometry.name and combined[col].dtype == object:
+            combined[col] = combined[col].map(lambda x: None if x is None or x != x else str(x))
+    return combined
+
+
+def drop_duplicates(gdf: gpd.GeoDataFrame, label: str) -> gpd.GeoDataFrame:
+    """Usuwa obiekty powtórzone w kilku paczkach (ten sam INSPIRE_ID i identyczna geometria)."""
+    if "INSPIRE_ID" not in gdf.columns:
+        return gdf
+    key = pd.DataFrame({"id": gdf["INSPIRE_ID"], "wkb": gdf.geometry.to_wkb()})
+    dup = key.duplicated()
+    if dup.any():
+        log.info("%s: usunięto %d zduplikowanych obiektów", label, int(dup.sum()))
+        gdf = gdf.loc[~dup.values].reset_index(drop=True)
+    return gdf
+
+
+def collect_dataset(zip_files: list[Path], workers: int, desc: str) -> dict[str, list[gpd.GeoDataFrame]]:
+    aggregated: dict[str, list[gpd.GeoDataFrame]] = defaultdict(list)
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [executor.submit(read_zip, z) for z in zip_files]
+        for future in tqdm(as_completed(futures), total=len(futures), desc=desc):
+            for geometry, gdf in future.result():
+                aggregated[geometry].append(gdf)
+    return aggregated
+
+
+def convert_data(
+    indir: Path | str,
+    outdir: Path | str | None,
+    format: str = "parquet",
+    workers: int = 4,
+    dedupe: bool = True,
+    pg: PostgisParams | None = None,
+    writer: Writer | None = None,
+    make_valid: bool = False,
+) -> None:
+    """Przetwarza wszystkie katalogi z ZIP-ami w `indir` i zapisuje je do `outdir` (lub PostGIS).
+
+    Struktura wyjścia odzwierciedla wejście, np. data/raw/wojewodztwa/ZEN/*.zip ->
+    data/processed/wojewodztwa/ZEN_area.parquet.
+    """
+    indir = Path(indir)
+    writer = writer or make_writer(format, outdir, pg)
+    try:
+        datasets = find_datasets(indir)
+        if not datasets:
+            log.warning("Nie znaleziono plików ZIP w %s", indir)
+        for ds_dir in datasets:
+            dataset = ds_dir.name
+            group = ds_dir.parent.relative_to(indir)
+            zips = sorted(ds_dir.glob("*.zip"))
+            aggregated = collect_dataset(zips, workers, f"{group.as_posix()}/{dataset}".lstrip("./"))
+            for geometry, frames in sorted(aggregated.items()):
+                gdf = merge_frames(frames)
+                if dedupe:
+                    gdf = drop_duplicates(gdf, f"{dataset}_{geometry}")
+                gdf = check_validity(gdf, f"{dataset}_{geometry}", make_valid)
+                writer.write(gdf, group, dataset, geometry)
+    finally:
+        writer.close()

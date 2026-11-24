@@ -1,82 +1,169 @@
 # nid2geoformats/initializer.py
-import requests  # importowanie modułów zewnętrznych i standardowych
-import re  # importowanie modułów zewnętrznych i standardowych
-import csv  # importowanie modułów zewnętrznych i standardowych
+"""Budowanie listy archiwów ZIP do pobrania.
+
+Dwa tryby:
+- offline (domyślny bez sid): linki budowane z kodów TERYT według schematu NID
+  (województwa: /dane/<REJ>/WOJ/<REJ>_<TERYT2>.zip, gminy: /dane/<REJ>/<TERYT7>.zip),
+  opcjonalnie weryfikowane zapytaniem HEAD;
+- WMS (gdy podano sid): linki odczytywane z GetFeatureInfo warstwy Wojewodztwa/Gminy w punktach jednostek.
+"""
+from __future__ import annotations
+
+import csv
+import logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+
+import requests
 from tqdm import tqdm
 
+from .config import DEFAULT_LEVEL, DOWNLOAD_BASE, LEVELS, REGISTERS, WMS_HALF_SIZE, WMS_LAYERS
+from .http import DEFAULT_TIMEOUT, make_session
+from .wms import SessionExpiredError, find_update_date, find_zip_links, get_feature_info
 
-# Szablon URL GetFeatureInfo do serwera NID
-URL_TEMPLATE = (
-    "https://usluga.zabytek.gov.pl/DaneZabytki/service.svc/get?"
-    "sid={session_id}&VERSION=1.3.0&SERVICE=WMS&"
-    "REQUEST=GetFeatureInfo&INFO_FORMAT=text/xml&LAYERS=Dane_do_pobrania&"
-    "QUERY_LAYERS=Dane_do_pobrania&FORMAT=image/png&CRS=EPSG:2180&WIDTH=100&"
-    "HEIGHT=100&I=50&J=50&styles=&BBOX={bbox}"
-)
+log = logging.getLogger(__name__)
 
-# Wzorzec wykrywania linków do ZIP
-ZIP_PATTERN = re.compile(r"/dane/([A-Z]{3})/([A-F0-9]{32})\.zip")
+OUTPUT_COLUMNS = ["poziom", "JPT_KOD_JE", "JPT_NAZWA", "typ_rejestru", "link_do_pobrania", "data_aktualizacji"]
 
 
-def test_wms_availability(session_id):  # test połączenia z usługą WMS i ważność session_id
+def read_units(path: Path | str) -> list[dict]:
+    with open(path, newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f, delimiter="\t"))
+
+
+def teryt7(jpt_kod_je: str) -> str:
+    """'020101_1' -> '0201011' (kod gminy TERYT z rodzajem gminy).
+
+    Dzielnice Warszawy (_8) i delegatury/dzielnice miast (_9) NID publikuje jako całe miasto,
+    np. '146502_8' -> '1465011', '106102_9' -> '1061011'.
     """
-    Testuje dostępność usługi WMS i ważność podanego SESSION_ID.
-    Zwraca True, jeśli połączenie jest poprawne, False w przeciwnym razie.
-    """
-    test_url = f"https://usluga.zabytek.gov.pl/DaneZabytki/service.svc/get?REQUEST=GetCapabilities&VERSION=1.3.0&SERVICE=WMS&sid={session_id}"
-    try:
-        test_response = requests.get(test_url, timeout=10)  # wysłanie zapytania HTTP do serwera WMS
-        if test_response.status_code == 200:
-            print("Połączenie z usługą WMS powiodło się.")
-            return True
-        else:
-            print(f"Błąd połączenia z usługą WMS: kod HTTP {test_response.status_code}")
-            print("Prawdopodobnie session_id jest nieaktualny.")
-            return False
-    except Exception as e:
-        print(f"Nie można połączyć się z usługą WMS: {e}")
-        return False
+    base, _, kind = jpt_kod_je.partition("_")
+    if kind in ("8", "9"):
+        return f"{base[:4]}011"
+    return base + kind
 
 
+def build_link(level: str, code: str, register: str) -> str:
+    if level == "wojewodztwa":
+        return f"{DOWNLOAD_BASE}/{register}/WOJ/{register}_{code[:2]}.zip"
+    return f"{DOWNLOAD_BASE}/{register}/{teryt7(code)}.zip"
 
 
-def initialize_archives_list(session_id, input_path, output_path):  # inicjalizacja listy archiwów ZIP do pobrania z NID
-    """
-    Dla każdego punktu (XCoord, YCoord) pobiera listę dostępnych ZIP-ów z usługi WMS GetFeatureInfo 
-    a na końcu zapisuje wszystkie pobrane adresy do pliku tekstowego.
-    """
-    
-    results = []
-
-    with open(input_path, newline='', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile, delimiter='\t')  # operacje na plikach CSV/TSV
-        rows = list(reader)
-
-    for row in tqdm(rows, desc="Punkty"):
-        try:
-            jpt_kod_je = row["JPT_KOD_JE"]
-            x = float(row["XCoord"])
-            y = float(row["YCoord"])
-            minx = x - 50
-            maxx = x + 50
-            miny = y - 50
-            maxy = y + 50
-            # uwaga: geoportal ma zamienione współrzędne X/Y
-            bbox = f"{miny},{minx},{maxy},{maxx}"
-
-            url = URL_TEMPLATE.format(session_id=session_id, bbox=bbox)
-            response = requests.get(url, timeout=10)  # wysłanie zapytania HTTP do serwera WMS
-            if response.status_code == 200:
-                matches = ZIP_PATTERN.findall(response.text)
-                for register_type, zip_name in set(matches):  # set() usuwa duplikaty
-                    zip_url = f"https://mapy.zabytek.gov.pl/dane/{register_type}/{zip_name}.zip"
-                    results.append([jpt_kod_je, register_type, zip_url])
-        except Exception as e:
-            print(f"Błąd przy {jpt_kod_je}: {e}")
-
-    # Zapisz wyniki do pliku CSV w formacie TSV (rozdzielny tabulatorami)
+def _write(results: list[list[str]], output_path: Path | str) -> None:
+    results.sort(key=lambda r: (r[1], r[3]))
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "w", encoding="utf-8", newline="") as f:
-        writer = csv.writer(f, delimiter="\t")  # operacje na plikach CSV/TSV
-        writer.writerow(["JPT_KOD_JE", "typ_rejestru", "link_do_pobrania"])
+        writer = csv.writer(f, delimiter="\t", lineterminator="\n")
+        writer.writerow(OUTPUT_COLUMNS)
         writer.writerows(results)
-    print(f"Zapisano {len(results)} rekordów do pliku {output_path}")
+
+
+def _parallel(items, fn, workers: int, desc: str):
+    """Uruchamia fn(item) równolegle; zwraca listę (item, wynik | wyjątek). SessionExpiredError przerywa."""
+    out = []
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = {executor.submit(fn, it): it for it in items}
+        for future in tqdm(as_completed(futures), total=len(futures), desc=desc):
+            try:
+                out.append((futures[future], future.result()))
+            except SessionExpiredError:
+                for f in futures:
+                    f.cancel()
+                raise
+            except Exception as e:  # noqa: BLE001 - błąd pojedynczej pozycji nie przerywa całości
+                out.append((futures[future], e))
+    return out
+
+
+def initialize_offline(
+    input_path: Path | str,
+    output_path: Path | str,
+    level: str = DEFAULT_LEVEL,
+    verify: bool = True,
+    workers: int = 8,
+    session: requests.Session | None = None,
+) -> list[list[str]]:
+    """Buduje linki z kodów TERYT; przy verify=True sprawdza ich dostępność (HEAD) i pomija niedostępne."""
+    if level not in LEVELS:
+        raise ValueError(f"Nieznany poziom: {level} (dostępne: {', '.join(LEVELS)})")
+    units = read_units(input_path)
+    candidates = [
+        [level, u["JPT_KOD_JE"], u.get("JPT_NAZWA", ""), reg, build_link(level, u["JPT_KOD_JE"], reg), ""]
+        for u in units for reg in REGISTERS
+    ]
+    if not verify:
+        results = candidates
+    else:
+        session = session or make_session(pool_size=workers * 2)
+
+        def head(row):
+            r = session.head(row[4], timeout=DEFAULT_TIMEOUT, allow_redirects=True)
+            return r.status_code, r.headers.get("Last-Modified", "")
+
+        results, missing = [], []
+        for row, res in _parallel(candidates, head, workers, f"Weryfikacja linków ({level})"):
+            if isinstance(res, Exception) or res[0] != 200:
+                missing.append(f"{row[1]}/{row[3]}")
+                continue
+            results.append([*row[:5], res[1]])
+        if missing:
+            log.warning("Niedostępne archiwa (%d): %s", len(missing), ", ".join(sorted(missing)[:20]))
+    _write(results, output_path)
+    log.info("Zapisano %d linków dla %d jednostek do %s", len(results), len(units), output_path)
+    return results
+
+
+def initialize_archives_list(
+    session_id: str,
+    input_path: Path | str,
+    output_path: Path | str,
+    level: str = DEFAULT_LEVEL,
+    layer: str | None = None,
+    workers: int = 4,
+    raw_dir: Path | str | None = None,
+    session: requests.Session | None = None,
+) -> list[list[str]]:
+    """Dla każdego punktu jednostki odpytuje GetFeatureInfo i zapisuje linki do ZIP-ów (TSV).
+
+    raw_dir - opcjonalny katalog na surowe odpowiedzi WMS (diagnostyka).
+    """
+    if level not in LEVELS:
+        raise ValueError(f"Nieznany poziom: {level} (dostępne: {', '.join(LEVELS)})")
+    layer = layer or WMS_LAYERS[level]
+    session = session or make_session()
+    units = read_units(input_path)
+    if raw_dir:
+        raw_dir = Path(raw_dir)
+        raw_dir.mkdir(parents=True, exist_ok=True)
+
+    def query(unit: dict) -> str:
+        text = get_feature_info(session, session_id, layer, float(unit["XCoord"]), float(unit["YCoord"]),
+                                half_size=WMS_HALF_SIZE[level])
+        if raw_dir:
+            (raw_dir / f"{level}_{unit['JPT_KOD_JE']}.xml").write_text(text, encoding="utf-8")
+        return text
+
+    results: list[list[str]] = []
+    missing: list[str] = []
+    errors: list[str] = []
+    for unit, res in _parallel(units, query, workers, f"Jednostki ({level})"):
+        code = unit["JPT_KOD_JE"]
+        if isinstance(res, Exception):
+            errors.append(code)
+            log.warning("Błąd przy %s: %s", code, res)
+            continue
+        links = find_zip_links(res)
+        if not links:
+            missing.append(code)
+        date = find_update_date(res) or ""
+        for register, url in links:
+            results.append([level, code, unit.get("JPT_NAZWA", ""), register, url, date])
+
+    _write(results, output_path)
+    log.info("Zapisano %d linków dla %d jednostek do %s", len(results), len(units), output_path)
+    if missing:
+        log.warning("Brak linków dla %d jednostek: %s", len(missing), ", ".join(sorted(missing)[:20]))
+    if errors:
+        log.warning("Błędy zapytań dla %d jednostek: %s", len(errors), ", ".join(sorted(errors)[:20]))
+    return results
