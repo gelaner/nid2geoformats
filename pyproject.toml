@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nid2geoformats"
+version = "0.2.0"
+description = "Pobieranie i konwersja danych przestrzennych Narodowego Instytutu Dziedzictwa (NID) do GeoParquet, GeoPackage i PostGIS."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [{ name = "Jakub Bobrowski" }]
+dependencies = [
+    "requests>=2.31",
+    "pandas>=2.0",
+    "geopandas>=1.0",
+    "pyogrio>=0.9",
+    "pyarrow>=14",
+    "tqdm>=4.66",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+postgis = ["sqlalchemy>=2.0", "psycopg[binary]>=3.1", "geoalchemy2>=0.14"]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+nid2geoformats = "nid2geoformats.cli:main"
+
+[tool.setuptools]
+packages = ["nid2geoformats"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

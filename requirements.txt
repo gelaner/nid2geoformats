@@ -1,5 +1,8 @@
-requests
-pandas
-geopandas
-tqdm
-pyarrow
+requests>=2.31
+pandas>=2.0
+geopandas>=1.0
+pyogrio>=0.9
+pyarrow>=14
+tqdm>=4.66
+python-dotenv>=1.0
+# opcjonalnie, eksport do PostGIS: pip install "nid2geoformats[postgis]"
